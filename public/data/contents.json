@@ -1,0 +1,77 @@
+{
+    "hr": [
+        {
+            "title": "O izložbi",
+            "url": "/",
+            "sections": []
+        },
+        {
+            "title": "Zbirka Gliptoteke HAZU",
+            "url": "/Gliptoteka",
+            "sections": []
+        },
+        {
+            "title": "Grad Salona",
+            "url": "/Urbs",
+            "sections": [
+                {
+                    "title": "Urbs Vetus",
+                    "url": "/Urbs/Vetus",
+                    "sections": []
+                },
+                {
+                    "title": "Urbs Ocitalis",
+                    "url": "/Urbs/Ocitalis",
+                    "sections": []
+                },
+                {
+                    "title": "Urbs Orientalis",
+                    "url": "/Urbs/Orientalis",
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "title": "Impressuum",
+            "url": "/Impressuum"
+        }
+    ],
+    "en": [
+        {
+            "title": "About exhibition",
+            "url": "/",
+            "sections": []
+        },
+        {
+            "title": "Collection in Gliptotheque HAZU",
+            "url": "/Gliptoteka",
+            "sections": []
+        },
+        {
+            "title": "City of Salona",
+            "url": "/Urbs",
+            "sections": [
+                {
+                    "title": "Urbs Vetus",
+                    "url": "/Urbs/Vetus",
+                    "sections": []
+                },
+                {
+                    "title": "Urbs Ocitalis",
+                    "url": "/Urbs/Ocitalis",
+                    "sections": []
+                },
+                {
+                    "title": "Urbs Orientalis",
+                    "url": "/Urbs/Orientalis",
+                    "sections": []
+                }
+            ]
+        },
+        {
+            "title": "Impressuum",
+            "url": "/Impressuum"
+        }
+    ]
+
+}

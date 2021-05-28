@@ -1,25 +1,22 @@
 <script>
-    // comps
+    export let tabs
 </script>
 <header>
     <h1>Salona</h1>
     <nav>
         <ul>
-            <li><a href="/">O izložbi</a></li>
-            <li><a href="/Gliptoteka">Gliptoteka</a></li>
-            <li><a href="/Urbs">Grad Salona</a>
-                <ul>
-                    <li>
-                        <a href="/Urbs/Vetus">Urbs Vetus</a>
-                    </li>
-                    <li>
-                        <a href="/Urbs/Ocidentalis">Urbs Ocidentalis</a>
-                    </li>
-                    <li>
-                        <a href="/Urbs/Orientalis">Urbs Orientalis</a>
-                    </li>
-                </ul>
-            </li>
+            {#each tabs as tab}
+                <li>
+                    <a href={ tab.url }>{ tab.title }</a>
+                    {#if tab.sections}
+                        <ul>
+                            {#each tab.sections as section}
+                                <li><a href={ section.url }>{ section.title }</a></li>
+                            {/each}
+                        </ul>
+                    {/if}
+                </li>
+            {/each}
         </ul>
     </nav>
 </header>

@@ -1,15 +1,26 @@
 <script>
 	// utils
 	import page from 'page'
+	import { language } from './utils/config'
 	// components
 	import Header from './components/Header.svelte'
+	import Footer from './components/Footer.svelte'
+	import Spinner from './components/Spinner.svelte'
 
 	// routes
 	import Home from './routes/Home.svelte'
 	import Urbs from './routes/Urbs.svelte'
 	import Gliptoteka from './routes/Gliptoteka.svelte'
+	import Impressuum from './routes/Impressuum.svelte'
 	import NotFound from './routes/NotFound.svelte'
 
+	let contents = (async ()=> {
+		const response = await(await fetch("./data/contents.json")).json()
+		return response
+	})()
+
+
+	
 	let route, params;
 
 	page('/', ()=>{ route = Home })
@@ -34,19 +45,27 @@
 
 	page.start()
 </script>
-
-	<Header />
+	{#await contents}
+	<p>Učitavam...</p>
+	<Spinner />
+	{:then chapters}
+	<Header tabs={ chapters[$language] }/>
 	<main>
 		{#if route === Home}
-		<Home />
+		<Home content={ chapters[$language][0] } />
 		{:else if route === Gliptoteka }
-		<Gliptoteka />
+		<Gliptoteka content={ chapters[$language][1] }/>
+		{:else if route === Impressuum }
+		<Impressuum content={ chapters[$language][1] }/>
 		{:else if route === Urbs}
-			<Urbs { ...params } />
+			<Urbs { ...params } content={ chapters[$language][2] } />
 		{:else}
 		<NotFound />
 		{/if}
 	</main>
+	<Footer />
+	{:catch error}
+	{/await}
 
 <style>
 	:global(body) {

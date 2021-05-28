@@ -17,6 +17,7 @@
 <style>
     mark {
         background: transparent;
-        color: var(--accent-color1)
+        color: var(--accent-color1);
+        font-weight: 800;
     }
 </style>
