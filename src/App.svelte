@@ -65,6 +65,7 @@
 	</main>
 	<Footer />
 	{:catch error}
+	<p>error.message</p>
 	{/await}
 
 <style>

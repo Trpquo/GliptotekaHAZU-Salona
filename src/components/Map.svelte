@@ -171,9 +171,9 @@
 		z-index: 99999999;
 	}
 	:global(#slider .handle) {
-		height: calc(100vh - 200px - 3.5rem);
+		height: calc(30vw - 20px);
 		width: 2px;
-		margin-top: calc(-100vh + 200px + 1.5rem);
+		margin-top: calc(-30vw - 10px);
 		/* margin-left: -10px; */
 		border-top: 20px solid var(--accent-color1);
 		border-bottom: 20px solid var(--accent-color1);
