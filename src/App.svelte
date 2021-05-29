@@ -2,6 +2,7 @@
 	// utils
 	import page from 'page'
 	import { language } from './utils/config'
+	
 	// components
 	import Header from './components/Header.svelte'
 	import Footer from './components/Footer.svelte'
@@ -25,15 +26,18 @@
 
 	page('/', ()=>{ route = Home })
 	page('/Gliptoteka', ()=>{ route = Gliptoteka })
+	page('/Gliptotheque', ()=>{ route = Gliptoteka })
+	page('/Gliptoteka/:exhibit', (ctx)=>{ 
+		route = Gliptoteka
+		params = ctx.params
+	})
 	page('/Urbs', ()=>{ 
 		route = Urbs 
 		params = { region: null }
 	})
-	page('/Urbs/:region', (ctx, next)=>{ 
+	page('/Urbs/:region', (ctx)=>{ 
 		route = Urbs
 		params = ctx.params
-		console.log(params)
-		// next()
 	})
 	page('/Urbs/:region/:exhibit', (ctx, next)=>{ 
 		route = Urbs
@@ -41,6 +45,7 @@
 		console.log(params)
 		// next()
 	})
+	page('/Impressuum', ()=>{ route = Impressuum })
 	page('/*', ()=>{ route = NotFound })
 
 	page.start()
@@ -55,17 +60,17 @@
 		<Home content={ chapters[$language][0] } />
 		{:else if route === Gliptoteka }
 		<Gliptoteka content={ chapters[$language][1] }/>
+		{:else if route === Urbs}
+		<Urbs { ...params } content={ chapters[$language][2] } />
 		{:else if route === Impressuum }
 		<Impressuum content={ chapters[$language][1] }/>
-		{:else if route === Urbs}
-			<Urbs { ...params } content={ chapters[$language][2] } />
 		{:else}
 		<NotFound />
 		{/if}
 	</main>
 	<Footer />
 	{:catch error}
-	<p>error.message</p>
+	<p>{ error.message }</p>
 	{/await}
 
 <style>

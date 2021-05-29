@@ -3,7 +3,12 @@
         {
             "title": "O izložbi",
             "url": "/",
-            "sections": []
+            "sections": [
+                {
+                    "title": "Zbirka sadrenih odljeva antičke skulpture Gliptoteke HAZU",
+                    "text": "uvod/anticka-skulptura.txt"
+                }
+            ]
         },
         {
             "title": "Zbirka Gliptoteke HAZU",
@@ -44,7 +49,7 @@
         },
         {
             "title": "Collection in Gliptotheque HAZU",
-            "url": "/Gliptoteka",
+            "url": "/Gliptotheque",
             "sections": []
         },
         {
