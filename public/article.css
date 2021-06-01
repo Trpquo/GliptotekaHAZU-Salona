@@ -42,8 +42,8 @@ article #katalog li::marker {
 article #katalog dl {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 1fr;
-      grid-template-columns: 30% 1fr;
+  -ms-grid-columns: 17ch 1fr;
+      grid-template-columns: 17ch 1fr;
   gap: .1em 1em;
   margin-top: .1em;
   font-size: .85rem;

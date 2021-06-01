@@ -34,7 +34,6 @@
     }
     img { 
         display: block;
-        min-width: 100%;
         min-height: 100%;
     }
     video {
@@ -42,7 +41,11 @@
     }
     figcaption {
         box-sizing: border-box;
-        padding: .25rem .5rem;
+        padding: 45px .5rem .25rem;
+        clip-path: polygon(0 40px, 100% 0, 95% 100%, 0 100%);
+        border-radius: 0 10px 0 0;
+        max-height: 100%;
+        overflow: auto;
         font-size: var(--small-text);
         background-color: var(--accent-color2);
         color: var(--background-color);
