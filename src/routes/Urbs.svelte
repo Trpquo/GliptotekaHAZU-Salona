@@ -1,12 +1,20 @@
 <script>
     //comps
+    import Main from "../components/Main.svelte"
     import Breadcrumbs from "../components/Breadcrumbs.svelte"
-    import Map from "../components/Map.svelte"
+	import Map from "../components/Map.svelte"
     import MapMarker from '../components/MapMarker.svelte';
-	import { px2LoLa, pixelMarkers } from '../utils/calculations'
-	
-    export let region, exhibit
 
+	//utils
+    import { px2LoLa, pixelMarkers } from '../utils/calculations'
+	import { filterContents } from "../utils/server";
+	
+    export let region, topic, content
+
+	let currentContent
+	$: {
+		currentContent = filterContents( { ...content }, [ region, topic ] )
+	}
 	
 	const lon = 16.4825, lat = 43.536
 	let mapSettings = {
@@ -24,14 +32,20 @@
 	})
 
 
+	const grid = ` 
+            "h h h h a a"
+            "m m m m a a"
+            "t t t t a a"
+            "s s s s a a"
+            `
 </script>
 
-<Breadcrumbs path={{ region, exhibit }} />
-<h1>
-    Urbs { region || "" }
-</h1>
-<Map { ...mapSettings }>
-    {#each mapMarkers as mark}
-		<MapMarker {...mark} />
-	{/each}
-</Map>
+
+<Main content={ currentContent } { grid }>
+	<Breadcrumbs path={{ region, topic }} slot="header" />
+	<Map { ...mapSettings } slot="map">
+		{#each mapMarkers as mark}
+			<MapMarker {...mark} />
+		{/each}
+	</Map>
+</Main>

@@ -1,1 +1,3 @@
-Hero
+<figure id="hero">
+    Hero
+</figure>

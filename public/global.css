@@ -1,16 +1,25 @@
 :root {
 	--main-font-family: Alegreya, Georgia, serif;
-	--default-padding: 1em;
+	--default-padding: 2rem;
 	--default-gap: .5em;
 	--background-color: rgb(241,237,236);
+	--background-color2: wheat;
 	--text-color: #333;
 	--text-color-negative: #eee;
 	--accent-color1: firebrick;
 	--accent-color2: rgb(66, 106, 122);
-	--accent-color3: goldenrod;
+	--accent-color3: rgb(218, 165, 32);
 	--max-screen: 1500px;
-
+	--header-height: 100px;
+	--footer-height: 100px;
 }
+
+* {
+	margin: 0;
+}
+* + * {
+	margin-top: 1em;
+} 
 
 html, body {
 	position: relative;
@@ -24,10 +33,11 @@ body {
 	font-family: var(--main-font-family);
 	color: var(--text-color);
 	margin: 0 auto;
-	padding: var(--default-gap);
+}
+header, main, aside, footer, .wrapper, .container {
+	margin: 0;
 	box-sizing: border-box;
 }
-
 a {
 	color: var(--accent-color2);
 	text-decoration: none;

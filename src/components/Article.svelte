@@ -1,0 +1,66 @@
+<script>
+    import axios from 'axios'
+    import { onMount } from 'svelte'
+    import formatter from '../utils/articleFormatter'
+    import { language } from '../utils/config'
+
+    export let article
+    let component, articleLoaded = false, contentRoot = `/content/${ $language }`
+    
+   
+    const fetchSection =( articleUrl )=> { 
+        const storedArticle = isProduction ? window.localStorage.getItem( `salona-article-${ article.tag.replace(" ", "_") }` ) : null
+        if ( !storedArticle ) {
+            
+            return axios.get( articleUrl )
+            .then(response=>{
+                console.log(`Fetching article ${ articleUrl }`)
+                if (isProduction) window.localStorage.setItem( `salona-article-${ article.tag.replace(" ", "_") }`, response.data )
+                articleLoaded = true
+                return response.data
+            })
+            .catch(console.error)
+        }
+        else {
+            articleLoaded = true
+            return Promise.resolve( storedArticle )
+        }
+    }
+    
+    onMount(()=>{
+        if ( !!component && articleLoaded ) {
+            console.log("I never happen!!! :(")
+            setTimeout( ()=>{ formatter( component ) }, 0 ) // just in case @html didn't finish. Probably not necessary.
+
+        }
+    })
+
+    const article_layout = [ 
+        "--article-flow: row;       --paragraph-span: span 6;      --heading-span: span 6;          --footnote-span: span 6;    --footnote-alignment: start", 
+        "--article-flow: dense;     --paragraph-span: 3 / span 4;  --heading-span: 3 / span 4;      --footnote-span: span 2;    --footnote-alignment: center", 
+        "--article-flow: dense;     --paragraph-span: span 4;      --heading-span: span 6;          --footnote-span: span 2;    --footnote-alignment: start",  
+    ][ Math.round( Math.random() * 2 ) ]
+
+</script>
+
+<svelte:head>
+    <link rel="stylesheet" href="/article.css">
+</svelte:head>
+
+<article bind:this={ component } style={ article_layout } >
+    {#if article.title}
+        <h1>{ article.title }</h1>
+    {/if}
+    {#if !!article.document }
+        {#await fetchSection( contentRoot + article.document ) then text}
+            {@html text }
+        {/await}
+    {/if}
+</article>
+
+<style>
+    article {
+        padding-right: var(--default-padding);
+        /* background-color: var(--background-color2); */
+    }
+</style>

@@ -14,7 +14,7 @@ const activateMapOverlay =(mapContainer, container)=>{
     sliderWrapper.appendChild(handle)
     container.appendChild(sliderWrapper)
     const slider = new Dragdealer(sliderWrapper.id, { 
-        x: .05,
+        x: 0,
         left: -10,
         right: -10,
         steps: 7,

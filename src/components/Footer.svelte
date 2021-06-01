@@ -5,16 +5,15 @@
 </script>
 
 <footer>
-    <p>Footer</p>
-    <p>
+    <nav>
         <button on:click={ setLanguage("hr") } >HR</button>
         <button on:click={ setLanguage("en") } >EN</button>
-    </p>
+    </nav>
 </footer>
 
 <style>
     footer {
-        grid-area: f;
+        height: var(--footer-height);
         background-color: var(--accent-color2);
         padding: 0 var(--default-padding);
         color: var(--text-color-negative);

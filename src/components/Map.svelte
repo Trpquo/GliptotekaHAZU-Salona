@@ -4,6 +4,7 @@
 	// import StylesControl from 'mapbox-gl-controls/lib/styles'
 	import syncMaps from '@mapbox/mapbox-gl-sync-move'
 	import { API_KEY, CARRARA_KEY } from '../utils/config'
+	
 
 
 
@@ -13,9 +14,7 @@
 	let container, defaultMap, historicMap, standard, historic, link;
     setContext(key, {
         getMap: () => defaultMap
-    });
-
-	
+    });	
 
 
 	
@@ -118,6 +117,7 @@
 </svg>
 
 <style>
+
 	:global(.mapboxgl-ctrl-attrib-inner) {
 		display: none !important;
 	}
@@ -136,16 +136,17 @@
 		width: 100%;
 	} */
 	figure {
-		display: block;
 		grid-area: m;
+		display: block;
 		position: relative;
 		margin: 0;
 		padding: 0;
-		width: 100%;
 		height: 30vw;
+		width: 100%;
 	}
 	.map {
 		position: absolute;
+		margin: 0;
 		width:100%;
 		height: 100%;
 		top: 0;
@@ -158,7 +159,6 @@
 	}
 	*/
 	#overlay-map {
-		width: 100%;
 		left: auto;
 		right: 0;
 		clip-path: polygon(90% 0, 100% 0, 100% 100%, 90% 100%);
@@ -168,17 +168,17 @@
 		width: 100%;
 		position: absolute;
 		bottom: 0;
-		z-index: 99999999;
+		z-index: 3;
 	}
 	:global(#slider .handle) {
-		height: calc(30vw - 20px);
+		height: calc(30vw - 1rem);
 		width: 2px;
-		margin-top: calc(-30vw - 10px);
+		margin-top: calc(-30vw - .5rem);
 		/* margin-left: -10px; */
-		border-top: 20px solid var(--accent-color1);
-		border-bottom: 20px solid var(--accent-color1);
-		border-left: 10px solid transparent;
-		border-right: 10px solid transparent;
+		border-top: 1rem solid var(--accent-color1);
+		border-bottom: 1rem solid var(--accent-color1);
+		border-left: .5rem solid transparent;
+		border-right: .5rem solid transparent;
 		cursor: pointer;
 		position: relative;
 	}
@@ -192,7 +192,7 @@
 		cursor: col-resize;
 	}
 	:global(.mapboxgl-marker) {
-		z-index: 9999;
+		z-index: 2;
 	}
 
 </style>

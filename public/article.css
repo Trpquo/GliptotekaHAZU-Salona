@@ -1,0 +1,134 @@
+article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: masonry;
+      grid-template-rows: masonry;
+  grid-auto-flow: var(--article-flow);
+  gap: 1rem;
+}
+
+article + article {
+  border-top: 3px solid var(--background-color2);
+  padding-top: var(--default-padding);
+}
+
+article .hidden {
+  display: none;
+}
+
+article > * {
+  margin-top: 0;
+  grid-column: var(--paragraph-span);
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+article #katalog {
+  grid-column: span 10;
+}
+
+article #katalog li h1 {
+  font-size: 1rem;
+}
+
+article #katalog li::marker {
+  color: var(--accent-color1);
+  font-size: 1.35em;
+}
+
+article #katalog dl {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 1fr;
+      grid-template-columns: 30% 1fr;
+  gap: .1em 1em;
+  margin-top: .1em;
+  font-size: .85rem;
+}
+
+article #katalog dl * {
+  margin-top: 0;
+}
+
+article #katalog dl dt {
+  font-weight: bold;
+  text-align: right;
+}
+
+article #katalog dl dt:after {
+  content: ":";
+}
+
+article aside {
+  grid-row: span 10;
+  grid-column: var(--footnote-span);
+  -ms-flex-item-align: var(--footnote-alignment);
+      -ms-grid-row-align: var(--footnote-alignment);
+      align-self: var(--footnote-alignment);
+  position: relative;
+  /* margin-top: 3rem; */
+}
+
+article aside ol {
+  padding: 0;
+  margin-left: -.4ch;
+}
+
+article aside ol li {
+  margin-top: .5rem;
+  font-size: .8em;
+}
+
+article aside ol li::marker {
+  color: var(--accent-color1);
+}
+
+article aside:before {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0;
+  border-top: 1px solid var(--text-color);
+  margin: .5rem -1rem;
+}
+
+article h1, article h2 {
+  grid-column: var(--heading-span);
+}
+
+article p {
+  padding-right: 1rem;
+}
+
+article p:last-of-type {
+  padding-bottom: var(--default-padding);
+}
+
+article p:first-of-type::first-letter {
+  display: block;
+  float: left;
+  font-size: 5.3em;
+  font-style: normal;
+  margin-top: .0666em;
+  margin-left: -.0666em;
+  color: var(--accent-color1);
+}
+
+article blockquote {
+  font-style: italic;
+  padding-left: var(--default-padding);
+  position: relative;
+}
+
+article blockquote:before {
+  content: "\201C";
+  position: absolute;
+  left: .05em;
+  top: -.4em;
+  font-size: 3.5rem;
+  color: var(--accent-color1);
+}
+/*# sourceMappingURL=article.css.map */
