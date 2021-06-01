@@ -11,7 +11,8 @@
     {/if}
     {#if exhibit.type === "video"}
         <video controls alt={ exhibit.name }>
-            <source src={ `${ root }/hr${ path }/images/${ exhibit.file }` } type="video/mp4" > 
+            <source src={ `${ root }/hr${ path }/images/${ exhibit.file }` } type="video/mp4" >
+            <track src="#" kind="captions">
         </video>
 
     {/if}
@@ -23,17 +24,16 @@
 <style>
     figure {
         margin-top: 0;
-        height: 200px;
+        height: 150px;
         overflow: hidden;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: help;
     }
     img { 
         display: block;
-        margin-top: 100px;
-        transform: translateY(-50%);
         min-width: 100%;
         min-height: 100%;
     }
@@ -49,5 +49,12 @@
         position: absolute;
         width: 100%;
         bottom: 0;
+        transform: translateY(100%);
+        transition: .25s ease-out;
     }
+    figure:hover figcaption {
+        transform: none;
+        transition: .5s ease-out 1s;
+    }
+
 </style>

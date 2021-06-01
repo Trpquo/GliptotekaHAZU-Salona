@@ -1,14 +1,20 @@
 :root {
 	--main-font-family: Alegreya, Georgia, serif;
+    --main-smallcaps: 'Alegreya SC', serif;
+	--alternate-font-family: 'Alegreya Sans', sans-serif;
+    --alternate-smallcaps: 'Alegreya Sans SC', sans-serif;
+	--basic-font-weight: 500;
+	--bold-font-weight: 700;
+
 	--default-padding: 2rem;
 	--default-gap: .5em;
-	--background-color: rgb(241,237,236);
+	--background-color: aliceblue;
 	--background-color2: wheat;
-	--text-color: #333;
-	--text-color-negative: #eee;
-	--accent-color1: firebrick;
-	--accent-color2: rgb(66, 106, 122);
-	--accent-color3: rgb(218, 165, 32);
+	--text-color: #3a3530;
+	--text-color-negative: var(--background-color);
+	--accent-color1: saddlebrown;
+	--accent-color2: forestgreen;
+	--accent-color3: goldenrod;
 	--max-screen: 1500px;
 	--header-height: 100px;
 	--footer-height: 100px;
@@ -27,6 +33,11 @@ html, body {
 	background-color: var(--text-color);
 	width: 100%;
 	min-height: 100vh;
+	font-weight: var(--basic-font-weight);
+}
+.small, figcaption {
+	font-size: var(--small-text);
+	font-family: var(--alternate-font-family);
 }
 
 body {

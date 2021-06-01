@@ -3,7 +3,6 @@
     import Exhibit from './Exhibit.svelte'
     export let exhibits, path
 
-    console.log( exhibits )
 </script>
 <aside>
     <slot></slot>

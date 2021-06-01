@@ -18,7 +18,7 @@
             
             return axios.get( articleUrl )
             .then(response=>{
-                console.log(`Fetching article ${ articleUrl }`)
+                // console.log(`Fetching article ${ articleUrl }`)
                 if (isProduction) window.localStorage.setItem( `salona-article-${ article.tag.replace(" ", "_") }`, response.data )
                 articleLoaded = true
                 return response.data

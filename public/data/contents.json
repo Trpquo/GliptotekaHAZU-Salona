@@ -184,7 +184,7 @@
                             "type": "image",
                             "file": "05.jpg",
                             "description": "Anton Steinbüchel",
-                            "background": false,
+                            "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
@@ -202,7 +202,7 @@
                             "type": "image",
                             "file": "09.jpg",
                             "description": "Vicko Andrić",
-                            "background": false,
+                            "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
@@ -220,7 +220,7 @@
                             "type": "image",
                             "file": "14.jpg",
                             "description": "Francesco Carrara",
-                            "background": false,
+                            "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
@@ -238,7 +238,7 @@
                             "type": "image",
                             "file": "21.jpg",
                             "description": "Francesco Lanza",
-                            "background": false,
+                            "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
@@ -247,7 +247,7 @@
                             "type": "image",
                             "file": "27.jpg",
                             "description": "Don Frane Bulić",
-                            "background": false,
+                            "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
@@ -256,7 +256,7 @@
                             "type": "image",
                             "file": "28.jpg",
                             "description": "Ejnar Dyggve",
-                            "background": false,
+                            "background": true,
                             "location": null,
                             "pixelLocation": null
                         }
@@ -300,7 +300,7 @@
                                     "type": "image",
                                     "file": "2.jpg",
                                     "description": "Porta Caesarea (Fototeka Gliptoteke HAZU, 1930.)",
-                                    "background": false,
+                                    "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
@@ -370,10 +370,145 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "",
+                                    "name": "Rekonstrukcija forumskog kompleksa i teatra",
                                     "type": "image",
-                                    "file": "G-D-69.jpg",
-                                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                                    "file": "1.jpg",
+                                    "description": "Rekonstrukcija forumskog kompleksa i teatra s hramovima (Arhiv E. Dyggve/ Ministarstvo kulture, Konzervatorski odjel u Splitu)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Salona na Trajanovoom stupu",
+                                    "type": "image",
+                                    "file": "1A.jpg",
+                                    "description": "Detalj Trajanovog stupa s prikazom Salone  / Car Trajan",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Kompleks foruma s teatrom",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "Kompleks foruma s teatrom",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Forum s hramovima i teatar",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Pogled na forum s hramovima i teatar s Liberovim (?) hramom (Surveying d.o.o. Solin)",
+                                    "background": true,
+                                    "location": { "lon": 16.4807, "lat": 43.5359 },
+                                    "pixelLocation": { "x": 990, "y": 404 }
+                                },
+                                {
+                                    "name": "Torzo cara Augusta u oklopu",
+                                    "type": "image",
+                                    "file": "4.jpg",
+                                    "description": "Torzo cara Augusta u oklopu, mramor",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Skulpture članova carske obitelji",
+                                    "type": "image",
+                                    "file": "5.jpg",
+                                    "description": "Skulpture članova carske obitelji: Portret Nerona Cezara (Arheološki muzej u Splitu), Druza Cezara (Arheološki muzej u Zagrebu), cara Domicijana  (Pomorski muzej u Kotoru), carice Livije (?),(Arheološki muzej u Zagrebu), cara Trajana (Kunsthistorisches Museum u Beču)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Portret carice Plautille",
+                                    "type": "image",
+                                    "file": "5A.jpg",
+                                    "description": "Portret carice Plautille (?), mramor, (Arheološki muzej u Zagrebu)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Portret carice Plautille",
+                                    "type": "image",
+                                    "file": "5B.jpg",
+                                    "description": "Portret carice Plautille (?), mramor, (Arheološki muzej u Zagrebu)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Kip princa",
+                                    "type": "image",
+                                    "file": "6.jpg",
+                                    "description": "Kip princa (?), mramor, (Arheološki muzej u Zagrebu)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Arhitravna greda s natpisom Augustu i Tiberiju",
+                                    "type": "image",
+                                    "file": "7.jpg",
+                                    "description": "Arhitravna greda s posvetnim natpisom Augustu i Tiberiju / Razvojne faze hramova na forumu (E. Dyggve, 1933.)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Ulomak natpisa s forumskih termi",
+                                    "type": "image",
+                                    "file": "8.jpg",
+                                    "description": "Ulomak natpisa s forumskih termi (balneum) u pločniku karda / Arhivski crtež termi sa sjeverne strane foruma (V. Andrić, F. Lanza)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Lukovi supstrukcije s južne strane foruma",
+                                    "type": "image",
+                                    "file": "9.jpg",
+                                    "description": "Pogled na lukove supstrukcije s južne strane foruma i tlocrt građevine pored lučnih otvora (F. Carrara)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Kardo uz zapadnu stranu foruma",
+                                    "type": "image",
+                                    "file": "10.jpg",
+                                    "description": "Pogled na kardo uz zapadnu stranu foruma",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Rekonstrukcija teatra s Liberovim (?) hramom",
+                                    "type": "image",
+                                    "file": "11.jpg",
+                                    "description": "Pogled na teatar s Liberovim (?) hramom / Rekonstrukcija teatra (E. Dyggve)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Rekonstrukcija Liberova (?) hrama",
+                                    "type": "image",
+                                    "file": "13.jpg",
+                                    "description": "Rekonstrukcija Liberova (?) hrama pored teatra (E. Dyggve) / Razvojne faze hrama (Fr. Weilbach)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Grupa satira s golemom zmijom",
+                                    "type": "image",
+                                    "file": "14.jpg",
+                                    "description": "Grupa satira u borbi s golemom zmijom, mramor ",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -389,6 +524,54 @@
                     "chapterNo": 3,
                     "directory": "occidentalis",
                     "document": "index.html",
+                    "exhibits": [
+                        {
+                            "name": "Tlocrt zapadnog dijela Salone",
+                            "type": "image",
+                            "file": "1.jpg",
+                            "description": "Tlocrt zapadnog dijela Salone - <em>Urbs occidentalis</em> (E. Dyggve)",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Pogled na amfiteatar",
+                            "type": "image",
+                            "file": "1A.jpg",
+                            "description": "Pogled na <em>Urbs occidentalis</em> i amfiteatar (Surveying d.o.o. Solin)",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Zapadni dio amfiteatra i zapadni bedemi",
+                            "type": "image",
+                            "file": "5.jpg",
+                            "description": "Pogled na zapadni dio amfiteatra i zapadne bedeme Salone za vrijeme istraživanja 2006. godine  ",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Zračni snimak",
+                            "type": "image",
+                            "file": "9.jpg",
+                            "description": "Zračni snimak s pogledom na <em>Urbs occidentalis</em>",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Arheološka istraživanja zapadnog dijela amfiteatra",
+                            "type": "video",
+                            "thumb": "10.jpg",
+                            "file": "10.mp4",
+                            "description": "Arheološka istraživanja zapadnog dijela amfiteatra splitskog Konzervatorskog odjela Ministarstva kulture RH pod vodstvom J. Jeličić Radonić uz sudjelovanje studenata Odsjeka povijesti Filozofskog fakulteta iz Splita",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        }
+                    ],
                     "sections": [
                         {
                             "tag": "Amfiteatar",
@@ -396,7 +579,90 @@
                             "url": "/amfiteatar",
                             "chapterNo": 1,
                             "directory": "amfiteatar",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Rekonstrukcija amfiteatra",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "Crtež rekonstrukcije amfiteatra (E. Dyggve)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Tlocrt amfiteatra",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Tlocrt amfiteatra s označenim zatvaranjem sjevernih  (F. Buliću) i zapadnih bedema (J. Jeličić Radonić)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(1).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(2).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(3).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(4).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(5).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": { "lon": 16.4743, "lat": 43.5386 },
+                                    "pixelLocation": { "x": 684, "y": 226 }
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(6).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Pogled na amfiteatar 1930.",
+                                    "type": "image",
+                                    "file": "4-(7).jpg",
+                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         }
                     ]
                 },

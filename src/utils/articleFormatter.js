@@ -1,3 +1,3 @@
 export default article=>{
-    console.log( article )
+    // console.log( article )
 }

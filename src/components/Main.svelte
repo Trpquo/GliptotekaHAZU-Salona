@@ -7,7 +7,7 @@
 
     export let content, grid = `"h h h h . ." "t t t t a a" "s s s s a a"`
 
-    console.log( content )
+    // console.log( content )
  
 </script>
 

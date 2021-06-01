@@ -69,6 +69,7 @@ article aside {
       -ms-grid-row-align: var(--footnote-alignment);
       align-self: var(--footnote-alignment);
   position: relative;
+  font-family: var(--alternate-font-family);
   /* margin-top: 3rem; */
 }
 
@@ -112,9 +113,10 @@ article p:first-of-type::first-letter {
   float: left;
   font-size: 5.3em;
   font-style: normal;
-  margin-top: .0666em;
+  margin-top: .09em;
   margin-left: -.0666em;
   color: var(--accent-color1);
+  font-family: var(--alternate-font-family);
 }
 
 article blockquote {
