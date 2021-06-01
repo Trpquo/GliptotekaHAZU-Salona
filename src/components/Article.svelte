@@ -2,10 +2,14 @@
     import axios from 'axios'
     import { onMount } from 'svelte'
     import formatter from '../utils/articleFormatter'
-    import { language } from '../utils/config'
+    import { language, root } from '../utils/config'
 
     export let article
-    let component, articleLoaded = false, contentRoot = `/content/${ $language }`
+    let component, articleLoaded = false, contentRoot
+
+    $: {
+        contentRoot = `${ root }/${ $language }${ article.path }/`
+    }
     
    
     const fetchSection =( articleUrl )=> { 
@@ -28,17 +32,19 @@
     }
     
     onMount(()=>{
-        if ( !!component && articleLoaded ) {
-            console.log("I never happen!!! :(")
-            setTimeout( ()=>{ formatter( component ) }, 0 ) // just in case @html didn't finish. Probably not necessary.
+        const checkArticle = setInterval(()=>{
+            if ( !!component && articleLoaded ) {
+                clearInterval( checkArticle )
+                formatter( component )
+            }
 
-        }
+        }, 100)
     })
 
     const article_layout = [ 
-        "--article-flow: row;       --paragraph-span: span 6;      --heading-span: span 6;          --footnote-span: span 6;    --footnote-alignment: start", 
-        "--article-flow: dense;     --paragraph-span: 3 / span 4;  --heading-span: 3 / span 4;      --footnote-span: span 2;    --footnote-alignment: center", 
-        "--article-flow: dense;     --paragraph-span: span 4;      --heading-span: span 6;          --footnote-span: span 2;    --footnote-alignment: start",  
+        "--article-flow: row;       --paragraph-span: span 6;      --heading-span: span 6;          --footnote-span: span 6;    --footnote-alignment: start;", 
+        "--article-flow: dense;     --paragraph-span: 3 / span 4;  --heading-span: 3 / span 4;      --footnote-span: span 2;    --footnote-alignment: center;", 
+        "--article-flow: dense;     --paragraph-span: span 4;      --heading-span: span 6;          --footnote-span: span 2;    --footnote-alignment: start;",  
     ][ Math.round( Math.random() * 2 ) ]
 
 </script>

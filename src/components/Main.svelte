@@ -5,7 +5,9 @@
  
     import { fade } from 'svelte/transition'
 
-    export let content, grid = `"h h h h a a" "t t t t a a" "s s s s a a"`
+    export let content, grid = `"h h h h . ." "t t t t a a" "s s s s a a"`
+
+    console.log( content )
  
 </script>
 
@@ -31,7 +33,9 @@
     </section>
     <slot name="map"></slot>
 
-    <Aside />
+    {#if content.exhibits }
+    <Aside exhibits={ content.exhibits } path={ content.path } />
+    {/if}
 </main>
 
 

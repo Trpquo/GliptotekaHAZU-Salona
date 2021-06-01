@@ -33,8 +33,8 @@
 
 
 	const grid = ` 
-            "h h h h a a"
-            "m m m m a a"
+            "h h h h . ."
+            "m m m m m m"
             "t t t t a a"
             "s s s s a a"
             `

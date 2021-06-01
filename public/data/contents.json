@@ -15,6 +15,12 @@
                     "url": "/uvod/salonitanski-spomenici",
                     "directory": "salonitanski-spomenici",
                     "document": "index.html"
+                },
+                {
+                    "tag": "Impressuum",
+                    "title": "Impressuum",
+                    "url": "/uvod/impressuum",
+                    "chapterNo": 0
                 }
             ]
         },
@@ -34,15 +40,127 @@
                     "directory": "katalog",
                     "document": "index.html"
                 }
+            ],
+            "exhibits": [
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "F-189.jpg",
+                    "description": "Depo s odljevima iz antičke zbirke oko 1940-ih",
+                    "background": true,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "F-282.jpg",
+                    "description": "Postav antičke zbirke u Gipsoteci, 1942.",
+                    "background": true,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "F-286.jpg",
+                    "description": "Postav antičke zbirke u Gipsoteci, Solinjanka, 1942.",
+                    "background": false,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "G-D-62.jpg",
+                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                    "background": false,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "G-D-67.jpg",
+                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                    "background": false,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "G-D-68.jpg",
+                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                    "background": false,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "G-D-69.jpg",
+                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                    "background": true,
+                    "location": null,
+                    "pixelLocation": null
+                }
             ]
         },
         {
-            "tag": "Antička Salona",
+            "tag": "Grad Salona",
             "title": "Martia Ivlia Valeria Salona Felix",
             "chapterNo": 3,
             "url": "/Salona",
             "directory": "salona",
             "document": "index.html",
+            "exhibits": [
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "0.jpg",
+                    "description": "Panoramski pogled na Salonu",
+                    "background": true,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "1.jpg",
+                    "description": "Topografska karta Salone (F. Lanza, 1826.)",
+                    "background": true,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "2.jpg",
+                    "description": "Tlocrt Salone (F. Carrara, 1848.)",
+                    "background": true,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "3.jpg",
+                    "description": "Tlocrt Salone (E. Dyggve)",
+                    "background": false,
+                    "location": null,
+                    "pixelLocation": null
+                },
+                {
+                    "name": "",
+                    "type": "image",
+                    "file": "4.jpg",
+                    "description": "Plan razvoja grada Salone (E. Dyggve, 1951.)",
+                    "background": false,
+                    "location": null,
+                    "pixelLocation": null
+                }
+            ],
             "sections": [
                 {
                     "tag": "Istraživači Salone",
@@ -50,7 +168,99 @@
                     "chapterNo": 1,
                     "url": "/istrazivaci",
                     "directory": "istrazivaci",
-                    "document": "index.html"
+                    "document": "index.html",
+                    "exhibits": [
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "01.jpg",
+                            "description": "Ivan Luka Garagnin",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "05.jpg",
+                            "description": "Anton Steinbüchel",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "08.jpg",
+                            "description": "Carlo Lanza",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "09.jpg",
+                            "description": "Vicko Andrić",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "12.jpg",
+                            "description": "Ivan Čobarnić",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "14.jpg",
+                            "description": "Francesco Carrara",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "19.jpg",
+                            "description": "Šime Ljubić",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "21.jpg",
+                            "description": "Francesco Lanza",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "27.jpg",
+                            "description": "Don Frane Bulić",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "28.jpg",
+                            "description": "Ejnar Dyggve",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        }
+                    ]
                 },
                 {
                     "tag": "Urbs Vetus",
@@ -69,12 +279,106 @@
                             "document": "index.html"
                         },
                         {
+                            "tag": "Porta Caesarea",
+                            "title": "Porta Caesarea",
+                            "url": "/porta-caesarea",
+                            "chapterNo": 1,
+                            "directory": "porta-caesarea",
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "Karta 4",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Porta Caesarea",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "Porta Caesarea (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Porta Caesarea",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Porta Caesarea (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "background": true,
+                                    "location": { "lon": 16.4824, "lat": 43.5384 },
+                                    "pixelLocation":{ "x": 1069, "y": 236 }
+                                },
+                                {
+                                    "name": "Rekonstrukcija Porta Caesarea",
+                                    "type": "image",
+                                    "file": "4.jpg",
+                                    "description": "Rekonstrukcija Porta Caesarea (H. Kähler)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Porta Caesarea",
+                                    "type": "image",
+                                    "file": "5.jpg",
+                                    "description": "Porta Caesarea",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Porta Caesarea",
+                                    "type": "image",
+                                    "file": "6.jpg",
+                                    "description": "Porta Caesarea",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Porta Caesarea (video)",
+                                    "type": "video",
+                                    "thumb": "7.jpg",
+                                    "file": "7.mp4",
+                                    "description": "Porta Caesarea (video)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Istočni bedemi Urbs Vetus",
+                                    "type": "image",
+                                    "file": "8.jpg",
+                                    "description": "Istočni bedemi <em>Urbs Vetus</em>",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
+                        },
+                        {
                             "tag": "Teatar i hram",
                             "title": "Teatar i hram",
                             "url": "/teatar-hram",
                             "chapterNo": 2,
                             "directory": "teatar-hram",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "",
+                                    "type": "image",
+                                    "file": "G-D-69.jpg",
+                                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         }
                     ]
                 },
@@ -92,31 +396,6 @@
                             "url": "/amfiteatar",
                             "chapterNo": 1,
                             "directory": "amfiteatar",
-                            "document": "index.html"
-                        }
-                    ]
-                },
-                {
-                    "tag": "Sjeverni bedemi",
-                    "title": "Sjeverni bedemi",
-                    "url": "/sjeverni-bedemi",
-                    "chapterNo": 4,
-                    "directory": "sjeverni-bedemi",
-                    "sections": [
-                        {
-                            "tag": "Konzervatorski radovi",
-                            "title": "Konzervatorski radovi na sjevernim bedemima",
-                            "url": "/konzervacija",
-                            "chapterNo": 1,
-                            "directory": "konzervacija",
-                            "document": "index.html"
-                        },
-                        {
-                            "tag": "Porta andetria",
-                            "title": "Porta andetria",
-                            "url": "/porta-andetria",
-                            "chapterNo": 1,
-                            "directory": "porta-andetria",
                             "document": "index.html"
                         }
                     ]
@@ -151,6 +430,31 @@
                             "url": "/silvanov-kult",
                             "chapterNo": 3,
                             "directory": "silvanov-kult",
+                            "document": "index.html"
+                        }
+                    ]
+                },
+                {
+                    "tag": "Sjeverni bedemi",
+                    "title": "Sjeverni bedemi",
+                    "url": "/sjeverni-bedemi",
+                    "chapterNo": 4,
+                    "directory": "sjeverni-bedemi",
+                    "sections": [
+                        {
+                            "tag": "Konzervatorski radovi",
+                            "title": "Konzervatorski radovi na sjevernim bedemima",
+                            "url": "/konzervacija",
+                            "chapterNo": 1,
+                            "directory": "konzervacija",
+                            "document": "index.html"
+                        },
+                        {
+                            "tag": "Porta andetria",
+                            "title": "Porta andetria",
+                            "url": "/porta-andetria",
+                            "chapterNo": 1,
+                            "directory": "porta-andetria",
                             "document": "index.html"
                         }
                     ]
@@ -273,40 +577,40 @@
                     ]
                 }
             ]
-        },
-        {
-            "tag": "Impressuum",
-            "title": "Impressuum",
-            "url": "/Impressuum",
-            "chapterNo": 0
         }
     ],
     "en": [
         {
+            "tag": "About exhibition",
             "title": "About exhibition",
             "url": "/",
             "sections": []
         },
         {
+            "tag": "Collection",
             "title": "Collection in Gliptotheque HAZU",
             "url": "/Gliptotheque",
             "sections": []
         },
         {
+            "tag": "City of Salona",
             "title": "City of Salona",
             "url": "/Urbs",
             "sections": [
                 {
+                    "tag": "Urbs Vetus",
                     "title": "Urbs Vetus",
                     "url": "/Urbs/Vetus",
                     "sections": []
                 },
                 {
+                    "tag": "Urbs Ocitalis",
                     "title": "Urbs Ocitalis",
                     "url": "/Urbs/Ocitalis",
                     "sections": []
                 },
                 {
+                    "tag": "Urbs Orientalis",
                     "title": "Urbs Orientalis",
                     "url": "/Urbs/Orientalis",
                     "sections": []
@@ -314,6 +618,7 @@
             ]
         },
         {
+            "tag": "Impressuum",
             "title": "Impressuum",
             "url": "/Impressuum"
         }

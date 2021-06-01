@@ -19,7 +19,7 @@
                 rotationAlignment: "viewport",
                 element: marker_label,
                 anchor: "bottom-left",
-                offset: [-35,-10],
+                offset: [0,-15],
                 popup: false,
         })
             .setLngLat([lon, lat])

@@ -13,7 +13,7 @@ export default async ()=> {
 
 const fixDocumentUrls =(chapter, currentPath, currentUrl )=> {
     currentPath += "/" + chapter.directory
-    if ( !!chapter.document ) chapter.document = currentPath + "/" + chapter.document
+    chapter.path = currentPath
     if ( !!chapter.url ) chapter.url = currentUrl + chapter.url
     if ( !!chapter.sections ) chapter.sections.forEach( section=> fixDocumentUrls( section, currentPath, chapter.url === "/" ? "" : chapter.url ) )
 
