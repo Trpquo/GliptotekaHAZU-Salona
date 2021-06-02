@@ -65,8 +65,7 @@
 	page.start()
 
 	$: {
-		topic = Object.values( params ).filter(t=> !!t )
-		console.log( topic )
+		if ( params !== null ) topic = Object.values( params ).filter(t=> !!t )
 	}
 
 	const firstTimeHere = !window.localStorage.getItem('salona-uvod') || !isProduction // not to bug me in development mode
