@@ -680,7 +680,81 @@
                             "url": "/namjesnikova-palaca",
                             "chapterNo": 1,
                             "directory": "namjesnikova-palaca",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Tlocrt namjesnikova palače",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "Tlocrt namjesnikova palače (J. Jeličić- Radonić)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Reljef salonitanske Tihe",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "Reljef salonitanske Tihe",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Zaglavni kamen s prikazom Rome",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Zaglavni kamen s prikazom Rome",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Rekonstrukcija luka s reljefima Rome i Tihe",
+                                    "type": "image",
+                                    "file": "4.jpg",
+                                    "description": "Rekonstrukcija luka s reljefima Rome i Tihe nad ulaznim vratima namjesnikove palače ( J. Jeličić- Radonić)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Mozaik s prikazom Orfeja",
+                                    "type": "image",
+                                    "file": "5.jpg",
+                                    "description": "Mozaik s prikazom Orfeja, 2. st.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Mozaik s prikazom Tritona",
+                                    "type": "image",
+                                    "file": "6.jpg",
+                                    "description": "Mozaik s prikazom Tritona, kraj 3. st.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Mozaik s prikazom Apolona",
+                                    "type": "image",
+                                    "file": "7.jpg",
+                                    "description": "Mozaik s prikazom Apolona, kraj 3. st.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Mozaik u velikoj dvorani",
+                                    "type": "image",
+                                    "file": "8.jpg",
+                                    "description": "Mozaik u velikoj dvorani sa središnjim i ugaonim pilonima u vrijeme istraživanja 1942. g.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         },
                         {
                             "tag": "Gradske terme",
@@ -713,15 +787,138 @@
                             "url": "/konzervacija",
                             "chapterNo": 1,
                             "directory": "konzervacija",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Bedemi prije zaštitnih radova",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> prije zaštitnih radova splitskog Konzervatorskog odjela ",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                    "type": "image",
+                                    "file": "2A.jpg",
+                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom konzervatorskih radova 1997.-1998. splitskog Konzervatorskog odjela",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                    "type": "image",
+                                    "file": "3A.jpg",
+                                    "description": "Georadarski snimak dijela sjevernih gradskih zidina Urbs orientalis tijekom konzervatorskih radova 1997.-1998. godine",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
+                                    "type": "image",
+                                    "file": "4.jpg",
+                                    "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema u vrijeme cara Marka Aurelija 170. godine (Druga kohorta Delmata podigla osam stotina stopa zidina / 236,80 m)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
+                                    "type": "image",
+                                    "file": "5.jpg",
+                                    "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema (vexillationes legija druge Pije i treće Konkordije podigle dvije stotine stopa / 59,20 m)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Zaštitni radovi splitskog Konzervatorskog odjela",
+                                    "type": "video",
+                                    "thumb": "6.jpg",
+                                    "file": "6.mp4",
+                                    "description": "Zaštitni radovi splitskog Konzervatorskog odjela na dijelu sjevernih bedema na Bilankuši 1997. godine, video",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         },
                         {
-                            "tag": "Porta andetria",
-                            "title": "Porta andetria",
+                            "tag": "Porta Andetria",
+                            "title": "Porta Andetria",
                             "url": "/porta-andetria",
                             "chapterNo": 1,
                             "directory": "porta-andetria",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001.",
+                                    "type": "image",
+                                    "file": "8.jpg",
+                                    "description": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela ",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Rekonstrukcija sjeveroistočnog kuta grada",
+                                    "type": "image",
+                                    "file": "9.jpg",
+                                    "description": "Crtež rekonstrukcije sjeveroistočnog kuta perimetra grada s <em>Porta Andetria</em> (J. Jeličić Radonić)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Zaštitni radovi na sjevernom dijelu zidina",
+                                    "type": "video",
+                                    "thumb": "10.jpg",
+                                    "file": "10.mp4",
+                                    "description": "Zaštitni radovi na konzervaciji sjevernog dijela zidina <em>Urbs orientalis</em>, video",
+                                    "background": true,
+                                    "location": { "lon": 16.4914, "lat": 43.5412 },
+                                    "pixelLocation": { "x": 1502, "y": 53 }
+                                },
+                                {
+                                    "name": "Ara Tita Flavija Lucilija uzidana u prvu kulu",
+                                    "type": "image",
+                                    "file": "11.jpg",
+                                    "description": "Ara Tita Flavija Lucilija uzidana u prvu kulu s južne strane Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela kulture RH",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Natpis na pročelju are Tita Flavija Lucilija",
+                                    "type": "image",
+                                    "file": "11.jpg",
+                                    "description": "Natpis na pročelju are Tita Flavija Lucilija",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         }
                     ]
                 }

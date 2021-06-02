@@ -8,13 +8,14 @@
 
 	--default-padding: 2rem;
 	--default-gap: .5em;
-	--background-color: aliceblue;
+	--background-color: whitesmoke;
 	--background-color2: wheat;
+	--background-light: gainsboro;
 	--text-color: #3a3530;
 	--text-color-negative: var(--background-color);
 	--accent-color1: saddlebrown;
 	--accent-color2: forestgreen;
-	--accent-color3: goldenrod;
+	--accent-color3: peru;
 	--max-screen: 1500px;
 	--header-height: 100px;
 	--footer-height: 100px;

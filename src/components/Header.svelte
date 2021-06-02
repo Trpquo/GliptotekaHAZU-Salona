@@ -27,7 +27,6 @@
     }
 
     nav { 
-        margin-left: 2rem;
-        margin-top: 1.6rem;
+        margin: 1.6rem 3rem 0;
     }
 </style>

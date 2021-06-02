@@ -55,7 +55,7 @@
         z-index: 1000;
     }
     li span {
-        opacity: .666;
+        opacity: .70;
     }
     li:hover > a:after {
         width: 100%;

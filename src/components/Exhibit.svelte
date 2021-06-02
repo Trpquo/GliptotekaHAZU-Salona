@@ -31,6 +31,7 @@
         align-items: center;
         justify-content: center;
         cursor: help;
+        background-color: var(--background-light);
     }
     img { 
         display: block;
