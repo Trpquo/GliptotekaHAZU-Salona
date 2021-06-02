@@ -7,5 +7,6 @@
 
 # Local Netlify folder
 .netlify
+makefile
 *.scss
 *.css.map

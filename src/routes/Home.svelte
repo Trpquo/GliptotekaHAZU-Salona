@@ -4,11 +4,9 @@
 
     export let content, topic
 
-    console.log( topic )
-
     let currentContent
 	$: {
-        if ( !topic || topic === "salonitanski-spomenici" ) { // zbarka nastala zbog premještanja poglavlja po sadržaju
+        if ( !topic || topic[0] === "salonitanski-spomenici" ) { // zbarka nastala zbog premještanja poglavlja po sadržaju
             currentContent = content
         }
         else { 

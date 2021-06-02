@@ -86,7 +86,7 @@
 	{#if route === Home}
 		{#if !params}
 			<Home content={ chapters[$language][0] } />
-		{:else if params.topic === "salonitanski-spomenici"}
+		{:else if topic[0] === "salonitanski-spomenici"}
 			<Home content={ chapters[$language][2] } { topic } />
 		{:else}
 			<Home content={ chapters[$language][0] } { topic } />
