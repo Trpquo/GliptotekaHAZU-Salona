@@ -84,7 +84,7 @@ article aside ol li {
 }
 
 article aside ol li::marker {
-  color: var(--accent-color1);
+  color: var(--accent-color2);
 }
 
 article aside:before {
@@ -132,5 +132,19 @@ article blockquote:before {
   top: -.4em;
   font-size: 3.5rem;
   color: var(--accent-color1);
+}
+
+article blockquote cite {
+  display: block;
+  margin-top: .5rem;
+  text-align: right;
+  font-family: var(--alternate-font-family);
+  font-style: normal;
+}
+
+article blockquote cite:before {
+  content: "&mdash;";
+  margin-left: -2rem;
+  color: var(--accent-color2);
 }
 /*# sourceMappingURL=article.css.map */

@@ -16,7 +16,6 @@
 	import Gliptoteka from './routes/Gliptoteka.svelte'
 	import Urbs from './routes/Urbs.svelte'
 	import Sepul from './routes/Sepul.svelte'
-	import Christ from './routes/Christ.svelte'
 	import Impressuum from './routes/Impressuum.svelte'
 	import NotFound from './routes/NotFound.svelte'
 
@@ -35,41 +34,41 @@
 
 
 	
-	let route, params;
+	let route, params, topic
 	
 	page('/', ()=>{ 
 		route = Home 
 		params = null
 	})
-	page('/uvod/:topic', (ctx)=>{ 
+	page('/uvod/:1?', (ctx)=>{ 
 		route = Home 
 		params = ctx.params
 	})
-	page('/Gliptoteka/:exhibit?', (ctx)=>{ 
+	page('/Gliptoteka/:1?', (ctx)=>{ 
 		route = Gliptoteka
 		params = ctx.params
 	})
-	page('/Gliptotheque/:exhibit?', (ctx)=>{ 
+	page('/Gliptotheque/:1?/:2?/:3?', (ctx)=>{ 
 		route = Gliptoteka
 		params = ctx.params
 	})
-	page('/Salona/:region?/:topic?', (ctx)=>{ 
+	page('/Salona/:1?/:2?/:3?/:4?', (ctx)=>{ 
 		route = Urbs
 		params = ctx.params
 	})
-	page('/sepulkralno/:topic?/:exhibit?', (ctx)=>{ 
+	page('/sepulkralno/:1?/:2?/:3?/:4?', (ctx)=>{ 
 		route = Sepul 
 		params = ctx.params
 	})
-	page('/ranokrscansko/:topic?/:location?', (ctx)=>{ 
-		route = Christ 
-		params = ctx.params
-	})
 	page('/Impressuum', ()=>{ route = Impressuum })
-	if ( !route ) page('/*', ()=>{ route = NotFound })
 	
 	page.start()
-	
+
+	$: {
+		topic = Object.values( params ).filter(t=> !!t )
+		console.log( topic )
+	}
+
 	const firstTimeHere = !window.localStorage.getItem('salona-uvod') || !isProduction // not to bug me in development mode
 </script>
 
@@ -86,17 +85,19 @@
 
 	<!-- *** Main content *** -->
 	{#if route === Home}
-		<Home { ...params } content={ chapters[$language][0] } />
+		{#if !params}
+			<Home content={ chapters[$language][0] } />
+		{:else if params.topic === "salonitanski-spomenici"}
+			<Home content={ chapters[$language][2] } { topic } />
+		{:else}
+			<Home content={ chapters[$language][0] } { topic } />
+		{/if}
 	{:else if route === Gliptoteka }
-		<Gliptoteka { ...params } content={ chapters[$language][1] }/>
+		<Gliptoteka content={ chapters[$language][1] }  { topic }/>
 	{:else if route === Urbs}
-		<Urbs { ...params } content={ chapters[$language][2] } />
+		<Urbs content={ chapters[$language][3] }  { topic } />
 	{:else if route === Sepul}
-		<Sepul { ...params } content={ chapters[$language][3] } />
-	{:else if route === Christ}
-		<Christ { ...params } content={ chapters[$language][4] } />
-	{:else if route === Impressuum }
-		<Impressuum content={ chapters[$language][5] }/>
+		<Sepul content={ chapters[$language][4] }  { topic } />
 	{:else}
 		<NotFound />
 	{/if}

@@ -9,11 +9,11 @@
     import { px2LoLa, pixelMarkers } from '../utils/calculations'
 	import { filterContents } from "../utils/server";
 	
-    export let region, topic, content
+    export let topic, content
 
 	let currentContent
 	$: {
-		currentContent = filterContents( { ...content }, [ region, topic ] )
+		currentContent = filterContents( { ...content }, topic )
 	}
 	
 	const lon = 16.4825, lat = 43.536
@@ -42,7 +42,7 @@
 
 
 <Main content={ currentContent } { grid }>
-	<Breadcrumbs path={{ region, topic }} slot="header" />
+	<Breadcrumbs { topic } slot="header" />
 	<Map { ...mapSettings } slot="map">
 		{#each mapMarkers as mark}
 			<MapMarker {...mark} />

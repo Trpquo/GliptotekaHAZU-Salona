@@ -79,7 +79,7 @@
         border-left: 1px solid var(--accent-color1);
     }
     :global(#headerNav li:hover > ul > li, #headerNav li:active > ul > li) {
-        transition: .3s ease-out .1s;
+        transition: .3s ease-out .5s;
         height: auto;
         width: 100%;
         padding: .5rem;

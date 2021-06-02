@@ -1,26 +1,28 @@
 <script>
-    export let path
+    export let topic
 
     const convertForDisplay =str=>  `${str[0].toUpperCase()}${
         str.indexOf("-") > 0 ? 
             str.substring(1, str.indexOf("-")) + " " + str[str.indexOf("-") + 1].toUpperCase() + str.substring( str.indexOf("-") + 2, str.length )
             :
             str.substring( 1, str.length ) 
-        }` // ovo još ne valja, ali baviti ću se time kada stignem
+    }` // ovo još ne valja, ali baviti ću se time kada stignem
+
+    $: {
+
+        let test
+        for ( let t of topic ) {
+            console.log( topic.slice(0, topic.indexOf(t) + 1 ).join("/") )
+        }
+    }
 </script>
 <nav>
     [
-    <a href="/">Salona</a>
-    <mark>·</mark>
-    <a href="/Salona">Urbs</a>
-    {#if path.region}
-    <mark>·</mark>
-    <a href={ `/Salona/${path.region}` }>{ convertForDisplay( path.region ) }</a>
-    {/if}
-    {#if path.topic}
-    <mark>&gt;</mark>
-    <a href={ `/Salona/${path.region ? path.region + "/" : "" }${path.topic}` }>{ convertForDisplay( path.topic ) }</a>
-    {/if}
+    <a href="/Salona">Salona</a>
+    {#each topic as t}
+    &nbsp;<mark>·</mark>&nbsp;
+        <a href={ `/Salona/${ topic.slice(0, topic.indexOf(t) + 1).join("/") }` }>{ convertForDisplay( t ) }</a>
+    {/each}
     ]
 </nav>
 <style>

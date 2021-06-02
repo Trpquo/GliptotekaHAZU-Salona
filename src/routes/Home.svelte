@@ -4,9 +4,16 @@
 
     export let content, topic
 
+    console.log( content )
+
     let currentContent
 	$: {
-        currentContent = filterContents( { ...content }, [ topic ] )
+        if ( topic === "salonitanski-spomenici" ) { // zbarka nastala zbog premještanja poglavlja po sadržaju
+            currentContent = content
+        }
+        else { 
+            currentContent = filterContents( { ...content }, topic )
+        }
 	}
 
     const grid = Math.round( Math.random() ) ? 

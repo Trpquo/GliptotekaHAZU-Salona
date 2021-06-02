@@ -9,14 +9,6 @@
             "document": "index.html",
             "sections": [
                 {
-                    "tag": "Zbirke salonitanskih spomenika",
-                    "title": "Zbirke salonitanskih spomenika od 15. do sredine 19. stoljeća",
-                    "chapterNo": 1,
-                    "url": "/uvod/salonitanski-spomenici",
-                    "directory": "salonitanski-spomenici",
-                    "document": "index.html"
-                },
-                {
                     "tag": "Impressuum",
                     "title": "Impressuum",
                     "url": "/uvod/impressuum",
@@ -61,7 +53,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Solinjanka u Gipsoteci",
                     "type": "image",
                     "file": "F-286.jpg",
                     "description": "Postav antičke zbirke u Gipsoteci, Solinjanka, 1942.",
@@ -70,7 +62,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Antička zbirka u Gipsoteci",
                     "type": "image",
                     "file": "G-D-62.jpg",
                     "description": "Postav antičke zbirke u Gipsoteci 1947.",
@@ -79,7 +71,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Antička zbirka u Gipsoteci",
                     "type": "image",
                     "file": "G-D-67.jpg",
                     "description": "Postav antičke zbirke u Gipsoteci 1947.",
@@ -88,7 +80,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Antička zbirka u Gipsoteci",
                     "type": "image",
                     "file": "G-D-68.jpg",
                     "description": "Postav antičke zbirke u Gipsoteci 1947.",
@@ -97,7 +89,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Antička zbirka u Gipsoteci",
                     "type": "image",
                     "file": "G-D-69.jpg",
                     "description": "Postav antičke zbirke u Gipsoteci 1947.",
@@ -108,6 +100,14 @@
             ]
         },
         {
+            "tag": "Zbirke salonitanskih spomenika",
+            "title": "Zbirke salonitanskih spomenika od 15. do sredine 19. stoljeća",
+            "chapterNo": 1,
+            "url": "/uvod/salonitanski-spomenici",
+            "directory": "salonitanski-spomenici",
+            "document": "index.html"
+        },
+        {
             "tag": "Grad Salona",
             "title": "Martia Ivlia Valeria Salona Felix",
             "chapterNo": 3,
@@ -116,7 +116,7 @@
             "document": "index.html",
             "exhibits": [
                 {
-                    "name": "",
+                    "name": "Panoramski pogled",
                     "type": "image",
                     "file": "0.jpg",
                     "description": "Panoramski pogled na Salonu",
@@ -125,7 +125,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Topografska karta (F. Lanza, 1826.)",
                     "type": "image",
                     "file": "1.jpg",
                     "description": "Topografska karta Salone (F. Lanza, 1826.)",
@@ -134,7 +134,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Tlocrt (F. Carrara, 1848.)",
                     "type": "image",
                     "file": "2.jpg",
                     "description": "Tlocrt Salone (F. Carrara, 1848.)",
@@ -143,7 +143,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Tlocrt Salone (E. Dyggve)",
                     "type": "image",
                     "file": "3.jpg",
                     "description": "Tlocrt Salone (E. Dyggve)",
@@ -152,7 +152,7 @@
                     "pixelLocation": null
                 },
                 {
-                    "name": "",
+                    "name": "Plan razvoja grada (E. Dyggve, 1951.)",
                     "type": "image",
                     "file": "4.jpg",
                     "description": "Plan razvoja grada Salone (E. Dyggve, 1951.)",
@@ -171,7 +171,7 @@
                     "document": "index.html",
                     "exhibits": [
                         {
-                            "name": "",
+                            "name": "Garagnin",
                             "type": "image",
                             "file": "01.jpg",
                             "description": "Ivan Luka Garagnin",
@@ -180,7 +180,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Steinbüchel",
                             "type": "image",
                             "file": "05.jpg",
                             "description": "Anton Steinbüchel",
@@ -189,7 +189,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "C. Lanza",
                             "type": "image",
                             "file": "08.jpg",
                             "description": "Carlo Lanza",
@@ -198,7 +198,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Andrić",
                             "type": "image",
                             "file": "09.jpg",
                             "description": "Vicko Andrić",
@@ -207,7 +207,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Čobarnić",
                             "type": "image",
                             "file": "12.jpg",
                             "description": "Ivan Čobarnić",
@@ -216,7 +216,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Carrara",
                             "type": "image",
                             "file": "14.jpg",
                             "description": "Francesco Carrara",
@@ -225,7 +225,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Ljubić",
                             "type": "image",
                             "file": "19.jpg",
                             "description": "Šime Ljubić",
@@ -234,7 +234,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "F. Lanza",
                             "type": "image",
                             "file": "21.jpg",
                             "description": "Francesco Lanza",
@@ -243,7 +243,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Don Bulić",
                             "type": "image",
                             "file": "27.jpg",
                             "description": "Don Frane Bulić",
@@ -252,7 +252,7 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "",
+                            "name": "Dyggve",
                             "type": "image",
                             "file": "28.jpg",
                             "description": "Ejnar Dyggve",
@@ -757,6 +757,22 @@
                             ]
                         },
                         {
+                            "tag": "Forum",
+                            "title": "Velike gradske terme",
+                            "url": "/gradske-terme",
+                            "chapterNo": 2,
+                            "directory": "gradske-terme",
+                            "document": "index.html"
+                        },
+                        {
+                            "tag": "Venera Vetrix",
+                            "title": "Velike gradske terme",
+                            "url": "/gradske-terme",
+                            "chapterNo": 2,
+                            "directory": "gradske-terme",
+                            "document": "index.html"
+                        },
+                        {
                             "tag": "Gradske terme",
                             "title": "Velike gradske terme",
                             "url": "/gradske-terme",
@@ -765,162 +781,164 @@
                             "document": "index.html"
                         },
                         {
-                            "tag": "Silvanov kult",
-                            "title": "Silvanov kult",
-                            "url": "/silvanov-kult",
-                            "chapterNo": 3,
-                            "directory": "silvanov-kult",
-                            "document": "index.html"
+                            "tag": "Sjeverni bedemi",
+                            "title": "Sjeverni bedemi",
+                            "url": "/sjeverni-bedemi",
+                            "chapterNo": 4,
+                            "directory": "sjeverni-bedemi",
+                            "sections": [
+                                {
+                                    "tag": "Konzervatorski radovi",
+                                    "title": "Konzervatorski radovi na sjevernim bedemima",
+                                    "url": "/konzervacija",
+                                    "chapterNo": 1,
+                                    "directory": "konzervacija",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Bedemi prije zaštitnih radova",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> prije zaštitnih radova splitskog Konzervatorskog odjela ",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "type": "image",
+                                            "file": "2.jpg",
+                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "type": "image",
+                                            "file": "2A.jpg",
+                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "type": "image",
+                                            "file": "3.jpg",
+                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom konzervatorskih radova 1997.-1998. splitskog Konzervatorskog odjela",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "type": "image",
+                                            "file": "3A.jpg",
+                                            "description": "Georadarski snimak dijela sjevernih gradskih zidina Urbs orientalis tijekom konzervatorskih radova 1997.-1998. godine",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
+                                            "type": "image",
+                                            "file": "4.jpg",
+                                            "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema u vrijeme cara Marka Aurelija 170. godine (Druga kohorta Delmata podigla osam stotina stopa zidina / 236,80 m)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
+                                            "type": "image",
+                                            "file": "5.jpg",
+                                            "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema (vexillationes legija druge Pije i treće Konkordije podigle dvije stotine stopa / 59,20 m)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Zaštitni radovi splitskog Konzervatorskog odjela",
+                                            "type": "video",
+                                            "thumb": "6.jpg",
+                                            "file": "6.mp4",
+                                            "description": "Zaštitni radovi splitskog Konzervatorskog odjela na dijelu sjevernih bedema na Bilankuši 1997. godine, video",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Porta Andetria",
+                                    "title": "Porta Andetria",
+                                    "url": "/porta-andetria",
+                                    "chapterNo": 1,
+                                    "directory": "porta-andetria",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001.",
+                                            "type": "image",
+                                            "file": "8.jpg",
+                                            "description": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela ",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Rekonstrukcija sjeveroistočnog kuta grada",
+                                            "type": "image",
+                                            "file": "9.jpg",
+                                            "description": "Crtež rekonstrukcije sjeveroistočnog kuta perimetra grada s <em>Porta Andetria</em> (J. Jeličić Radonić)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Zaštitni radovi na sjevernom dijelu zidina",
+                                            "type": "video",
+                                            "thumb": "10.jpg",
+                                            "file": "10.mp4",
+                                            "description": "Zaštitni radovi na konzervaciji sjevernog dijela zidina <em>Urbs orientalis</em>, video",
+                                            "background": true,
+                                            "location": { "lon": 16.4914, "lat": 43.5412 },
+                                            "pixelLocation": { "x": 1502, "y": 53 }
+                                        },
+                                        {
+                                            "name": "Ara Tita Flavija Lucilija uzidana u prvu kulu",
+                                            "type": "image",
+                                            "file": "11.jpg",
+                                            "description": "Ara Tita Flavija Lucilija uzidana u prvu kulu s južne strane Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela kulture RH",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Natpis na pročelju are Tita Flavija Lucilija",
+                                            "type": "image",
+                                            "file": "11.jpg",
+                                            "description": "Natpis na pročelju are Tita Flavija Lucilija",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                }
+                            ]
                         }
+                        
                     ]
                 },
+                
                 {
-                    "tag": "Sjeverni bedemi",
-                    "title": "Sjeverni bedemi",
-                    "url": "/sjeverni-bedemi",
-                    "chapterNo": 4,
-                    "directory": "sjeverni-bedemi",
-                    "sections": [
-                        {
-                            "tag": "Konzervatorski radovi",
-                            "title": "Konzervatorski radovi na sjevernim bedemima",
-                            "url": "/konzervacija",
-                            "chapterNo": 1,
-                            "directory": "konzervacija",
-                            "document": "index.html",
-                            "exhibits": [
-                                {
-                                    "name": "Bedemi prije zaštitnih radova",
-                                    "type": "image",
-                                    "file": "1.jpg",
-                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> prije zaštitnih radova splitskog Konzervatorskog odjela ",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
-                                    "type": "image",
-                                    "file": "2.jpg",
-                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
-                                    "type": "image",
-                                    "file": "2A.jpg",
-                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
-                                    "type": "image",
-                                    "file": "3.jpg",
-                                    "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom konzervatorskih radova 1997.-1998. splitskog Konzervatorskog odjela",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
-                                    "type": "image",
-                                    "file": "3A.jpg",
-                                    "description": "Georadarski snimak dijela sjevernih gradskih zidina Urbs orientalis tijekom konzervatorskih radova 1997.-1998. godine",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
-                                    "type": "image",
-                                    "file": "4.jpg",
-                                    "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema u vrijeme cara Marka Aurelija 170. godine (Druga kohorta Delmata podigla osam stotina stopa zidina / 236,80 m)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
-                                    "type": "image",
-                                    "file": "5.jpg",
-                                    "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema (vexillationes legija druge Pije i treće Konkordije podigle dvije stotine stopa / 59,20 m)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Zaštitni radovi splitskog Konzervatorskog odjela",
-                                    "type": "video",
-                                    "thumb": "6.jpg",
-                                    "file": "6.mp4",
-                                    "description": "Zaštitni radovi splitskog Konzervatorskog odjela na dijelu sjevernih bedema na Bilankuši 1997. godine, video",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                            ]
-                        },
-                        {
-                            "tag": "Porta Andetria",
-                            "title": "Porta Andetria",
-                            "url": "/porta-andetria",
-                            "chapterNo": 1,
-                            "directory": "porta-andetria",
-                            "document": "index.html",
-                            "exhibits": [
-                                {
-                                    "name": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001.",
-                                    "type": "image",
-                                    "file": "8.jpg",
-                                    "description": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela ",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Rekonstrukcija sjeveroistočnog kuta grada",
-                                    "type": "image",
-                                    "file": "9.jpg",
-                                    "description": "Crtež rekonstrukcije sjeveroistočnog kuta perimetra grada s <em>Porta Andetria</em> (J. Jeličić Radonić)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Zaštitni radovi na sjevernom dijelu zidina",
-                                    "type": "video",
-                                    "thumb": "10.jpg",
-                                    "file": "10.mp4",
-                                    "description": "Zaštitni radovi na konzervaciji sjevernog dijela zidina <em>Urbs orientalis</em>, video",
-                                    "background": true,
-                                    "location": { "lon": 16.4914, "lat": 43.5412 },
-                                    "pixelLocation": { "x": 1502, "y": 53 }
-                                },
-                                {
-                                    "name": "Ara Tita Flavija Lucilija uzidana u prvu kulu",
-                                    "type": "image",
-                                    "file": "11.jpg",
-                                    "description": "Ara Tita Flavija Lucilija uzidana u prvu kulu s južne strane Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela kulture RH",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Natpis na pročelju are Tita Flavija Lucilija",
-                                    "type": "image",
-                                    "file": "11.jpg",
-                                    "description": "Natpis na pročelju are Tita Flavija Lucilija",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                            ]
-                        }
-                    ]
+                    "tag": "Silvanov kult",
+                    "title": "Silvanov kult",
+                    "url": "/silvanov-kult",
+                    "chapterNo": 3,
+                    "directory": "silvanov-kult",
+                    "document": "index.html"
                 }
             ]
         },
@@ -987,60 +1005,61 @@
                             "document": "index.html"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "tag": "Ranokrščanski spomenici",
-            "title": "Ranokrščanski spomenici",
-            "chapterNo": 5,
-            "url": "/ranokrscansko",
-            "directory": "ranokrscansko",
-            "sections": [
-                {
-                    "tag": "Episkopalni kompleks",
-                    "title": "Episkopalni kompleks",
-                    "url": "/episkopalni-kompleks",
-                    "chapterNo": 1,
-                    "directory": "episkopalni-kompleks",
-                    "document": "index.html"
                 },
                 {
-                    "tag": "Ranokršćanske nekropole",
-                    "title": "Ranokršćanske nekropole",
-                    "url": "/nekropole",
-                    "chapterNo": 2,
-                    "directory": "nekropole",
-                    "document": "index.html",
+                    "tag": "Ranokrščanski spomenici",
+                    "title": "Ranokrščanski spomenici",
+                    "chapterNo": 5,
+                    "url": "/ranokrscansko",
+                    "directory": "ranokrscansko",
                     "sections": [
                         {
-                            "tag": "Kapljuč",
-                            "title": "Kapljuč",
-                            "url": "/Kapljuc",
+                            "tag": "Episkopalni kompleks",
+                            "title": "Episkopalni kompleks",
+                            "url": "/episkopalni-kompleks",
                             "chapterNo": 1,
-                            "directory": "Kapljuc",
+                            "directory": "episkopalni-kompleks",
                             "document": "index.html"
                         },
                         {
-                            "tag": "Manastirine",
-                            "title": "Manastirine",
-                            "url": "/Manastirine",
+                            "tag": "Ranokršćanske nekropole",
+                            "title": "Ranokršćanske nekropole",
+                            "url": "/nekropole",
                             "chapterNo": 2,
-                            "directory": "Manastirine",
-                            "document": "index.html"
-                        },
-                        {
-                            "tag": "Marusinac",
-                            "title": "Marusinac",
-                            "url": "/Marusinac",
-                            "chapterNo": 3,
-                            "directory": "Marusinac",
-                            "document": "index.html"
+                            "directory": "nekropole",
+                            "document": "index.html",
+                            "sections": [
+                                {
+                                    "tag": "Kapljuč",
+                                    "title": "Kapljuč",
+                                    "url": "/Kapljuc",
+                                    "chapterNo": 1,
+                                    "directory": "Kapljuc",
+                                    "document": "index.html"
+                                },
+                                {
+                                    "tag": "Manastirine",
+                                    "title": "Manastirine",
+                                    "url": "/Manastirine",
+                                    "chapterNo": 2,
+                                    "directory": "Manastirine",
+                                    "document": "index.html"
+                                },
+                                {
+                                    "tag": "Marusinac",
+                                    "title": "Marusinac",
+                                    "url": "/Marusinac",
+                                    "chapterNo": 3,
+                                    "directory": "Marusinac",
+                                    "document": "index.html"
+                                }
+                            ]
                         }
                     ]
                 }
             ]
         }
+        
     ],
     "en": [
         {

@@ -1,11 +1,13 @@
 <script>
     import { root } from '../utils/config'
 
-
     export let exhibit, path
+    
+    
+    
 </script>
 
-<figure>
+<figure style={ Math.random() < .1 ? "grid-column: span 2; grid-row: span 2;" : "" }>
     {#if exhibit.type === "image"}
         <img src={ `${ root }/hr${ path }/images/thumbs/${ exhibit.file }` } alt={ exhibit.name } />
     {/if}
@@ -24,7 +26,6 @@
 <style>
     figure {
         margin-top: 0;
-        height: 150px;
         overflow: hidden;
         position: relative;
         display: flex;

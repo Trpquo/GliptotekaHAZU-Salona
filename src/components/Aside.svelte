@@ -1,7 +1,10 @@
 <script>
+
     import Gallery from './Gallery.svelte'
     import Exhibit from './Exhibit.svelte'
     export let exhibits, path
+
+
 
 </script>
 <aside>
