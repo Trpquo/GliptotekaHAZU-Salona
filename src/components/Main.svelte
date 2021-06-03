@@ -23,7 +23,15 @@
         {#if content.sections && content.sections.length > 0 }
             <nav id="sections-nav">
                 {#each content.sections as article}
-                <ArticleThumbnail { article } />
+                    {#if !!article.document }
+                        <ArticleThumbnail { article } />
+                    {:else}
+                        {#if !!article.sections}
+                        {#each article.sections as section}
+                            <ArticleThumbnail article={ section } />
+                        {/each}
+                        {/if}
+                    {/if}
                 {/each}
             </nav>
         {/if}

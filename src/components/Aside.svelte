@@ -9,7 +9,7 @@
 </script>
 <aside>
     <slot></slot>
-
+    
     {#if exhibits }
         <Gallery>
             {#each exhibits as exhibit}

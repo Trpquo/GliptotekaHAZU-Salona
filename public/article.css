@@ -104,10 +104,6 @@ article p {
   padding-right: 1rem;
 }
 
-article p:last-of-type {
-  padding-bottom: var(--default-padding);
-}
-
 article p:first-of-type::first-letter {
   display: block;
   float: left;
@@ -123,6 +119,7 @@ article blockquote {
   font-style: italic;
   padding-left: var(--default-padding);
   position: relative;
+  margin: 2rem 0 0;
 }
 
 article blockquote:before {
@@ -143,8 +140,14 @@ article blockquote cite {
 }
 
 article blockquote cite:before {
-  content: "&mdash;";
+  content: "\2014";
   margin-left: -2rem;
+  margin-right: .35rem;
+  font-weight: bold;
   color: var(--accent-color2);
+}
+
+article > *:last-child {
+  padding-bottom: var(--default-padding);
 }
 /*# sourceMappingURL=article.css.map */

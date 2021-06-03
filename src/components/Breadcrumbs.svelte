@@ -8,13 +8,6 @@
             str.substring( 1, str.length ) 
     }` // ovo još ne valja, ali baviti ću se time kada stignem
 
-    $: {
-
-        let test
-        for ( let t of topic ) {
-            console.log( topic.slice(0, topic.indexOf(t) + 1 ).join("/") )
-        }
-    }
 </script>
 <nav>
     [

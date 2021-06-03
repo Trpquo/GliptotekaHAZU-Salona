@@ -1,13 +1,31 @@
 <script>
     import { root } from '../utils/config'
+    import { onMount } from 'svelte'
 
     export let exhibit, path
     
     
-    
+    let component
+
+    onMount(()=>{
+        if ( !!component ) {
+            component.addEventListener('mousedown', e=> {
+                if (e.target === component) {
+                    component.style.zIndex = 999
+                    component.classList.add("resizing")
+                }
+            })
+            component.addEventListener('mouseup', e=> {
+                if (e.target === component) {
+                    component.style = ""
+                    component.classList.remove("resizing")
+                }
+            })
+        }
+    })
 </script>
 
-<figure style={ Math.random() < .1 ? "grid-column: span 2; grid-row: span 2;" : "" }>
+<figure style={ Math.random() < .1 ? "grid-column: span 2; grid-row: span 2;" : "" } bind:this={ component }>
     {#if exhibit.type === "image"}
         <img src={ `${ root }/hr${ path }/images/thumbs/${ exhibit.file }` } alt={ exhibit.name } />
     {/if}
@@ -29,10 +47,12 @@
         overflow: hidden;
         position: relative;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         cursor: help;
         background-color: var(--background-light);
+        resize: both;
+        transition: height .25s, width .25s;
     }
     img { 
         display: block;
@@ -57,7 +77,7 @@
         transform: translateY(100%);
         transition: .25s ease-out;
     }
-    figure:hover figcaption {
+    figure:not(.resizing):hover figcaption {
         transform: none;
         transition: .5s ease-out 1s;
     }

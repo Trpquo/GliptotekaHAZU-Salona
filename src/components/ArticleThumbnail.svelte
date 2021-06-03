@@ -17,10 +17,9 @@
                 randomImage = contentRoot + potentialBackgrounds[ Math.floor(Math.random() * potentialBackgrounds.length) ].file
             }
         }
-        else { 
+        else if ( !!article.sections ) { 
             let potentialCollector
             potentialBackgrounds = {}
-            if ( !!article.sections ) {
                 potentialCollector = article.sections.reduce((tot, curr)=>{ 
                     if ( !!curr.exhibits ) {
                         tot[ curr.path ] = curr.exhibits.filter(e=>e.background && e.type === "image")
@@ -38,9 +37,11 @@
                     const randomExhibit = randomSet[ Math.floor(Math.random() * randomSet.length) ]
                     randomImage = `${ root }/hr${ randomKey }/images/thumbs/` + randomExhibit.file
                 }
-            }
         }
-        console.log( randomImage )
+        else { 
+            randomImage = null
+        }
+        // console.log( randomImage )
     }
 
 </script>

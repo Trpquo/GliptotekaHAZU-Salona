@@ -37,8 +37,10 @@
                 clearInterval( checkArticle )
                 formatter( component )
             }
-
         }, 100)
+
+        // TODO scroll to top each time new article loads
+        
     })
 
     const article_layout = [ 
