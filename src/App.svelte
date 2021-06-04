@@ -38,19 +38,19 @@
 	
 	page('/', ()=>{ 
 		route = Home 
-		params = null
+		params = { 0: null }
 	})
-	page('/uvod/:1?', (ctx)=>{ 
+	page('/uvod/:1?/:2?', (ctx)=>{ 
 		route = Home 
 		params = ctx.params
 	})
-	page('/Gliptoteka/:1?', (ctx)=>{ 
+	page('/Gliptoteka/:1?/:2?', (ctx)=>{ 
 		route = Gliptoteka
-		params = ctx.params
+		params = { 0: "Gliptoteka", ...ctx.params }
 	})
 	page('/Gliptotheque/:1?/:2?/:3?', (ctx)=>{ 
 		route = Gliptoteka
-		params = ctx.params
+		params = { 0: "Gliptoteka", ...ctx.params }
 	})
 	page('/Salona/:1?/:2?/:3?/:4?', (ctx)=>{ 
 		route = Urbs
@@ -63,12 +63,28 @@
 	page('/Impressuum', ()=>{ route = Impressuum })
 	
 	page.start()
-
+	
+	const firstTimeHere = !window.localStorage.getItem('salona-uvod') || !isProduction // not to bug me in development mode
+	
 	$: {
 		if ( params !== null ) topic = Object.values( params ).filter(t=> !!t )
-	}
+		const scrollUp = setInterval(()=>{
+		
+		let target = firstTimeHere ? document.querySelector('#hero') : document.querySelector('main')
+		if (target) {
+			clearInterval( scrollUp )
+			// console.log("scrolling...")
+			scroll({
+				top: target.offsetTop - 100,
+				behavior: "smooth"
+			});
+		}
+		}, 100)
 
-	const firstTimeHere = !window.localStorage.getItem('salona-uvod') || !isProduction // not to bug me in development mode
+		console.log(params)
+	}
+	
+
 </script>
 
 	{#if firstTimeHere}
@@ -84,19 +100,13 @@
 
 	<!-- *** Main content *** -->
 	{#if route === Home}
-		{#if !params}
-			<Home content={ chapters[$language][0] } />
-		{:else if topic[0] === "salonitanski-spomenici"}
-			<Home content={ chapters[$language][2] } { topic } />
-		{:else}
-			<Home content={ chapters[$language][0] } { topic } />
-		{/if}
+		<Home content={ chapters[$language][0] } { topic } />
 	{:else if route === Gliptoteka }
-		<Gliptoteka content={ chapters[$language][1] }  { topic }/>
+		<Gliptoteka content={ chapters[$language][0] }  { topic }/>
 	{:else if route === Urbs}
-		<Urbs content={ chapters[$language][3] }  { topic } />
+		<Urbs content={ chapters[$language][1] }  { topic } />
 	{:else if route === Sepul}
-		<Sepul content={ chapters[$language][4] }  { topic } />
+		<Sepul content={ chapters[$language][1] }  { topic } />
 	{:else}
 		<NotFound />
 	{/if}

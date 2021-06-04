@@ -24,7 +24,7 @@ export const filterContents = ( content, subs ) => {
     // console.log( subs )
     for ( let sub of subs ) {
         // console.log(`Filtriram za ${ sub }`)
-        if ( !!sub && !!content ) content = content.sections.find(section=> section.url.indexOf( sub ) > 0 )
+        if ( !!sub && !!content.sections ) content = content.sections.find(section=> section.url.indexOf( sub ) > 0 )
     }
     return content
 }

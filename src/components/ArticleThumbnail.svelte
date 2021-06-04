@@ -78,6 +78,7 @@
         height: 100%;
         background-image: var(--background-image), linear-gradient( var(--background-color2), var(--accent-color3) );
         background-size: cover;
+        background-position: center;
         mix-blend-mode: multiply;
         opacity: 1;
         transition: .5s ease-in;

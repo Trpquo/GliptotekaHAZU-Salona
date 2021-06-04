@@ -38,9 +38,6 @@
                 formatter( component )
             }
         }, 100)
-
-        // TODO scroll to top each time new article loads
-        
     })
 
     const article_layout = [ 
@@ -68,7 +65,10 @@
 
 <style>
     article {
+        margin: 0;
+        padding: 0;
         padding-right: var(--default-padding);
+
         /* background-color: var(--background-color2); */
     }
 </style>

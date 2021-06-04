@@ -11,17 +11,22 @@
     <slot></slot>
     
     {#if exhibits }
+     {#if exhibits.length > 1}
         <Gallery>
             {#each exhibits as exhibit}
                 <Exhibit { exhibit } { path } />
             {/each}
         </Gallery>
+    {:else}
+        <Exhibit exhibit={ exhibits[0] } { path }  />
+    {/if}
     {/if}
 </aside>
 
 <style>
     aside {
-        padding: var(--default-padding) var(--default-gap);
+        padding: 0;
+        margin: 0;
         width: 100%;
         grid-area: a;
 

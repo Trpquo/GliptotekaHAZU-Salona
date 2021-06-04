@@ -141,7 +141,7 @@
 		position: relative;
 		margin: 0;
 		padding: 0;
-		height: 30vw;
+		height: 33vw;
 		width: 100%;
 	}
 	.map {
@@ -171,9 +171,9 @@
 		z-index: 3;
 	}
 	:global(#slider .handle) {
-		height: calc(30vw - 1rem);
+		height: calc(33vw - 1rem);
 		width: 2px;
-		margin-top: calc(-30vw - .5rem);
+		margin-top: calc(-33vw - .5rem);
 		/* margin-left: -10px; */
 		border-top: 1rem solid var(--accent-color1);
 		border-bottom: 1rem solid var(--accent-color1);

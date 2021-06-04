@@ -9,6 +9,126 @@
             "document": "index.html",
             "sections": [
                 {
+                    "tag": "Zbirka Gliptoteke HAZU",
+                    "title": "Zbirka sadrenih odljeva antičke skulpture Gliptoteke HAZU",
+                    "chapterNo": 2,
+                    "url": "/Gliptoteka",
+                    "directory": "gliptoteka",
+                    "document": "index.html",
+                    "sections": [
+                        {
+                            "tag": "Katalog",
+                            "title": "Katalog skulptura iz zbirke Gliptoteke HAZU",
+                            "chapterNo": 1,
+                            "url": "/katalog",
+                            "directory": "katalog",
+                            "document": "index.html"
+                        }
+                    ],
+                    "exhibits": [
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "F-189.jpg",
+                            "description": "Depo s odljevima iz antičke zbirke oko 1940-ih",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "",
+                            "type": "image",
+                            "file": "F-282.jpg",
+                            "description": "Postav antičke zbirke u Gipsoteci, 1942.",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Solinjanka u Gipsoteci",
+                            "type": "image",
+                            "file": "F-286.jpg",
+                            "description": "Postav antičke zbirke u Gipsoteci, Solinjanka, 1942.",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Antička zbirka u Gipsoteci",
+                            "type": "image",
+                            "file": "G-D-62.jpg",
+                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Antička zbirka u Gipsoteci",
+                            "type": "image",
+                            "file": "G-D-67.jpg",
+                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Antička zbirka u Gipsoteci",
+                            "type": "image",
+                            "file": "G-D-68.jpg",
+                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "background": false,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Antička zbirka u Gipsoteci",
+                            "type": "image",
+                            "file": "G-D-69.jpg",
+                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        }
+                    ]
+                },
+                {
+                    "tag": "Zbirke salonitanskih spomenika",
+                    "title": "Zbirke salonitanskih spomenika od 15. do sredine 19. stoljeća",
+                    "chapterNo": 1,
+                    "url": "/uvod/salonitanski-spomenici",
+                    "directory": "salonitanski-spomenici",
+                    "document": "index.html",
+                    "exhibits": [
+                        {
+                            "name": "Torzo cara",
+                            "type": "image",
+                            "file": "1.png",
+                            "description": "Torzo cara",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Crtež zbirke Ivana Luke Garagnina 1805.",
+                            "type": "image",
+                            "file": "2.jpg",
+                            "description": "Crtež zbirke Ivana Luke Garagnina 1805. godine (Muzej grada Trogira)",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        },
+                        {
+                            "name": "Trajanovo poprsje",
+                            "type": "image",
+                            "file": "3.jpg",
+                            "description": "Trajanovo poprsje iz zbirke F. Lanze, Kunsthistorisches Museum, Beč (foto A. Torlak)",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        }
+                    ]
+                },
+                {
                     "tag": "Impressuum",
                     "title": "Impressuum",
                     "url": "/uvod/impressuum",
@@ -16,97 +136,7 @@
                 }
             ]
         },
-        {
-            "tag": "Zbirka Gliptoteke HAZU",
-            "title": "Zbirka sadrenih odljeva antičke skulpture Gliptoteke HAZU",
-            "chapterNo": 2,
-            "url": "/Gliptoteka",
-            "directory": "gliptoteka",
-            "document": "index.html",
-            "sections": [
-                {
-                    "tag": "Katalog",
-                    "title": "Katalog skulptura iz zbirke Gliptoteke HAZU",
-                    "chapterNo": 1,
-                    "url": "/katalog",
-                    "directory": "katalog",
-                    "document": "index.html"
-                }
-            ],
-            "exhibits": [
-                {
-                    "name": "",
-                    "type": "image",
-                    "file": "F-189.jpg",
-                    "description": "Depo s odljevima iz antičke zbirke oko 1940-ih",
-                    "background": true,
-                    "location": null,
-                    "pixelLocation": null
-                },
-                {
-                    "name": "",
-                    "type": "image",
-                    "file": "F-282.jpg",
-                    "description": "Postav antičke zbirke u Gipsoteci, 1942.",
-                    "background": true,
-                    "location": null,
-                    "pixelLocation": null
-                },
-                {
-                    "name": "Solinjanka u Gipsoteci",
-                    "type": "image",
-                    "file": "F-286.jpg",
-                    "description": "Postav antičke zbirke u Gipsoteci, Solinjanka, 1942.",
-                    "background": false,
-                    "location": null,
-                    "pixelLocation": null
-                },
-                {
-                    "name": "Antička zbirka u Gipsoteci",
-                    "type": "image",
-                    "file": "G-D-62.jpg",
-                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
-                    "background": false,
-                    "location": null,
-                    "pixelLocation": null
-                },
-                {
-                    "name": "Antička zbirka u Gipsoteci",
-                    "type": "image",
-                    "file": "G-D-67.jpg",
-                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
-                    "background": false,
-                    "location": null,
-                    "pixelLocation": null
-                },
-                {
-                    "name": "Antička zbirka u Gipsoteci",
-                    "type": "image",
-                    "file": "G-D-68.jpg",
-                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
-                    "background": false,
-                    "location": null,
-                    "pixelLocation": null
-                },
-                {
-                    "name": "Antička zbirka u Gipsoteci",
-                    "type": "image",
-                    "file": "G-D-69.jpg",
-                    "description": "Postav antičke zbirke u Gipsoteci 1947.",
-                    "background": true,
-                    "location": null,
-                    "pixelLocation": null
-                }
-            ]
-        },
-        {
-            "tag": "Zbirke salonitanskih spomenika",
-            "title": "Zbirke salonitanskih spomenika od 15. do sredine 19. stoljeća",
-            "chapterNo": 1,
-            "url": "/uvod/salonitanski-spomenici",
-            "directory": "salonitanski-spomenici",
-            "document": "index.html"
-        },
+        
         {
             "tag": "Grad Salona",
             "title": "Martia Ivlia Valeria Salona Felix",
@@ -762,7 +792,6 @@
                             "url": "/forum",
                             "chapterNo": 2,
                             "directory": "forum",
-                            "document": "index.html",
                             "exhibits": [
                                 {
                                     "name": "Uzidane spolije Jupiterova hrama",
@@ -1071,92 +1100,55 @@
                             "pixelLocation": null
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "tag": "Sepulkralna skulptura",
-            "title": "Sepulkralna skulptura",
-            "chapterNo": 4,
-            "url": "/sepulkralno",
-            "directory": "sepulkralno",
-            "sections": [
-                {
-                    "tag": "Stele",
-                    "title": "Stele",
-                    "url": "/stele",
-                    "chapterNo": 1,
-                    "directory": "stele",
-                    "document": "index.html",
-                    "exhibits": [
-                        {
-                            "name": "Stela s likovima bračnog para",
-                            "type": "image",
-                            "file": "1.jpg",
-                            "description": "Stela s likovima bračnog para, 2.-3. desetljeće 1. stoljeća, (Gliptoteka HAZU)",
-                            "background": true,
-                            "location": null,
-                            "pixelLocation": null
-                        }
-                    ]
                 },
                 {
-                    "tag": "Are",
-                    "title": "Are",
-                    "url": "/are",
-                    "chapterNo": 2,
-                    "directory": "are",
-                    "document": "index.html",
-                    "exhibits": [
-                        {
-                            "name": "Ara Pomponije Vere",
-                            "type": "image",
-                            "file": "1.jpg",
-                            "description": "Ara Pomponije Vere u dvorištu Arheološkog muzeja u Splitu (Fototeka Gliptoteke HAZU)",
-                            "background": true,
-                            "location": null,
-                            "pixelLocation": null
-                        },
-                        {
-                            "name": "Ara Pomponije Vere",
-                            "type": "image",
-                            "file": "2.jpg",
-                            "description": "Crtež nadgrobnog spomenika Pomponije Vere",
-                            "background": true,
-                            "location": null,
-                            "pixelLocation": null
-                        }
-                    ]
-                },
-                {
-                    "tag": "Sarkofazi",
-                    "title": "Sarkofazi",
-                    "url": "/sarkofazi",
-                    "chapterNo": 3,
-                    "directory": "sarkofazi",
+                    "tag": "Sepulkralna skulptura",
+                    "title": "Sepulkralna skulptura",
+                    "chapterNo": 4,
+                    "url": "/sepulkralno",
+                    "directory": "sepulkralno",
                     "sections": [
                         {
-                            "tag": "Homoneja Zosima",
-                            "title": "Sarkofag Homoneje Zosime",
-                            "url": "/homoneja",
+                            "tag": "Stele",
+                            "title": "Stele",
+                            "url": "/stele",
                             "chapterNo": 1,
-                            "directory": "homoneja",
+                            "directory": "stele",
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Fragment sarkofaga Homoneje Zosime",
+                                    "name": "Stela s likovima bračnog para",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Fragment prednje strane sarkofaga Homoneje Zosime s prikazom erota godišnjih doba, 2. ili 3. četvrtina 3. stoljeća, (Arheološki muzej u Splitu)",
+                                    "description": "Stela s likovima bračnog para, 2.-3. desetljeće 1. stoljeća, (Gliptoteka HAZU)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
+                        },
+                        {
+                            "tag": "Are",
+                            "title": "Are",
+                            "url": "/are",
+                            "chapterNo": 2,
+                            "directory": "are",
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Ara Pomponije Vere",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "Ara Pomponije Vere u dvorištu Arheološkog muzeja u Splitu (Fototeka Gliptoteke HAZU)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Crtež sarkofaga Homonoeje Zosime",
+                                    "name": "Ara Pomponije Vere",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Crtež sarkofaga Homonoeje Zosime sa prikazima erota četiri godišnja doba (F. Lanza)",
+                                    "description": "Crtež nadgrobnog spomenika Pomponije Vere",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -1164,415 +1156,453 @@
                             ]
                         },
                         {
-                            "tag": "Eroti u lovu",
-                            "title": "Sarkofag s prikazom erota u lovu",
-                            "url": "/eroti",
-                            "chapterNo": 2,
-                            "directory": "eroti",
-                            "document": "index.html",
-                            "exhibits": [
-                                {
-                                    "name": "Atički sarkofag",
-                                    "type": "image",
-                                    "file": "1.jpg",
-                                    "description": "Atički sarkofag s prikazom erota u lovu, 1/2, 3. stoljeća, Salona, Manastirine, (Arheološki muzej u Splitu)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                            ]
-                        },
-                        {
-                            "tag": "Lov na kalidonskog vepra",
-                            "title": "Sarkofag s mitom lova na kalidonskog vepra",
-                            "url": "/kalidonski-vepar",
+                            "tag": "Sarkofazi",
+                            "title": "Sarkofazi",
+                            "url": "/sarkofazi",
                             "chapterNo": 3,
-                            "directory": "kalidonski-vepar",
-                            "document": "index.html",
-                            "exhibits": [
-                                {
-                                    "name": "Sarkofag s prikazom lova na kalidonskog vepra",
-                                    "type": "image",
-                                    "file": "1.jpg",
-                                    "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra, 2. četvrtina 3. stoljeća, (Fototeka Gliptoteke HAZU)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Putopisac Cirijak Ankonitanac ispred sarkofaga 1436.",
-                                    "type": "image",
-                                    "file": "2.jpg",
-                                    "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra ispred Malog hrama u Splitu, gdje ga je zapazio putopisac Cirijak Ankonitanac 1436. godine, a od 1886. godine čuva se u Arheološkom muzeju u Splitu",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Sarkofag u Arheološkom muzeju u Splitu",
-                                    "type": "image",
-                                    "file": "3.jpg",
-                                    "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra, 2. četvrtina 3. stoljeća, (Arheološki  muzej u Splitu)",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                            ]
-                        },
-                        {
-                            "tag": "Kentauromahija",
-                            "title": "Sarkofag s prikazom kentauromahije",
-                            "url": "/kentauromahija",
-                            "chapterNo": 4,
-                            "directory": "kentauromahija",
-                            "document": "index.html",
-                            "exhibits": [
-                                {
-                                    "name": "Sarkofag s prikazom kentauromahije",
-                                    "type": "image",
-                                    "file": "1.jpg",
-                                    "description": "Stranica sarkofaga s prikazom kentauromahije, kraj 2. i početak 3. stoljeća, sadreni odljev, (Gliptoteka HAZU)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Sarkofag s prikazom kentauromahije",
-                                    "type": "image",
-                                    "file": "2.jpg",
-                                    "description": "Stranica sarkofaga s prikazom kentauromahije, kraj 2. i početak 3. stoljeća, ugrađena u stubištu renesansno-barokne palače De Caris (kasnije Geremia, Zlendić) u Splitu",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "tag": "Ranokrščanski spomenici",
-                    "title": "Ranokrščanski spomenici",
-                    "chapterNo": 5,
-                    "url": "/ranokrscansko",
-                    "directory": "ranokrscansko",
-                    "sections": [
-                        {
-                            "tag": "Episkopalni kompleks",
-                            "title": "Episkopalni kompleks",
-                            "url": "/episkopalni-kompleks",
-                            "chapterNo": 1,
-                            "directory": "episkopalni-kompleks",
-                            "document": "index.html",
-                            "exhibits": [
-                                {
-                                    "name": "Episkopalni kompleks",
-                                    "type": "image",
-                                    "file": "1.jpg",
-                                    "description": "Pogled na episkopalni kompleks (Surveying d.o.o. Solin)",
-                                    "background": true,
-                                    "location": { "lon": 16.4830, "lat": 43.5399 },
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Tlocrt kompleksa",
-                                    "type": "image",
-                                    "file": "2.jpg",
-                                    "description": "Tlocrt episkopalnog kompleksa (W. Gerber)",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Rekonstrukcija episkopalnog kompleksa",
-                                    "type": "image",
-                                    "file": "3.jpg",
-                                    "description": "Rekonstrukcija episkopalnog kompleksa, pogled s istočne strane, 1954., (E. Dyggve)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Sjeverna bazilika episkopalnog kompleksa prije konzervacije",
-                                    "type": "image",
-                                    "file": "4.jpg",
-                                    "description": "Pogled na sjevernu baziliku episkopalnog kompleksa prije konzervacije (Fototeka Gliptoteke HAZU)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Crtež mozaika u ambulatoriju katedrale",
-                                    "type": "image",
-                                    "file": "5.jpg",
-                                    "description": "Crtež mozaika u ambulatoriju katedrale s posvetnim natpisom biskupa Simferija i Hezihija (F. Bulić, 1904.)",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Pogled na baptisterij",
-                                    "type": "image",
-                                    "file": "6.jpg",
-                                    "description": "Pogled na baptisterij (Fototeka Gliptoteke HAZU)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Pogled na oratorij „A“",
-                                    "type": "image",
-                                    "file": "6A.jpg",
-                                    "description": "Pogled na oratorij „A“ ",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Razno",
-                                    "type": "image",
-                                    "file": "7.jpg",
-                                    "description": "Prijedlog odvijanja obreda krštenja (E. Dyggveu, J. Jeličić- Radonić) / Crtež mozaika s ilustracijom Ps 41 u konsignatoriju, jeleni pored kantarosa, (W. Gerber 1917.)",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Crtež mozaika iz konsignatorija",
-                                    "type": "image",
-                                    "file": "8.jpg",
-                                    "description": "Crtež mozaika iz konsignatorija (Forschungen in Salona, l, tab, ll-llI)",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Replika mozaika s dva jelena",
-                                    "type": "image",
-                                    "file": "9.jpg",
-                                    "description": "Replika mozaika s ilustracijom dva jelena pored kantarosa, (Ps 41) u zgradi Poglavarstva grada Solina",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Replika mozaika iz konsignatorija",
-                                    "type": "video",
-                                    "thumb": "10.jpg",
-                                    "file": "10.mp4",
-                                    "description": "Replika mozaika iz salonitanskog konsignatorija izrađena u Arheološkoj radionici Konzervatorskog odjela iz Splita pod vodstvom mentora prof. dr. sc. J. Jeličić Radonić i Marijana Erštea koju su izradili studenti Umjetničke akademije u Splitu za diplomski rad tijekom akademske godine 1997./98.: Nataša Vrcan, Snježana Rašković, Vlasta Tomić, Ana Macanović i Helena Lušić. Mozaik je poklonjen Gradu Solinu.",
-                                    "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
-                                },
-                                {
-                                    "name": "Arheološka radionica i izložba",
-                                    "type": "video",
-                                    "thumb": "13.jpg",
-                                    "file": "13.mp4",
-                                    "description": "Arheološka radionica, Ministarstvo kulture Konzervatorski odjel, Split, Centar za kulturu „Zvonimir“, Solin, video i prigodna „Izložba o arheološkoj radionici i konzervatorskim radovima na zidinama Salone u galeriji „Zvonimir“ u Solinu, 7.1. 1999.,  gdje je svečano poklonjena replika mozaika Gradu Solinu.",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                            ]
-                        },
-                        {
-                            "tag": "Ranokršćanske nekropole",
-                            "title": "Ranokršćanske nekropole",
-                            "url": "/nekropole",
-                            "chapterNo": 2,
-                            "directory": "nekropole",
-                            "document": "index.html",
+                            "directory": "sarkofazi",
                             "sections": [
                                 {
-                                    "tag": "Kapljuč",
-                                    "title": "Kapljuč",
-                                    "url": "/Kapljuc",
+                                    "tag": "Homoneja Zosima",
+                                    "title": "Sarkofag Homoneje Zosime",
+                                    "url": "/homoneja",
                                     "chapterNo": 1,
-                                    "directory": "Kapljuc",
+                                    "directory": "homoneja",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Pogled na baziliku Pet mučenika",
+                                            "name": "Fragment sarkofaga Homoneje Zosime",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Pogled na cemeterijalnu baziliku Pet mučenika na Kapljuču (Surveying d.o.o. Solin)",
+                                            "description": "Fragment prednje strane sarkofaga Homoneje Zosime s prikazom erota godišnjih doba, 2. ili 3. četvrtina 3. stoljeća, (Arheološki muzej u Splitu)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Crtež mozaika u ranokršćanskoj bazilici",
+                                            "name": "Crtež sarkofaga Homonoeje Zosime",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Crtež mozaika u ranokršćanskoj bazilici na Kapljuču (J. Brønsted)",
-                                            "background": false,
+                                            "description": "Crtež sarkofaga Homonoeje Zosime sa prikazima erota četiri godišnja doba (F. Lanza)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Eroti u lovu",
+                                    "title": "Sarkofag s prikazom erota u lovu",
+                                    "url": "/eroti",
+                                    "chapterNo": 2,
+                                    "directory": "eroti",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Atički sarkofag",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Atički sarkofag s prikazom erota u lovu, 1/2, 3. stoljeća, Salona, Manastirine, (Arheološki muzej u Splitu)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Lov na kalidonskog vepra",
+                                    "title": "Sarkofag s mitom lova na kalidonskog vepra",
+                                    "url": "/kalidonski-vepar",
+                                    "chapterNo": 3,
+                                    "directory": "kalidonski-vepar",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Sarkofag s prikazom lova na kalidonskog vepra",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra, 2. četvrtina 3. stoljeća, (Fototeka Gliptoteke HAZU)",
+                                            "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Votivni mozaik",
+                                            "name": "Putopisac Cirijak Ankonitanac ispred sarkofaga 1436.",
+                                            "type": "image",
+                                            "file": "2.jpg",
+                                            "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra ispred Malog hrama u Splitu, gdje ga je zapazio putopisac Cirijak Ankonitanac 1436. godine, a od 1886. godine čuva se u Arheološkom muzeju u Splitu",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Sarkofag u Arheološkom muzeju u Splitu",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Votivni mozaik iz svetišta cemeterijalne bazilike na Kapljuču (J. Brønsted)",
+                                            "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra, 2. četvrtina 3. stoljeća, (Arheološki  muzej u Splitu)",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Kentauromahija",
+                                    "title": "Sarkofag s prikazom kentauromahije",
+                                    "url": "/kentauromahija",
+                                    "chapterNo": 4,
+                                    "directory": "kentauromahija",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Sarkofag s prikazom kentauromahije",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Stranica sarkofaga s prikazom kentauromahije, kraj 2. i početak 3. stoljeća, sadreni odljev, (Gliptoteka HAZU)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Rekonstrukcija cemeterijalne bazilike",
+                                            "name": "Sarkofag s prikazom kentauromahije",
+                                            "type": "image",
+                                            "file": "2.jpg",
+                                            "description": "Stranica sarkofaga s prikazom kentauromahije, kraj 2. i početak 3. stoljeća, ugrađena u stubištu renesansno-barokne palače De Caris (kasnije Geremia, Zlendić) u Splitu",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "tag": "Ranokrščanski spomenici",
+                            "title": "Ranokrščanski spomenici",
+                            "chapterNo": 5,
+                            "url": "/ranokrscansko",
+                            "directory": "ranokrscansko",
+                            "sections": [
+                                {
+                                    "tag": "Episkopalni kompleks",
+                                    "title": "Episkopalni kompleks",
+                                    "url": "/episkopalni-kompleks",
+                                    "chapterNo": 1,
+                                    "directory": "episkopalni-kompleks",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Episkopalni kompleks",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Pogled na episkopalni kompleks (Surveying d.o.o. Solin)",
+                                            "background": true,
+                                            "location": { "lon": 16.4830, "lat": 43.5399 },
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Tlocrt kompleksa",
+                                            "type": "image",
+                                            "file": "2.jpg",
+                                            "description": "Tlocrt episkopalnog kompleksa (W. Gerber)",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Rekonstrukcija episkopalnog kompleksa",
+                                            "type": "image",
+                                            "file": "3.jpg",
+                                            "description": "Rekonstrukcija episkopalnog kompleksa, pogled s istočne strane, 1954., (E. Dyggve)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Sjeverna bazilika episkopalnog kompleksa prije konzervacije",
                                             "type": "image",
                                             "file": "4.jpg",
-                                            "description": "Rekonstrukcija i tlocrti razvoja cemeterijalne bazilike na Kapljuču (E. Dyggve)",
+                                            "description": "Pogled na sjevernu baziliku episkopalnog kompleksa prije konzervacije (Fototeka Gliptoteke HAZU)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Rekonstrukcija svetišta",
+                                            "name": "Crtež mozaika u ambulatoriju katedrale",
                                             "type": "image",
                                             "file": "5.jpg",
-                                            "description": "Rekonstrukcija svetišta s oltarnom pregradom i ambonom",
+                                            "description": "Crtež mozaika u ambulatoriju katedrale s posvetnim natpisom biskupa Simferija i Hezihija (F. Bulić, 1904.)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Rekonstrukcija ambona",
+                                            "name": "Pogled na baptisterij",
                                             "type": "image",
                                             "file": "6.jpg",
-                                            "description": "Rekonstrukcija ambona",
-                                            "background": false,
+                                            "description": "Pogled na baptisterij (Fototeka Gliptoteke HAZU)",
+                                            "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Nadgrobna ploča četvorice martira",
+                                            "name": "Pogled na oratorij „A“",
+                                            "type": "image",
+                                            "file": "6A.jpg",
+                                            "description": "Pogled na oratorij „A“ ",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Razno",
                                             "type": "image",
                                             "file": "7.jpg",
-                                            "description": "Nadgrobna ploča četvorice martira vojnika Dioklecijanove straže",
+                                            "description": "Prijedlog odvijanja obreda krštenja (E. Dyggveu, J. Jeličić- Radonić) / Crtež mozaika s ilustracijom Ps 41 u konsignatoriju, jeleni pored kantarosa, (W. Gerber 1917.)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Votivni mozaik martira Asterija",
+                                            "name": "Replika mozaika iz konsignatorija",
+                                            "type": "video",
+                                            "thumb": "10.jpg",
+                                            "file": "10.mp4",
+                                            "description": "Replika mozaika iz salonitanskog konsignatorija izrađena u Arheološkoj radionici Konzervatorskog odjela iz Splita pod vodstvom mentora prof. dr. sc. J. Jeličić Radonić i Marijana Erštea koju su izradili studenti Umjetničke akademije u Splitu za diplomski rad tijekom akademske godine 1997./98.: Nataša Vrcan, Snježana Rašković, Vlasta Tomić, Ana Macanović i Helena Lušić. Mozaik je poklonjen Gradu Solinu.",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Crtež mozaika iz konsignatorija",
+                                            "type": "image",
+                                            "file": "8.jpg",
+                                            "description": "Crtež mozaika iz konsignatorija (Forschungen in Salona, l, tab, ll-llI)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Replika mozaika s dva jelena",
                                             "type": "image",
                                             "file": "9.jpg",
-                                            "description": "Votivni mozaik martira Asterija",
-                                            "background": true,
+                                            "description": "Replika mozaika s ilustracijom dva jelena pored kantarosa, (Ps 41) u zgradi Poglavarstva grada Solina",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Arheološka radionica i izložba",
+                                            "type": "video",
+                                            "thumb": "13.jpg",
+                                            "file": "13.mp4",
+                                            "description": "Arheološka radionica, Ministarstvo kulture Konzervatorski odjel, Split, Centar za kulturu „Zvonimir“, Solin, video i prigodna „Izložba o arheološkoj radionici i konzervatorskim radovima na zidinama Salone u galeriji „Zvonimir“ u Solinu, 7.1. 1999.,  gdje je svečano poklonjena replika mozaika Gradu Solinu.",
+                                            "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         }
                                     ]
                                 },
                                 {
-                                    "tag": "Manastirine",
-                                    "title": "Manastirine",
-                                    "url": "/Manastirine",
+                                    "tag": "Ranokršćanske nekropole",
+                                    "title": "Ranokršćanske nekropole",
+                                    "url": "/nekropole",
                                     "chapterNo": 2,
-                                    "directory": "Manastirine",
+                                    "directory": "nekropole",
                                     "document": "index.html",
-                                    "exhibits": [
+                                    "sections": [
                                         {
-                                            "name": "Manastirine iz zraka",
-                                            "type": "image",
-                                            "file": "1.jpg",
-                                            "description": "Pogled na Manastirine iz zraka (Surveying d.o.o. Solin)",
-                                            "background": true,
-                                            "location": null,
-                                            "pixelLocation": null
+                                            "tag": "Kapljuč",
+                                            "title": "Kapljuč",
+                                            "url": "/Kapljuc",
+                                            "chapterNo": 1,
+                                            "directory": "Kapljuc",
+                                            "document": "index.html",
+                                            "exhibits": [
+                                                {
+                                                    "name": "Pogled na baziliku Pet mučenika",
+                                                    "type": "image",
+                                                    "file": "1.jpg",
+                                                    "description": "Pogled na cemeterijalnu baziliku Pet mučenika na Kapljuču (Surveying d.o.o. Solin)",
+                                                    "background": true,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Crtež mozaika u ranokršćanskoj bazilici",
+                                                    "type": "image",
+                                                    "file": "2.jpg",
+                                                    "description": "Crtež mozaika u ranokršćanskoj bazilici na Kapljuču (J. Brønsted)",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Votivni mozaik",
+                                                    "type": "image",
+                                                    "file": "3.jpg",
+                                                    "description": "Votivni mozaik iz svetišta cemeterijalne bazilike na Kapljuču (J. Brønsted)",
+                                                    "background": true,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Rekonstrukcija cemeterijalne bazilike",
+                                                    "type": "image",
+                                                    "file": "4.jpg",
+                                                    "description": "Rekonstrukcija i tlocrti razvoja cemeterijalne bazilike na Kapljuču (E. Dyggve)",
+                                                    "background": true,
+                                                    "location": { "lon": 16.4775, "lat": 43.5395 },
+                                                    "pixelLocation": { "x": 835, "y": 168 }
+                                                },
+                                                {
+                                                    "name": "Rekonstrukcija svetišta",
+                                                    "type": "image",
+                                                    "file": "5.jpg",
+                                                    "description": "Rekonstrukcija svetišta s oltarnom pregradom i ambonom",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Rekonstrukcija ambona",
+                                                    "type": "image",
+                                                    "file": "6.jpg",
+                                                    "description": "Rekonstrukcija ambona",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Nadgrobna ploča četvorice martira",
+                                                    "type": "image",
+                                                    "file": "7.jpg",
+                                                    "description": "Nadgrobna ploča četvorice martira vojnika Dioklecijanove straže",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Votivni mozaik martira Asterija",
+                                                    "type": "image",
+                                                    "file": "9.jpg",
+                                                    "description": "Votivni mozaik martira Asterija",
+                                                    "background": true,
+                                                    "location": { "lon": 16.4775, "lat": 43.5395 },
+                                                    "pixelLocation": { "x": 835, "y": 168 }
+                                                }
+                                            ]
                                         },
                                         {
-                                            "name": "Cemeterijalni kompleks",
-                                            "type": "image",
-                                            "file": "2.jpg",
-                                            "description": "Cemeterijalni kompleks na Manastirinama",
-                                            "background": false,
-                                            "location": null,
-                                            "pixelLocation": null
+                                            "tag": "Manastirine",
+                                            "title": "Manastirine",
+                                            "url": "/Manastirine",
+                                            "chapterNo": 2,
+                                            "directory": "Manastirine",
+                                            "document": "index.html",
+                                            "exhibits": [
+                                                {
+                                                    "name": "Manastirine",
+                                                    "type": "image",
+                                                    "file": "1.jpg",
+                                                    "description": "Pogled na Manastirine iz zraka (Surveying d.o.o. Solin)",
+                                                    "background": true,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Cemeterijalni kompleks",
+                                                    "type": "image",
+                                                    "file": "2.jpg",
+                                                    "description": "Cemeterijalni kompleks na Manastirinama",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Ulomak nadgrobnog natpisa",
+                                                    "type": "image",
+                                                    "file": "3.jpg",
+                                                    "description": "Ulomak nadgrobnog natpisa iz konfesije cemeterijalne bazilike s imenom mučenika Dujma, (Arheološki muzej u Splitu)",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Oltarna pregrada iz bazilike",
+                                                    "type": "image",
+                                                    "file": "4.jpg",
+                                                    "description": "Oltarna pregrada iz cemeterijalne bazilike (Arheološki muzej u Splitu)",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Sarkofag dobrog pastira",
+                                                    "type": "image",
+                                                    "file": "5.jpg",
+                                                    "description": "Sarkofag dobrog pastira, (Arheološki muzej u Splitu)",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Sarkofag s Hipolitom i Fedrom",
+                                                    "label": "Manastirine",
+                                                    "type": "image",
+                                                    "file": "6.jpg",
+                                                    "description": "Sarkofag s prikazom Hipolita i Fedre, oko 300. g., (Arheološki muzej u Splitu / Fototeka ",
+                                                    "background": true,
+                                                    "location": { "lon": 16.4829, "lat": 43.5420 },
+                                                    "pixelLocation": { "x": 1093, "y": -3 }
+                                                }
+                                            ]
                                         },
                                         {
-                                            "name": "Ulomak nadgrobnog natpisa",
-                                            "type": "image",
-                                            "file": "3.jpg",
-                                            "description": "Ulomak nadgrobnog natpisa iz konfesije cemeterijalne bazilike s imenom mučenika Dujma, (Arheološki muzej u Splitu)",
-                                            "background": false,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        },
-                                        {
-                                            "name": "Oltarna pregrada iz bazilike",
-                                            "type": "image",
-                                            "file": "4.jpg",
-                                            "description": "Oltarna pregrada iz cemeterijalne bazilike (Arheološki muzej u Splitu)",
-                                            "background": false,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        },
-                                        {
-                                            "name": "Sarkofag dobrog pastira",
-                                            "type": "image",
-                                            "file": "5.jpg",
-                                            "description": "Sarkofag dobrog pastira, (Arheološki muzej u Splitu)",
-                                            "background": false,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        },
-                                        {
-                                            "name": "Sarkofag s Hipolitom i Fedrom",
-                                            "type": "image",
-                                            "file": "6.jpg",
-                                            "description": "Sarkofag s prikazom Hipolita i Fedre, oko 300. g., (Arheološki muzej u Splitu / Fototeka ",
-                                            "background": true,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        }
-                                    ]
-                                },
-                                {
-                                    "tag": "Marusinac",
-                                    "title": "Marusinac",
-                                    "url": "/Marusinac",
-                                    "chapterNo": 3,
-                                    "directory": "Marusinac",
-                                    "document": "index.html",
-                                    "exhibits": [
-                                        {
-                                            "name": "Marusinac iz zraka",
-                                            "type": "image",
-                                            "file": "1.jpg",
-                                            "description": "Pogled na Marusinac iz zraka (Surveying d.o.o. Solin)",
-                                            "background": true,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        },
-                                        {
-                                            "name": "Tlocrti cemeterijalnog kompleksa",
-                                            "type": "image",
-                                            "file": "2.jpg",
-                                            "description": "Tlocrti cemeterijalnog kompleksa na Marusincu s Anastazijevim mauzolejom i basilicom discopertom (E. Dyggve)",
-                                            "background": false,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        },
-                                        {
-                                            "name": "Rekonstrukcija basilice discoperte",
-                                            "type": "image",
-                                            "file": "3.jpg",
-                                            "description": "Rekonstrukcija basilice discoperte",
-                                            "background": true,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        },
-                                        {
-                                            "name": "Rekonstrukcija basilice discoperte",
-                                            "type": "image",
-                                            "file": "4.jpg",
-                                            "description": "Rekonstrukcija cemeterijalnog kompleksa na Marusincu, 1936. (E. Dyggve)",
-                                            "background": false,
-                                            "location": null,
-                                            "pixelLocation": null
+                                            "tag": "Marusinac",
+                                            "title": "Marusinac",
+                                            "url": "/Marusinac",
+                                            "chapterNo": 3,
+                                            "directory": "Marusinac",
+                                            "document": "index.html",
+                                            "exhibits": [
+                                                {
+                                                    "name": "Marusinac",
+                                                    "type": "image",
+                                                    "file": "1.jpg",
+                                                    "description": "Pogled na Marusinac iz zraka (Surveying d.o.o. Solin)",
+                                                    "background": true,
+                                                    "location": { "lon": 16.4752, "lat": 43.54375 },
+                                                    "pixelLocation": { "x": 727.8806, "y": 122.6594 }
+                                                },
+                                                {
+                                                    "name": "Tlocrti cemeterijalnog kompleksa",
+                                                    "type": "image",
+                                                    "file": "2.jpg",
+                                                    "description": "Tlocrti cemeterijalnog kompleksa na Marusincu s Anastazijevim mauzolejom i basilicom discopertom (E. Dyggve)",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Rekonstrukcija basilice discoperte",
+                                                    "type": "image",
+                                                    "file": "3.jpg",
+                                                    "description": "Rekonstrukcija basilice discoperte",
+                                                    "background": true,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                },
+                                                {
+                                                    "name": "Rekonstrukcija basilice discoperte",
+                                                    "type": "image",
+                                                    "file": "4.jpg",
+                                                    "description": "Rekonstrukcija cemeterijalnog kompleksa na Marusincu, 1936. (E. Dyggve)",
+                                                    "background": false,
+                                                    "location": null,
+                                                    "pixelLocation": null
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -1582,6 +1612,7 @@
                 }
             ]
         }
+        
         
     ],
     "en": [

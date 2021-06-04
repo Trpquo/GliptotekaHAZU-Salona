@@ -1,31 +1,24 @@
 <script>
     import Main from "../components/Main.svelte"
     import { filterContents } from '../utils/server'
+    import { potentialGrids } from '../utils/articleFormatter'
 
     export let content, topic
 
     let currentContent
 	$: {
-        if ( !topic || topic[0] === "salonitanski-spomenici" ) { // zbarka nastala zbog premještanja poglavlja po sadržaju
+        console.log( content )
+        if ( !topic ) { 
             currentContent = content
         }
         else { 
             currentContent = filterContents( { ...content }, topic )
         }
+        console.log( currentContent )
 	}
 
-    const grid = Math.round( Math.random() ) ? 
-            ` 
-            "h h h h a a"
-            "t t t t a a"
-            "s s s s s s"
-            `
-            :
-            ` 
-            "h t t t t ."
-            "s t t t t ."
-            "a a a a a a"
-            `
+    const grid = potentialGrids.noMap[ Math.floor( Math.random() * potentialGrids.noMap.length ) ]
+           
 </script>
 
 <Main content={ currentContent } { grid } />

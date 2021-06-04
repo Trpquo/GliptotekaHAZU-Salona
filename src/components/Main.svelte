@@ -5,40 +5,38 @@
  
     import { fade } from 'svelte/transition'
 
-    export let content, grid = `"h h h h . ." "t t t t a a" "s s s s a a"`
-
-    // console.log( content )
+    export let content, grid = '"h h h h . ." "t t t t a a" "s s s s a a"'
  
 </script>
 
 <main transition:fade={{ duration: 200 }} style={ `--content-grid: ${ grid };` }>
     <header>
-        <h1>{ content.title }</h1>
+        <h1 id="articleTitle">{ content.title }</h1>
         <slot name="header"></slot>
     </header>
     <section id="articles">
         {#if content.document }
             <Article article={ {...content, title: ""} } />
         {/if}
-        {#if content.sections && content.sections.length > 0 }
-            <nav id="sections-nav">
-                {#each content.sections as article}
-                    {#if !!article.document }
-                        <ArticleThumbnail { article } />
-                    {:else}
-                        {#if !!article.sections}
-                        {#each article.sections as section}
-                            <ArticleThumbnail article={ section } />
-                        {/each}
-                        {/if}
-                    {/if}
-                {/each}
-            </nav>
-        {/if}
-            <!-- {#each content.sections as article }
-                <Article { article } { directory } />
+        <!-- {#each content.sections as article }
+            <Article { article } { directory } />
             {/each} -->
     </section>
+    {#if content.sections && content.sections.length > 0 }
+        <nav id="sections-nav">
+            {#each content.sections as article}
+                {#if !!article.document }
+                    <ArticleThumbnail { article } />
+                {:else}
+                    {#if !!article.sections}
+                    {#each article.sections as section}
+                        <ArticleThumbnail article={ section } />
+                    {/each}
+                    {/if}
+                {/if}
+            {/each}
+        </nav>
+    {/if}
     <slot name="map"></slot>
 
     {#if content.exhibits }
@@ -50,8 +48,9 @@
 <style>
     main { 
         display: grid;
-        padding: 0 var(--default-gap);
-        gap: var(--default-gap);
+        padding: var(--default-padding) var(--default-gap);
+        margin-bottom: var(--default-padding);
+        grid-gap: var(--default-padding) var(--default-gap);
         grid-template-columns: repeat(6, 1fr);
         grid-auto-flow: dense;
         grid-template-areas: var(--content-grid);
@@ -61,15 +60,18 @@
             display: block;
         }
     }
-    header, #articles {
-        padding: var(--default-padding);
+    header, #articles, #sections-nav {
+        padding: 0 var(--default-padding);
+        margin: 0;
     }
     header { grid-area: h; }
     #articles { grid-area: t; }
+
     #sections-nav {
         grid-area: s;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(22ch, 1fr) );
+        grid-auto-rows: 23ch;
         gap: var(--default-gap);
     }
 </style>

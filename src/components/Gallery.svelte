@@ -5,11 +5,11 @@
 <style>
     section {
         display: grid;
-        grid-template-columns: repeat( auto-fit, minmax(150px, 1fr));
-        grid-auto-rows: 150px;
+        grid-template-columns: repeat( auto-fill, minmax(var(--figure-height), 1fr));
+        grid-auto-rows: var(--figure-height);
         grid-auto-flow: dense;
         align-content: start; 
         gap: var(--default-gap);
-        margin-top: 1.5rem;
+        margin: 0;
     }
 </style>

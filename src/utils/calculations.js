@@ -14,9 +14,12 @@ export const pixelMarkers = [
     {name: "Porta Caesarea", x: 1069, y: 236},
     {name: "Bazilika", x: 1100, y: 137},
     {name: "Akvadukt", x: 1100, y: 115},
-    {name: "Kula", x: 1496, y: 320},
+    // {name: "Kula", x: 1496, y: 320},
     {name: "Porta Andertia", x: 1502, y: 53},
     {name: "Sjeverni bedemi", x: 1455, y: 20},
+    {name: "Manastirine", x: 1093, y: -3},
+    {name: "Kapljuč", x: 835, y: 168},
+    {name: "Marusinac", x: 727, y: -115},
     // {name: "Ugao1", x: 639, y: 405},
     // {name: "Ugao2", x: 1223, y: 501},
 ]
