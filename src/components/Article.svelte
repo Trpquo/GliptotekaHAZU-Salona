@@ -1,7 +1,7 @@
 <script>
     import axios from 'axios'
     import { onMount } from 'svelte'
-    import formatter from '../utils/articleFormatter'
+    import formatter, { articleLayout } from '../utils/articleFormatter'
     import { language, root } from '../utils/config'
 
     export let article
@@ -40,11 +40,7 @@
         }, 100)
     })
 
-    const article_layout = [ 
-        "--article-flow: row;       --paragraph-span: span 6;      --heading-span: span 6;          --footnote-span: span 6;    --footnote-alignment: start;", 
-        "--article-flow: dense;     --paragraph-span: 3 / span 4;  --heading-span: 3 / span 4;      --footnote-span: span 2;    --footnote-alignment: center;", 
-        "--article-flow: dense;     --paragraph-span: span 4;      --heading-span: span 6;          --footnote-span: span 2;    --footnote-alignment: start;",  
-    ][ Math.round( Math.random() * 2 ) ]
+    let article_layout = articleLayout[ Math.floor( Math.random() * articleLayout.length ) ]
 
 </script>
 

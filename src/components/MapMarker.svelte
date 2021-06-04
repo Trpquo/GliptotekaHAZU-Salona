@@ -14,7 +14,7 @@
             .setText( mark.label )
     
         const marker = new mapbox.Marker({
-                color: "#AA0000",
+                color: "#33AA00",
                 pitchAlignment: "viewport",
                 rotationAlignment: "viewport",
                 element: marker_label,

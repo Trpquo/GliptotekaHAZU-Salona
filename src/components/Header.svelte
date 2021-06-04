@@ -12,6 +12,7 @@
 <style>
     header {
         height: var(--header-height);
+        margin-top: calc( var(--default-gap) * -1 );
         padding: var(--default-padding);
         background-color: var(--background-color2);
         position: -webkit-sticky;

@@ -23,3 +23,9 @@ export const potentialGrids = {
     Sepul: [],
 
 }
+
+export const articleLayout = [ 
+    "--article-flow: row;       --paragraph-span: span 6;      --heading-span: span 6;          --footnote-span: span 6;    --footnote-alignment: start;", 
+    "--article-flow: dense;     --paragraph-span: 3 / span 4;  --heading-span: 3 / span 4;      --footnote-span: span 2;    --footnote-alignment: center;", 
+    "--article-flow: dense;     --paragraph-span: span 4;      --heading-span: span 6;          --footnote-span: span 2;    --footnote-alignment: start;",  
+]

@@ -48,8 +48,8 @@
 <style>
     main { 
         display: grid;
-        padding: var(--default-padding) var(--default-gap);
         margin-bottom: var(--default-padding);
+        padding: var(--default-padding) var(--default-gap);
         grid-gap: var(--default-padding) var(--default-gap);
         grid-template-columns: repeat(6, 1fr);
         grid-auto-flow: dense;

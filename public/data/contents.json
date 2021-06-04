@@ -613,18 +613,19 @@
                             "exhibits": [
                                 {
                                     "name": "Rekonstrukcija amfiteatra",
+                                    "label": "Amfiteatar",
                                     "type": "image",
                                     "file": "2.jpg",
                                     "description": "Crtež rekonstrukcije amfiteatra (E. Dyggve)",
                                     "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
+                                    "location": { "lon": 16.4743, "lat": 43.5386 },
+                                    "pixelLocation": { "x": 684, "y": 226 }
                                 },
                                 {
                                     "name": "Tlocrt amfiteatra",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Tlocrt amfiteatra s označenim zatvaranjem sjevernih  (F. Buliću) i zapadnih bedema (J. Jeličić Radonić)",
+                                    "description": "Tlocrt amfiteatra s označenim zatvaranjem sjevernih (F. Buliću) i zapadnih bedema (J. Jeličić Radonić)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
@@ -667,6 +668,7 @@
                                 },
                                 {
                                     "name": "Pogled na amfiteatar 1930.",
+                                    "label": "Amfiteatar",
                                     "type": "image",
                                     "file": "4-(5).jpg",
                                     "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",

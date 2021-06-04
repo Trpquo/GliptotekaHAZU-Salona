@@ -89,6 +89,8 @@
 
 	{#if firstTimeHere}
 		<Hero />
+		{:else}
+		<div></div>
 	{/if}
 
 	{#await contents}
