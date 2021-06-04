@@ -19,7 +19,10 @@
     
     <hgroup on:click={ scrollToContent }>
         <h4>Izložba</h4>
-        <h1>Skulptura antičke <span>Salone</span></h1>
+        <h1>Skulptura antičke <span>Salone</span> iz fundusa Gliptoteke HAZU</h1>
+        <section>
+            logo HAZU
+        </section>
     </hgroup>
 </figure>
 

@@ -306,7 +306,18 @@
                             "url": "/carski-kult",
                             "chapterNo": 1,
                             "directory": "carski-kult",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "sections": [
+                                {
+                                    "tag": "Apollo u zagrebačkom narodnom muzeju",
+                                    "title": "I. Kršnjavi: Apollo u zagrebačkom narodnom muzeju",
+                                    "url": "/apollo",
+                                    "chapterNo": 1,
+                                    "directory": "apollo",
+                                    "document": "index.html",
+                                    "__exhibits": "staviti izvor da Jutarnji ne tuži"
+                                }
+                            ]
                         },
                         {
                             "tag": "Porta Caesarea",
@@ -852,6 +863,7 @@
                             "exhibits": [
                                 {
                                     "name": "Venera Victrix",
+                                    "label": "Hram Venere victrix",
                                     "type": "image",
                                     "file": "1.jpg",
                                     "description": "Skulptura Venere Victrix, sadreni odljev,(Gliptoteka HAZU)",

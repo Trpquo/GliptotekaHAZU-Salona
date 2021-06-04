@@ -19,8 +19,12 @@
             if ( !isVideo ) { // is image
                 img = Array.from( component.children ).find(el=> el.nodeName === "IMG"  )
                 setTimeout(()=>{
-                    if ( img.height > img.width * 1.3 ) {
+                    if ( img.height > img.width * 1.4 ) {
                         span.rows++
+                        img.src = img.src.replace('thumbs/', "")
+                    }
+                    if ( img.width > img.height * 1.4 ) {
+                        span.cols++
                         img.src = img.src.replace('thumbs/', "")
                     }
                     component.style.cssText = `grid-area: span ${ span.rows } / span ${ span.cols }; `
@@ -39,7 +43,7 @@
             })
             component.addEventListener('mouseup', e=> {
                 if (e.target === component) {
-                    const limit = { one: 100, two: 175 }
+                    const limit = { one: 75, two: 175 }
 
                     if ( e.clientX > mouse.x + limit.one || e.clientY > mouse.y + limit.one ) {
                         if ( e.clientX > mouse.x + limit.one) {
