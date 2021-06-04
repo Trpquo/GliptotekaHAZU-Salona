@@ -1,5 +1,5 @@
 <script>
-	import { onMount, setContext } from 'svelte';
+	import { onDestroy, setContext } from 'svelte';
 	import { mapbox, key, activateMapOverlay } from '../utils/mapbox.js';
 	// import StylesControl from 'mapbox-gl-controls/lib/styles'
 	import syncMaps from '@mapbox/mapbox-gl-sync-move'
@@ -17,16 +17,15 @@
     });	
 
 
-	
-	onMount(() => {
-		
-		const default_style = n=>`mapbox://styles/mapbox/${["satellite", "light", "dark", "street"][n]}-v9`
+	const setMap =()=> {
+						
+			const default_style = n=>`mapbox://styles/mapbox/${["satellite", "light", "dark", "street"][n]}-v9`
 
-		const custom_styles = { 
-			arheologija: "mapbox://styles/trpquo/cknf6o5cs1qwz17mms3nc5fr4",
+			const custom_styles = { 
+				arheologija: "mapbox://styles/trpquo/cknf6o5cs1qwz17mms3nc5fr4",
 			carrara: "mapbox://styles/trpquo/cknhr26c05n8d17nk2d9knl8l",
-		}
-		link.onload = () => {
+			}
+			link.onload = () => {
 			mapbox.accessToken = API_KEY
 			defaultMap = new mapbox.Map({
 				container: standard,
@@ -50,13 +49,13 @@
 				maxZoom: 21,
 			});
 			// defaultMap.addControl(new StylesControl({
-			// 	styles: [
-			// 		{
-			// 			label: 'Satelit',
-			// 			styleName: 'Satellite',
-			// 			styleUrl: default_style(0),
-			// 		},
-			// 		{
+				// 	styles: [
+					// 		{
+						// 			label: 'Satelit',
+						// 			styleName: 'Satellite',
+						// 			styleUrl: default_style(0),
+						// 		},
+						// 		{
 			// 		label: 'Osnovna',
 			// 		styleName: 'Arheologija',
 			// 		styleUrl: default_style(3),
@@ -67,27 +66,31 @@
 
 			syncMaps(defaultMap, historicMap)
 			activateMapOverlay(historic, container)
-		};
+			};
 
 
 
 
-		return () => {
-			defaultMap.remove();
-			historicMap.remove();
-			// link.parentNode.removeChild(link);
-			window.removeEventListener("mousedown", activateMapOverlay);
-		};
-	});
-
-
+			return () => {
+				defaultMap.remove();
+				historicMap.remove();
+				// link.parentNode.removeChild(link);
+				window.removeEventListener("mousedown", activateMapOverlay)
+			}
+	}
+	let terminator
+	$: {
+		if ( !!container ) terminator = setMap()	
+	}
+	onDestroy( terminator )
+	
 </script>
 
 <svelte:head>
 	<link bind:this={ link } href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 </svelte:head>
 
-<figure bind:this={container} >
+<figure bind:this={ container }>
 	<div bind:this={standard} class="map satellite">
 		{#if defaultMap}
 			<slot></slot>

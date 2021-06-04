@@ -1,3 +1,4 @@
+@charset "UTF-8";
 article {
   display: -ms-grid;
   display: grid;
@@ -149,5 +150,36 @@ article blockquote cite:before {
 
 article > *:last-child {
   padding-bottom: var(--default-padding);
+}
+
+article #impressuum dd, article #impressuum dt, article #impressuum ul, article #impressuum li {
+  margin: 0;
+}
+
+article #impressuum dt {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+article #impressuum ul {
+  list-style: none;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+article #impressuum ul li {
+  margin: 0;
+}
+
+article #impressuum ul li::marker {
+  content: "»  ";
+  color: var(--accent-color2);
+  font-weight: bold;
+}
+
+article #impressuum blockquote:before {
+  content: "\00a9";
+  left: -.25em;
 }
 /*# sourceMappingURL=article.css.map */

@@ -35,7 +35,7 @@
         const checkArticle = setInterval(()=>{
             if ( !!component && articleLoaded ) {
                 clearInterval( checkArticle )
-                formatter( component )
+                formatter( component, article, contentRoot )
             }
         }, 100)
     })

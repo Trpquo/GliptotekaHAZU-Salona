@@ -1,5 +1,18 @@
-export default article=>{
-    // console.log( article )
+import { heroImage, random } from "../utils/config"
+
+export default (component, article, root)=>{
+    if( !!document.querySelector("#hero") ) {
+        let heroUrl, backgrounds;
+        if ( !!article.exhibits ) backgrounds = article.exhibits.filter(exh=> exh.background && exh.type !== "video")
+        if ( !!backgrounds ? backgrounds.length === 0 : true ) {
+            heroUrl = random.visual
+        }
+        else {
+            heroUrl = root + "images/" + backgrounds[ Math.floor( Math.random() * backgrounds.length ) ].file
+        } 
+        console.log( heroUrl )
+        heroImage.set( heroUrl )
+    }
 }
 export const potentialGrids = {
     noMap: [

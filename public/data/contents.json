@@ -1,8 +1,8 @@
 {
     "hr": [
         {
-            "tag": "O izložbi",
-            "title": "O izložbi",
+            "tag": "Uz izložbu",
+            "title": "Uz izložbu",
             "chapterNo": 1,
             "url": "/",
             "directory": "uvod",
@@ -132,7 +132,9 @@
                     "tag": "Impressuum",
                     "title": "Impressuum",
                     "url": "/uvod/impressuum",
-                    "chapterNo": 0
+                    "chapterNo": 0,
+                    "directory": "impressuum",
+                    "document": "index.html"
                 }
             ]
         },
@@ -307,15 +309,84 @@
                             "chapterNo": 1,
                             "directory": "carski-kult",
                             "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Dyggve",
+                                    "type": "image",
+                                    "file": "28.jpg",
+                                    "description": "Ejnar Dyggve",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ],
                             "sections": [
                                 {
-                                    "tag": "Apollo u zagrebačkom narodnom muzeju",
+                                    "tag": "Apollo u narodnom muzeju",
                                     "title": "I. Kršnjavi: Apollo u zagrebačkom narodnom muzeju",
                                     "url": "/apollo",
                                     "chapterNo": 1,
                                     "directory": "apollo",
                                     "document": "index.html",
-                                    "__exhibits": "staviti izvor da Jutarnji ne tuži"
+                                    "__comment": "staviti izvor da Jutarnji ne tuži",
+                                    "exhibits": [
+                                        {
+                                            "name": "Apollo",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Postav kipa Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Postav zagrebačkog narodnog muzeja",
+                                            "type": "image",
+                                            "file": "2.jpg",
+                                            "description": "Postav Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Apollo",
+                                            "type": "image",
+                                            "file": "3.jpg",
+                                            "description": "Postav kipa Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Apollo",
+                                            "type": "image",
+                                            "file": "4.jpg",
+                                            "description": "Postav kipa Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Apollo nakon potresa",
+                                            "type": "image",
+                                            "file": "5.jpg",
+                                            "description": "Kip Apolla nakon potresa. Izvor fotografije: <a href=\"https://www.jutarnji.hr/vijesti/zagreb/prvi-smo-usli-u-arheoloski-muzej-u-kojem-se-spasavaju-vrijedni-artefakti-sve-skupa-uistinu-je-sokantno-vraca-nasmjesecima-unatrag-10172431\" target=\"_blank\">www.jutarnji.hr</a>",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Nop",
+                                    "title": "Njop",
+                                    "url": "/apollo",
+                                    "chapterNo": 2,
+                                    "directory": "apollo",
+                                    "document": "index.html",
+                                    "exhibits": [
+
+                                    ]
                                 }
                             ]
                         },
@@ -805,7 +876,7 @@
                             "url": "/forum",
                             "chapterNo": 2,
                             "directory": "forum",
-                            "file": "index.html",
+                            "document": "index.html",
                             "exhibits": [
                                 {
                                     "name": "Uzidane spolije Jupiterova hrama",
@@ -915,7 +986,7 @@
                             "url": "/sjeverni-bedemi",
                             "chapterNo": 4,
                             "directory": "sjeverni-bedemi",
-                            "file": "index.html",
+                            "document": "index.html",
                             "sections": [
                                 {
                                     "tag": "Konzervatorski radovi",
@@ -1123,7 +1194,7 @@
                     "chapterNo": 4,
                     "url": "/sepulkralno",
                     "directory": "sepulkralno",
-                    "file": "index.html",
+                    "document": "index.html",
                     "sections": [
                         {
                             "tag": "Stele",
@@ -1178,7 +1249,7 @@
                             "url": "/sarkofazi",
                             "chapterNo": 3,
                             "directory": "sarkofazi",
-                            "file": "index.html",
+                            "document": "index.html",
                             "sections": [
                                 {
                                     "tag": "Homoneja Zosima",
@@ -1300,7 +1371,7 @@
                             "chapterNo": 5,
                             "url": "/ranokrscansko",
                             "directory": "ranokrscansko",
-                            "file": "index.html",
+                            "document": "index.html",
                             "sections": [
                                 {
                                     "tag": "Episkopalni kompleks",
@@ -1675,9 +1746,7 @@
         {
             "tag": "Impressuum",
             "title": "Impressuum",
-            "url": "/Impressuum",
-            "directory": "impressuum",
-            "file": "index.html"
+            "url": "/Impressuum"
         }
     ]
 

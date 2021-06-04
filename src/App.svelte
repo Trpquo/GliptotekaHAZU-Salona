@@ -64,14 +64,15 @@
 	
 	page.start()
 	
-	const firstTimeHere = !window.localStorage.getItem('salona-uvod') || !isProduction // not to bug me in development mode
-	
+	let firstTime = true
 	$: {
 		if ( params !== null ) topic = Object.values( params ).filter(t=> !!t )
 		const scrollUp = setInterval(()=>{
 		
-		let target = firstTimeHere ? document.querySelector('#hero') : document.querySelector('main')
-		if (target) {
+		let target = firstTime ? document.querySelector('#hero') : document.querySelector('main')
+		if ( target ) {
+			console.log( target.tagName, window.scrollY )
+			if ( window.scrollY > 250 ) firstTime = false
 			clearInterval( scrollUp )
 			// console.log("scrolling...")
 			scroll({
@@ -87,11 +88,7 @@
 
 </script>
 
-	{#if firstTimeHere}
-		<Hero />
-		{:else}
-		<div></div>
-	{/if}
+	<Hero />
 
 	{#await contents}
 	<p>Učitavam...</p>

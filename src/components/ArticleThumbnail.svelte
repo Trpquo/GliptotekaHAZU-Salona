@@ -41,7 +41,7 @@
         else { 
             randomImage = null
         }
-        // console.log( randomImage )
+        console.log( randomImage )
     }
 
 </script>

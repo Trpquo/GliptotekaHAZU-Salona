@@ -7,14 +7,14 @@
 
     let currentContent
 	$: {
-        console.log( content )
+        // console.log( content )
         if ( !topic ) { 
             currentContent = content
         }
         else { 
             currentContent = filterContents( { ...content }, topic )
         }
-        console.log( currentContent )
+        // console.log( currentContent )
 	}
 
     const grid = potentialGrids.noMap[ Math.floor( Math.random() * potentialGrids.noMap.length ) ]

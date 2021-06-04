@@ -23,7 +23,7 @@
                         span.rows++
                         img.src = img.src.replace('thumbs/', "")
                     }
-                    if ( img.width > img.height * 1.4 ) {
+                    if ( img.width > img.height * 1.5 ) {
                         span.cols++
                         img.src = img.src.replace('thumbs/', "")
                     }
