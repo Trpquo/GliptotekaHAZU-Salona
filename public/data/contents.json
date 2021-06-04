@@ -805,6 +805,7 @@
                             "url": "/forum",
                             "chapterNo": 2,
                             "directory": "forum",
+                            "file": "index.html",
                             "exhibits": [
                                 {
                                     "name": "Uzidane spolije Jupiterova hrama",
@@ -914,6 +915,7 @@
                             "url": "/sjeverni-bedemi",
                             "chapterNo": 4,
                             "directory": "sjeverni-bedemi",
+                            "file": "index.html",
                             "sections": [
                                 {
                                     "tag": "Konzervatorski radovi",
@@ -1121,6 +1123,7 @@
                     "chapterNo": 4,
                     "url": "/sepulkralno",
                     "directory": "sepulkralno",
+                    "file": "index.html",
                     "sections": [
                         {
                             "tag": "Stele",
@@ -1175,6 +1178,7 @@
                             "url": "/sarkofazi",
                             "chapterNo": 3,
                             "directory": "sarkofazi",
+                            "file": "index.html",
                             "sections": [
                                 {
                                     "tag": "Homoneja Zosima",
@@ -1291,11 +1295,12 @@
                             ]
                         },
                         {
-                            "tag": "Ranokrščanski spomenici",
-                            "title": "Ranokrščanski spomenici",
+                            "tag": "Ranokršćanski spomenici",
+                            "title": "Ranokršćanski spomenici",
                             "chapterNo": 5,
                             "url": "/ranokrscansko",
                             "directory": "ranokrscansko",
+                            "file": "index.html",
                             "sections": [
                                 {
                                     "tag": "Episkopalni kompleks",
@@ -1670,7 +1675,9 @@
         {
             "tag": "Impressuum",
             "title": "Impressuum",
-            "url": "/Impressuum"
+            "url": "/Impressuum",
+            "directory": "impressuum",
+            "file": "index.html"
         }
     ]
 
