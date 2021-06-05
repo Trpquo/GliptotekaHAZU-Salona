@@ -10,7 +10,7 @@
         const doc = document.documentElement;
         
         let top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-        if (top > window.innerHeight / 2.5) {
+        if (top > window.innerHeight / 2) {
             scrollToContent()
             window.removeEventListener('scroll', scrollHandler, false)
             window.addEventListener('scroll', isItTop, false)
@@ -19,7 +19,7 @@
         }
     }
     const isItTop =e=> {
-        if (window.scrollY < window.innerHeight / 2.5) {
+        if (window.scrollY < window.innerHeight / 3.5) {
             scroll({ top: document.querySelector('#hero').offsetTop, behavior: "smooth"});
             window.removeEventListener('scroll', isItTop, false)
             window.addEventListener('scroll', scrollHandler, false)
@@ -33,7 +33,7 @@
         
         <hgroup on:click={ scrollToContent }>
             <h4>Izložba skulpture</h4>
-            <h1><strong>Salona</strong> u fundusu Gliptoteke HAZU</h1>
+            <h1><strong>Antičke Salone</strong> iz fundusa Gliptoteke HAZU</h1>
             <img src="/content/visuals/HAZU.svg" alt="logo HAZU" style="color: white;" />
         </hgroup>
     </figure>

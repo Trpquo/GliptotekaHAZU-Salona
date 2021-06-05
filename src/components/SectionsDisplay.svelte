@@ -6,13 +6,14 @@
 
     
 
-    let thumbnail
+    let thumbnail, thumbnail2
     $: {
         thumbnail = thumbnailCollector( section )
+        if ( !!section.exhibits ) if (section.exhibits.length > 5) { thumbnail2 = thumbnailCollector( section ) }
     }
 
     const pickRandomN =(arr, n)=> {
-        let pick = [], temp = [ ...arr ]
+        let pick = []
         if ( n > arr.length ) return arr
         for ( let i = 0; i < n; i++ ) {
             let random = pickRandom( arr )
@@ -25,7 +26,7 @@
 </script>
 
 
-<section style={ `--thumbnail: url("${ thumbnail }")` } transition:fade>
+<section style={ `--thumbnail: url("${ thumbnail }"); ${ thumbnail2 !== thumbnail ? '--thumbnail2: url("' + thumbnail2 + '");' : "" }` } transition:fade>
     <figure>
         <h1><a href={ section.url }>{ section.title }</a></h1>
         {#if !!section.exhibits}
@@ -55,6 +56,7 @@
     section {
         position: relative;
         z-index: 1;
+        overflow: hidden;
     }
     
 
@@ -68,10 +70,31 @@
         left: 0;
         z-index: -1;
         background-image: var(--thumbnail);
-        background-size: max(50%, contain);
+        background-size: contain;
+        background-position: 2%;
         background-repeat: no-repeat;
-        opacity: .5;
+        opacity: .55;
         mix-blend-mode: multiply;
+        transform: rotate(-1.5deg);
+        
+    }
+    section:after {
+        content: "";
+        display: block;
+        width: 120%;
+        height: 150%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-image: var(--thumbnail2);
+        background-size: 25%;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: .3;
+        mix-blend-mode: overlay;
+        transform: rotate(10deg);
+        filter: blur(1.5px);
 
     }
 

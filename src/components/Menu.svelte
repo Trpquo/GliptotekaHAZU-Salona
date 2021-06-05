@@ -15,13 +15,9 @@
             if ( key !== sec.url ) openSubmenu[ key ] = false
         }
         openSubmenu[ sec.url ] = !openSubmenu[ sec.url ]
-        console.log( openSubmenu )
     }
     const closeSubmenu =e=> {
-        console.log( openSubmenu )
-
         if ( e.target.nodeName === "A" ) {
-
             for ( let key of Object.keys( openSubmenu ) ) {
                 openSubmenu[ key ] = false
             }

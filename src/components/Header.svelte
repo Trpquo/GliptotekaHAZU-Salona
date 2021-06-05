@@ -41,7 +41,7 @@
     }
 
     nav { 
-        margin: 0 2rem;
+        margin: 0 4rem;
         align-self: stretch;
     }
 </style>

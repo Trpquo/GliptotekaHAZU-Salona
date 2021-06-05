@@ -129,6 +129,25 @@
                     ]
                 },
                 {
+                    "tag": "Hommage Bogdanu Žižiću ",
+                    "title": "Hommage velikom redatelju i ljubitelju salonitanske baštine Bogdanu Žižiću prikazivanjem njegovih filmova posvećenih Saloni",
+                    "url": "/uvod/bogdan",
+                    "chapterNo": 0,
+                    "directory": "bogdan",
+                    "document": "index.html",
+                    "exhibits": [
+                        {
+                            "name": "Bogdan Žižić",
+                            "type": "image",
+                            "file": "zizic.jpg",
+                            "description": "Bogdan Žižić, hrvatski filmski i televizijski redatelj i scenarist (Solin, 8. XI. 1934 – Zagreb, 29. IV. 2021).",
+                            "background": true,
+                            "location": null,
+                            "pixelLocation": null
+                        }
+                    ]
+                },
+                {
                     "tag": "Impressuum",
                     "title": "Impressuum",
                     "url": "/uvod/impressuum",
@@ -309,16 +328,62 @@
                             "chapterNo": 1,
                             "directory": "carski-kult",
                             "document": "index.html",
-                            "__exhibits": [
+                            "exhibits": [
                                 {
-                                    "name": "Dyggve",
+                                    "name": "Glava Druza Cezara",
                                     "type": "image",
-                                    "file": "28.jpg",
-                                    "description": "Ejnar Dyggve",
+                                    "file": "2.jpg",
+                                    "description": "Glava Druza Cezara",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Glava carice Livije (?)",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Glava carice Livije (?)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
+                                },
+                                {
+                                    "name": "Kip cara",
+                                    "type": "image",
+                                    "file": "6.jpg",
+                                    "description": "Kip princa cara",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Glava carice Plautile",
+                                    "type": "image",
+                                    "file": "5a.jpg",
+                                    "description": "Glava carice Plautile",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Glava carice Plautile",
+                                    "type": "image",
+                                    "file": "4AA.jpg",
+                                    "description": "Glava carice Plautile",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Telamon s glavom Aleksandra Velikog",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "Telamon s glavom Aleksandra Velikog",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
                                 }
+                                
                             ],
                             "sections": [
                                 {
@@ -378,14 +443,87 @@
                                     ]
                                 },
                                 {
-                                    "tag": "Nop",
-                                    "title": "Njop",
-                                    "url": "/apollo",
+                                    "tag": "Portret dječaka Druza Cezara",
+                                    "title": "Portret dječaka Druza Cezara",
+                                    "url": "/druz-cezar",
                                     "chapterNo": 2,
-                                    "directory": "apollo",
+                                    "directory": "druz",
                                     "document": "index.html",
                                     "exhibits": [
-
+                                        {
+                                            "name": "Glava Druza Cezara",
+                                            "type": "image",
+                                            "file": "2.jpg",
+                                            "description": "Glava Druza Cezara",
+                                            "background": false,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Portret carice (Livija?)",
+                                    "title": "Portret carice Livije (?)",
+                                    "url": "/carica-livija",
+                                    "chapterNo": 3,
+                                    "directory": "livija",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Portret carice Livije (?)",
+                                            "type": "image",
+                                            "file": "3.jpg",
+                                            "description": "Portret carice Livije (?)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },                                {
+                                    "tag": "Portret carice (Plautila?)",
+                                    "title": "Portret carice Plautile (?)",
+                                    "url": "/plautila",
+                                    "chapterNo": 4,
+                                    "directory": "livija",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Portret carice Plautile (?)",
+                                            "type": "image",
+                                            "file": "4AA.jpg",
+                                            "description": "Portret carice Plautile (?)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        },
+                                        {
+                                            "name": "Portret carice Plautile (?)",
+                                            "type": "image",
+                                            "file": "5a.jpg",
+                                            "description": "Portret carice Plautile (?)",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "tag": "Telamon s glavom Aleksandra Velikog",
+                                    "title": "Telamon s glavom Aleksandra Velikog",
+                                    "url": "/aleksandar",
+                                    "chapterNo": 4,
+                                    "directory": "aleksandar",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Telamon s glavom Aleksandra Velikog",
+                                            "type": "image",
+                                            "file": "1.jpg",
+                                            "description": "Aleksandar Veliki",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
                                     ]
                                 }
                             ]
@@ -510,6 +648,7 @@
                                 },
                                 {
                                     "name": "Forum s hramovima i teatar",
+                                    "label": "Teatar na forumu (Urbs vetus)",
                                     "type": "image",
                                     "file": "3.jpg",
                                     "description": "Pogled na forum s hramovima i teatar s Liberovim (?) hramom (Surveying d.o.o. Solin)",
@@ -618,12 +757,34 @@
                                 },
                                 {
                                     "name": "Grupa satira s golemom zmijom",
+                                    "label": "Liberov (?) hram",
                                     "type": "image",
                                     "file": "14.jpg",
                                     "description": "Grupa satira u borbi s golemom zmijom, mramor ",
                                     "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
+                                    "location": { "lon": 16.481146875, "lat": 43.53578278688525 },
+                                    "pixelLocation": { "x": 1010, "y": 410}
+                                }
+                            ],
+                            "sections": [
+                                {
+                                    "tag": "Grupa satira s golemom zmijom",
+                                    "title": "Grupa satira s golemom zmijom",
+                                    "url": "/satiri",
+                                    "chapterNo": 4,
+                                    "directory": "satiri",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Grupa satira u borbi s golemom zmijom, mramor ",
+                                            "type": "image",
+                                            "file": "14.jpg",
+                                            "description": "Grupa satira u borbi s golemom zmijom, mramor ",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -843,12 +1004,13 @@
                                 },
                                 {
                                     "name": "Mozaik s prikazom Tritona",
+                                    "label": "Namjesnikova palača",
                                     "type": "image",
                                     "file": "6.jpg",
                                     "description": "Mozaik s prikazom Tritona, kraj 3. st.",
                                     "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
+                                    "location": { "lon": 16.4839734375, "lat": 43.537678278688524 },
+                                    "pixelLocation": { "x": 1145, "y": 285 }
                                 },
                                 {
                                     "name": "Mozaik s prikazom Apolona",
@@ -898,12 +1060,13 @@
                                 },
                                 {
                                     "name": "Skulptura dječaka s psom",
+                                    "label": "Forum ( Urbs orientalis )",
                                     "type": "image",
                                     "file": "3.jpg",
                                     "description": "Skulptura dječaka s psom, mramor, votivni dar u Jupiterovom hramu, 2. stoljeće ",
                                     "background": true,
-                                    "location": null,
-                                    "pixelLocation": null
+                                    "location": { "lon": 16.4881, "lat": 43.5381 },
+                                    "pixelLocation": { "x": 1342, "y": 259 }
                                 },
                                 {
                                     "name": "Riječni rukavac gdje su pronađene spolije Jupiterova hrama",
@@ -922,6 +1085,27 @@
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
+                                }
+                            ],
+                            "sections": [
+                                {
+                                    "tag": "Dječak sa svojim ljubimcem",
+                                    "title": "Dječak se igra sa svojim ljubimcem",
+                                    "url": "/djecak",
+                                    "chapterNo": 4,
+                                    "directory": "djecak",
+                                    "document": "index.html",
+                                    "exhibits": [
+                                        {
+                                            "name": "Dječak sa svojim ljubimcem",
+                                            "type": "image",
+                                            "file": "3.jpg",
+                                            "description": "Dječak sa svojim ljubimcem",
+                                            "background": true,
+                                            "location": null,
+                                            "pixelLocation": null
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -978,7 +1162,45 @@
                             "url": "/gradske-terme",
                             "chapterNo": 2,
                             "directory": "gradske-terme",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "Gradske terme",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "Ruševine rimskih termi u Saloni",
+                                    "background": true,
+                                    "location": { "lon": 16.4839, "lat": 43.5397 },
+                                    "pixelLocation": { "x": 1141, "y": 152 }
+                                },
+                                {
+                                    "name": "Crtež mozaika pjesnikinje Sapfo",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "Crtež mozaika pjesnikinje Sapfo s Muzama",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Tlocrt rimskih termi",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "Tlocrt rimskih termi (W. Gerber)",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "Ruševine rimskih termi",
+                                    "type": "image",
+                                    "file": "4.jpg",
+                                    "description": "Ruševine rimskih termi (Fototeka Gliptoteke HAZU)",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         },
                         {
                             "tag": "Sjeverni bedemi",
@@ -1043,12 +1265,13 @@
                                         },
                                         {
                                             "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
+                                            "label": "Sjeverni gradski bedemi",
                                             "type": "image",
                                             "file": "4.jpg",
                                             "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema u vrijeme cara Marka Aurelija 170. godine (Druga kohorta Delmata podigla osam stotina stopa zidina / 236,80 m)",
                                             "background": true,
-                                            "location": null,
-                                            "pixelLocation": null
+                                            "location": { "lon": 16.4904, "lat": 43.5417 },
+                                            "pixelLocation": { "x": 1455, "y": 20 }
                                         },
                                         {
                                             "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
@@ -1388,7 +1611,7 @@
                                             "description": "Pogled na episkopalni kompleks (Surveying d.o.o. Solin)",
                                             "background": true,
                                             "location": { "lon": 16.4830, "lat": 43.5399 },
-                                            "pixelLocation": null
+                                            "pixelLocation": { "x": 1100, "y": 137 }
                                         },
                                         {
                                             "name": "Tlocrt kompleksa",
