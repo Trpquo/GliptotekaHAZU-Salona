@@ -71,8 +71,7 @@
 		
 		let target = firstTime ? document.querySelector('#hero') : document.querySelector('main')
 		if ( target ) {
-			console.log( target.tagName, window.scrollY )
-			if ( window.scrollY > 250 ) firstTime = false
+			if ( window.scrollY > window.innerHeight / 2.5 ) firstTime = false
 			clearInterval( scrollUp )
 			// console.log("scrolling...")
 			scroll({
@@ -82,7 +81,7 @@
 		}
 		}, 100)
 
-		console.log(params)
+		// console.log(params)
 	}
 	
 
@@ -91,7 +90,6 @@
 	<Hero />
 
 	{#await contents}
-	<p>Učitavam...</p>
 	<Spinner />
 	{:then chapters}
 	<Header tabs={ chapters[$language] }/>

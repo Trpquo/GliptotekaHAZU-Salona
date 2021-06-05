@@ -2,7 +2,7 @@
     "hr": [
         {
             "tag": "Uz izložbu",
-            "title": "Uz izložbu",
+            "title": "O izložbi",
             "chapterNo": 1,
             "url": "/",
             "directory": "uvod",
@@ -309,7 +309,7 @@
                             "chapterNo": 1,
                             "directory": "carski-kult",
                             "document": "index.html",
-                            "exhibits": [
+                            "__exhibits": [
                                 {
                                     "name": "Dyggve",
                                     "type": "image",

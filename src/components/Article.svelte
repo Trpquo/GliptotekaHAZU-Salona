@@ -44,10 +44,6 @@
 
 </script>
 
-<svelte:head>
-    <link rel="stylesheet" href="/article.css">
-</svelte:head>
-
 <article bind:this={ component } style={ article_layout } >
     {#if article.title}
         <h1>{ article.title }</h1>
@@ -58,6 +54,11 @@
         {/await}
     {/if}
 </article>
+
+
+<svelte:head>
+    <link href="article.css" rel="stylesheet">
+</svelte:head>
 
 <style>
     article {

@@ -69,9 +69,9 @@
         left: 0;
         background-image: var(--background-image);
         background-size: cover;
-        background-position: center;
+        background-position: 50% 25%;
         z-index: -1;
-        opacity: 1;
+        opacity: .75;
         mix-blend-mode: soft-light;
     }
     hgroup { 

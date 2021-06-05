@@ -57,19 +57,19 @@
                         if ( !!img ) img.src = img.src.replace('thumbs/', "")
                     }
                     else if ( e.clientX < mouse.x - limit.one || e.clientY < mouse.y - limit.one ) {
-                        if ( e.clientX < mouse.x + limit.one) {
+                        if ( e.clientX < mouse.x - limit.one) {
                             span.cols--
-                            if ( e.clientX > mouse.x + limit.two ) span.cols--
+                            if ( e.clientX > mouse.x - limit.two ) span.cols--
                         }
-                        if ( e.clientY < mouse.y + limit.one  ) {
+                        if ( e.clientY < mouse.y - limit.one  ) {
                             span.rows--
-                            if ( e.clientY > mouse.y + limit.two ) span.rows--
+                            if ( e.clientY > mouse.y - limit.two ) span.rows--
                         }
                     }
                     if ( span.cols < 1 ) span.cols = 1
                     if ( span.rows < 1 ) span.rows = 1
-                    if ( span.cols > 4 ) span.cols = 4
-                    if ( span.rows > 4 ) span.rows = 4
+                    if ( span.cols > 3 ) span.cols = 3
+                    if ( span.rows > 3 ) span.rows = 3
                     component.style.cssText = `grid-area: span ${ span.rows } / span ${ span.cols }; `
                     component.classList.remove("resizing")
                 }

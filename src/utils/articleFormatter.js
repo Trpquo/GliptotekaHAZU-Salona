@@ -1,4 +1,5 @@
 import { heroImage, random } from "../utils/config"
+import { root } from "./config"
 
 export default (component, article, root)=>{
     if( !!document.querySelector("#hero") ) {
@@ -8,12 +9,54 @@ export default (component, article, root)=>{
             heroUrl = random.visual
         }
         else {
-            heroUrl = root + "images/" + backgrounds[ Math.floor( Math.random() * backgrounds.length ) ].file
+            heroUrl = root + "images/" + pickRandom( backgrounds ).file
         } 
-        console.log( heroUrl )
+        // console.log( heroUrl )
         heroImage.set( heroUrl )
     }
 }
+
+export const thumbnailCollector =(article)=>{
+    let potentialBackgrounds, randomImage,
+        contentRoot = `${ root }/hr${ article.path }/images/thumbs/`
+
+
+    if (!!article.exhibits) {
+        potentialBackgrounds =  article.exhibits.filter(e=>e.background && e.type === "image")
+        if ( !!potentialBackgrounds.length ) {
+            randomImage = pickRandom( potentialBackgrounds ).file
+
+            if ( !!randomImage ) return contentRoot + randomImage
+        }
+    }
+    else if ( !!article.sections ) { 
+        let potentialCollector
+        potentialBackgrounds = {}
+            potentialCollector = article.sections.reduce((tot, curr)=>{ 
+                if ( !!curr.exhibits ) {
+                    tot[ curr.path ] = curr.exhibits.filter(e=>e.background && e.type === "image")
+                }
+                return tot
+                }, {} )
+            for ( let key of Object.keys( potentialCollector ) ) {
+                if ( !!potentialCollector[key].length ) {
+                    potentialBackgrounds[key] = potentialCollector[key]
+                }
+            }
+            if ( !!Object.keys( potentialBackgrounds ).length ) {
+                const randomKey = pickRandom( Object.keys( potentialBackgrounds ) )
+                const randomSet = potentialBackgrounds[ randomKey ]
+                const randomExhibit = pickRandom( randomSet )
+                randomImage = `${ root }/hr${ randomKey }/images/thumbs/` + randomExhibit.file
+            }
+            return randomImage
+    }
+}
+
+export const pickRandom =arr=> arr[ Math.floor( Math.random() * arr.length ) ]
+
+
+
 export const potentialGrids = {
     noMap: [
         ` "h h h h a a" "t t t t a a" "s s s s s s" `,

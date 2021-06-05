@@ -116,7 +116,7 @@
         left: 0;
         background-image: var(--thumbnail);
         background-size: cover;
-        background-position: top center;
+        background-position: 50% 15%;
         z-index: -1;
         opacity: .75;
     }

@@ -1,47 +1,16 @@
 <script>
     import { root } from '../utils/config'
+    import { thumbnailCollector } from '../utils/articleFormatter'
 
 
     export let article
     
 
-    let randomImage, contentRoot
+    let randomImage
 
     $: {
-        contentRoot = `${ root }/hr${ article.path }/images/thumbs/`
-
-        let potentialBackgrounds
-        if (!!article.exhibits) {
-            potentialBackgrounds =  article.exhibits.filter(e=>e.background && e.type === "image")
-            if ( !!potentialBackgrounds.length ) {
-                randomImage = contentRoot + potentialBackgrounds[ Math.floor(Math.random() * potentialBackgrounds.length) ].file
-            }
-        }
-        else if ( !!article.sections ) { 
-            let potentialCollector
-            potentialBackgrounds = {}
-                potentialCollector = article.sections.reduce((tot, curr)=>{ 
-                    if ( !!curr.exhibits ) {
-                        tot[ curr.path ] = curr.exhibits.filter(e=>e.background && e.type === "image")
-                    }
-                    return tot
-                 }, {} )
-                for ( let key of Object.keys( potentialCollector ) ) {
-                    if ( !!potentialCollector[key].length ) {
-                        potentialBackgrounds[key] = potentialCollector[key]
-                    }
-                }
-                if ( !!Object.keys( potentialBackgrounds ).length ) {
-                    const randomKey = Object.keys( potentialBackgrounds )[ Math.floor(Math.random() * Object.keys(potentialBackgrounds).length) ]
-                    const randomSet = potentialBackgrounds[ randomKey ]
-                    const randomExhibit = randomSet[ Math.floor(Math.random() * randomSet.length) ]
-                    randomImage = `${ root }/hr${ randomKey }/images/thumbs/` + randomExhibit.file
-                }
-        }
-        else { 
-            randomImage = null
-        }
-        console.log( randomImage )
+        randomImage = thumbnailCollector( article )
+        // console.log( randomImage )
     }
 
 </script>
@@ -57,6 +26,8 @@
 <style>
     a {
         padding: var(--default-padding);
+        font-size: var(--smaller-text);
+        line-height: 1.4em;
         margin: 0;
         background-color: var(--background-color2);
         color: var(--background-color);
@@ -78,7 +49,7 @@
         height: 100%;
         background-image: var(--background-image), linear-gradient( var(--background-color2), var(--accent-color3) );
         background-size: cover;
-        background-position: center;
+        background-position: 50% 20%;;
         mix-blend-mode: multiply;
         opacity: 1;
         transition: .5s ease-in;

@@ -8,15 +8,15 @@
 	//utils
     import { px2LoLa, pixelMarkers } from '../utils/calculations'
 	import { filterContents } from "../utils/server";
-	import { potentialGrids } from '../utils/articleFormatter'
+	import { potentialGrids, pickRandom } from '../utils/articleFormatter'
 	import { root } from '../utils/config'
 	
     export let topic, content
 
-	const pickRandom =arr=> arr[ Math.floor( Math.random() * arr.length ) ]
+	
 	const calculateCenter =markers=> markers.reduce((center, curr)=> [ center[0] + curr.lon / markers.length, center[1] + curr.lat / markers.length  ], [0,0])
 	const gatherMapMarkers =( markers, sections )=> {
-		return sections.reduce((markers, section)=>{
+		return sections.reduce((picks, section)=>{
 			let locations = []
 			if ( !!section.exhibits ) {
 				locations = section.exhibits.filter(exh=> !!exh.location && exh.type !== "video" ).map(loc=> ({ 
@@ -28,9 +28,9 @@
 			}
 			// console.log( "Pregledavam", section.title )
 			if ( !locations.length && !!section.sections ) {
-				return gatherMapMarkers( markers, section.sections )
+				return gatherMapMarkers( picks, section.sections )
 			} 
-			else return [ ...markers,  pickRandom( locations ) ].filter( m=>!!m )
+			else return [ ...picks,  pickRandom( locations ) ].filter( m=>!!m )
 			
 			}, markers || [])
 	}
@@ -49,7 +49,6 @@
 		console.log("grid:", hasExhibits ? "Urbs[" : 'noExhibits[', reasonableGrids.indexOf(grid), ']' )
 
 		// find markers for mapbox
-		let path
 		if ( hasExhibits ) {
 			
 			mapMarkers = currentContent.exhibits.filter(exh=> !!exh.location && exh.type !== "video" ).map(loc=> ({ 
@@ -72,8 +71,8 @@
 			pitch: 20,
 			bearing: -13.5,
 		}
-		if ( !!mapMarkers ) if ( !mapMarkers.length ) mapMarkers = pixelMarkers.map(px=> ({ label: px.name, ...px2LoLa(px) }) )
-		console.log( mapMarkers )
+		if ( !!mapMarkers ) if ( !mapMarkers.length ) mapMarkers = pixelMarkers.map(px=> ({ ...px2LoLa({ label: px.name, ...px }) }) )
+		console.log( "Markers", mapMarkers )
 	}
 	
 

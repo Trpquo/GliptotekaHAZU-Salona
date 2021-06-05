@@ -1,28 +1,48 @@
 <script>
+    import SectionsDisplay from './SectionsDisplay.svelte'
+
     export let tabs
 
-    // console.log(tabs)
+    let openSubmenu = tabs.reduce( ( ref, tab )=> ({ ...ref, [ tab.url ]: false }), {} ) 
+    console.log( openSubmenu )
+    
+    const scrollToContent =()=> { 
+        scroll({ top: document.querySelector('main').offsetTop - 100, behavior: "smooth"})
+    }
+    const handleSubmenu =sec=> {
+        if ( window.scrollY < window.innerHeight - document.querySelector('header').offsetHeight ) scrollToContent()
+        for (const key of Object.keys( openSubmenu )) {
+            if ( key !== sec.url ) openSubmenu[ key ] = false
+        }
+        openSubmenu[ sec.url ] = !openSubmenu[ sec.url ]
+        console.log( openSubmenu )
+    }
+
+
 </script>
 
 <ul>
     {#each tabs as tab}
         <li>
-            {#if !!tab.document }
-            <a href={ tab.url }>{ tab.tag }</a>
-            {:else}
-            <span>{ tab.tag }</span>
-            {/if}
-            {#if !!tab.sections}
-                <svelte:self tabs={ tab.sections } />
+            <h1 on:click={()=>{ handleSubmenu( tab )}} class:active={ openSubmenu[ tab.url ] }>{ tab.tag }</h1>
+            {#if !!tab.sections }
+            <nav class="massive-sub-menu" class:open={ openSubmenu[ tab.url ] }>
+
+                <SectionsDisplay section={ tab } bind:openSubmenu={ openSubmenu } />
+                
+            </nav>
             {/if}
         </li>
     {/each}
 </ul>
 
 <style>
-    ul {
-        margin: 0;
+    ul, li {
         padding: 0;
+        margin: 0 var(--default-gap);
+        height: 100%;
+    }
+    ul {
         list-style: none;
         display: flex;
         align-items: flex-start;
@@ -30,61 +50,81 @@
         border-radius: 0 0 .5rem 0;
         background-color: var(--background-color2);
         font-family: var(--alternate-font-family);
+
+        --tab-height: 75px;
     }
     li {
+        display: flex;
+    }
+    li h1 {
+        display: flex;
+        font-size: inherit;
+        font-weight: inherit;
+        box-sizing: border-box;
+        width: calc( var(--tab-height) * 2 );
+        height: var(--tab-height);
+        align-items: flex-end;
+        justify-content: center;
+        text-decoration: none;
+        padding-bottom: 1rem;
+        margin-top: calc( var(--header-height) - var(--tab-height) );
+        background-color: var(--accent-color1);
+        color: var(--background-color);
+        border-radius: 999px 999px 0 0;
+        position: relative;
+        z-index: 1;
+
+        transition: .25s .25s;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    li h1:after {
+        content: "";
+
+        display: block;
+        box-sizing: content-box;
+        width: calc( var(--tab-height) * 2 );
+        height: calc( var(--tab-height) * 2 );
+        border-bottom: .5rem solid var(--background-color2);
+        border-radius: 0 0 999px 999px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: .5s;
+    }
+    li h1:hover {
+        background-color: var(--accent-color1);
+    }
+    li h1:active, li h1.active {
+        background-color: var(--accent-color3);
+    }
+    li h1:hover:after {
+        transform: rotate(180deg);
+        border-color: var(--accent-color3);
+    }
+
+    .massive-sub-menu {
+        position: absolute;
+        top: var(--header-height);
+        left: 0;
+        display: block;
         box-sizing: border-box;
         margin: 0;
-        padding: .5rem;
-        position: relative;
-        transition: .3s ease-out .5s;
-    }
-    li a {
-        text-decoration: none;
-        position: relative;
-    }
-    li a:after {
-        content: "";
-        display: block;
-        width: 0;
-        height: 2px;
-        background-color: var(--accent-color3);
-        transition: .25s ease-out .1s;
-        position: absolute;
-        top: -2px;
-        left: 0;
-        z-index: 1000;
-    }
-    li span {
-        opacity: .70;
-    }
-    li:hover > a:after {
+        padding: var(--default-padding);
         width: 100%;
-    }
-    :global(#headerNav > ul > li > ul) {
-        display: block;
-        position: absolute;
-        min-width: 15rem;
-    }
-    :global(#headerNav li ul li) {
         height: 0;
-        width: 0;
-        padding: 0;
+        opacity: 0;
+        background-color: var(--accent-color3);
+        z-index: 8;
         overflow: hidden;
+        transition: height 1s linear, opacity .25s linear;
     }
-    :global(#headerNav li:hover, #headerNav li:active) {
-        height: auto !important;
+    .massive-sub-menu.open {
+        height: calc( 100vh - var(--header-height) );
+        overflow: auto;
+        opacity: 1;
+        transition: height 1s linear .25s, opacity .5s linear .35s;
     }
-    :global(#headerNav li:hover ul, #headerNav li:active ul) {
-        z-index: 666;
-        border-left: 1px solid var(--accent-color1);
-    }
-    :global(#headerNav li:hover > ul > li, #headerNav li:active > ul > li) {
-        transition: .3s ease-out .5s;
-        height: auto;
-        width: 100%;
-        padding: .5rem;
-    }
-    :global(#headerNav li ul  li:hover ul, #headerNav li ul li:active ul) {
-        z-index: 999;
-    }
+
 </style>

@@ -1,0 +1,110 @@
+#headerNav {
+  max-width: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+#headerNav section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: .5;
+      -ms-flex: .5 1 auto;
+          flex: .5 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: var(--default-gap);
+  margin: 0;
+  gap: var(--default-gap);
+}
+
+#headerNav nav > section a {
+  color: var(--text-color-negative);
+}
+
+#headerNav nav > section section h1 {
+  font-size: 1.2em;
+}
+
+#headerNav section {
+  -webkit-box-shadow: 3px 3px 7px 0px #0005;
+          box-shadow: 3px 3px 7px 0px #0005;
+}
+
+#headerNav section a {
+  font-family: var(--alternate-font-family);
+  color: var(--background-color);
+}
+
+#headerNav figure {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: var(--default-padding);
+  background-color: #3334;
+}
+
+#headerNav figure figcaption {
+  color: var(--text-color-negative);
+  font-size: var(--smaller-text);
+}
+
+#headerNav figure figcaption ul {
+  padding-left: 1em;
+}
+
+#headerNav figure figcaption ul li {
+  margin: 0;
+}
+
+#headerNav nav > section {
+  background-color: var(--text-color);
+  color: var(--text-color-negative);
+}
+
+#headerNav nav > section > figure > h1 a {
+  font-family: var(--main-font-family);
+  font-size: 4rem;
+  line-height: 2rem;
+}
+
+#headerNav nav > section * {
+  color: inherit;
+}
+
+#headerNav nav > section h1 {
+  font-size: 2em;
+  font-family: var(--main-font-family);
+  margin-bottom: var(--default-gap);
+}
+
+#headerNav nav > section > section {
+  background-color: var(--accent-color1);
+}
+
+#headerNav nav > section > section > figure > h1 a {
+  font-family: var(--main-font-family);
+  font-size: 2rem;
+}
+
+#headerNav nav > section > section h1 {
+  font-size: 1.4em;
+}
+
+#headerNav nav > section > section > section {
+  background-color: var(--accent-color2);
+  color: var(--text-color-negative);
+}
+
+#headerNav nav > section > section > section > section {
+  background-color: var(--background-color2);
+  color: var(--text-color);
+}
+
+#headerNav nav > section > section > section > section figure {
+  background-color: #fff5;
+}
+
+#headerNav nav > section > section > section > section figure a {
+  color: var(--text-color);
+}
+/*# sourceMappingURL=navigation.css.map */

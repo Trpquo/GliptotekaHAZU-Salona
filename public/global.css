@@ -14,13 +14,15 @@
 	--text-color: #3a3530;
 	--text-color-negative: var(--background-color);
 	--accent-color1: saddlebrown;
-	--accent-color2: forestgreen;
+	--accent-color2: seagreen;
 	--accent-color3: peru;
 	--max-screen: 1500px;
 	--header-height: 100px;
 	--footer-height: 100px;
 	--figure-height: 150px;
 	--small-text: .85rem;
+	--smaller-text: .85em;
+	--larger-text: 1.15em;
 }
 
 * {
