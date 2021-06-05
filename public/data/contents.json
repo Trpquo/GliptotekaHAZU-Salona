@@ -22,7 +22,162 @@
                             "chapterNo": 1,
                             "url": "/katalog",
                             "directory": "katalog",
-                            "document": "index.html"
+                            "document": "index.html",
+                            "exhibits": [
+                                {
+                                    "name": "1",
+                                    "type": "image",
+                                    "file": "1.jpg",
+                                    "description": "1.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "2",
+                                    "type": "image",
+                                    "file": "2.jpg",
+                                    "description": "2.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "3",
+                                    "type": "image",
+                                    "file": "3.jpg",
+                                    "description": "3.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "4",
+                                    "type": "image",
+                                    "file": "4AA.jpg",
+                                    "description": "4.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "5",
+                                    "type": "image",
+                                    "file": "5.jpg",
+                                    "description": "5.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "6",
+                                    "type": "image",
+                                    "file": "6.jpg",
+                                    "description": "6.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "7",
+                                    "type": "image",
+                                    "file": "7.jpg",
+                                    "description": "7.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "8",
+                                    "type": "image",
+                                    "file": "8.jpg",
+                                    "description": "8.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "9",
+                                    "type": "image",
+                                    "file": "9A.jpg",
+                                    "description": "9.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "10",
+                                    "type": "image",
+                                    "file": "10.jpg",
+                                    "description": "10.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "11",
+                                    "type": "image",
+                                    "file": "11.jpg",
+                                    "description": "11.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "12",
+                                    "type": "image",
+                                    "file": "12.jpg",
+                                    "description": "12.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "13",
+                                    "type": "image",
+                                    "file": "13.jpg",
+                                    "description": "13.",
+                                    "background": true,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "14",
+                                    "type": "image",
+                                    "file": "14.jpg",
+                                    "description": "14.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "15",
+                                    "type": "image",
+                                    "file": "15.jpg",
+                                    "description": "15.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "16",
+                                    "type": "image",
+                                    "file": "16.jpg",
+                                    "description": "16.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                },
+                                {
+                                    "name": "17",
+                                    "type": "image",
+                                    "file": "17.jpg",
+                                    "description": "17.",
+                                    "background": false,
+                                    "location": null,
+                                    "pixelLocation": null
+                                }
+                            ]
                         }
                     ],
                     "exhibits": [
@@ -455,7 +610,7 @@
                                             "type": "image",
                                             "file": "2.jpg",
                                             "description": "Glava Druza Cezara",
-                                            "background": false,
+                                            "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         }
@@ -484,7 +639,7 @@
                                     "title": "Portret carice Plautile (?)",
                                     "url": "/plautila",
                                     "chapterNo": 4,
-                                    "directory": "livija",
+                                    "directory": "plautila",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
