@@ -17,6 +17,18 @@
         openSubmenu[ sec.url ] = !openSubmenu[ sec.url ]
         console.log( openSubmenu )
     }
+    const closeSubmenu =e=> {
+        console.log( openSubmenu )
+
+        if ( e.target.nodeName === "A" ) {
+
+            for ( let key of Object.keys( openSubmenu ) ) {
+                openSubmenu[ key ] = false
+            }
+        }
+    }
+
+    window.addEventListener('click', closeSubmenu, false)
 
 
 </script>
@@ -28,8 +40,8 @@
             {#if !!tab.sections }
             <nav class="massive-sub-menu" class:open={ openSubmenu[ tab.url ] }>
 
-                <SectionsDisplay section={ tab } bind:openSubmenu={ openSubmenu } />
-                
+                <SectionsDisplay section={ tab } />
+
             </nav>
             {/if}
         </li>
@@ -118,7 +130,7 @@
         background-color: var(--accent-color3);
         z-index: 8;
         overflow: hidden;
-        transition: height 1s linear, opacity .25s linear;
+        transition: height .5s linear, opacity .25s linear .25s;
     }
     .massive-sub-menu.open {
         height: calc( 100vh - var(--header-height) );

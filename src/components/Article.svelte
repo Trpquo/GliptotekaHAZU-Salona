@@ -56,9 +56,7 @@
 </article>
 
 
-<svelte:head>
-    <link href="article.css" rel="stylesheet">
-</svelte:head>
+
 
 <style>
     article {

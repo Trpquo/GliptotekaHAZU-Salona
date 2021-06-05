@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #headerNav {
   max-width: 100%;
   width: 100%;
@@ -16,6 +17,10 @@
   padding: var(--default-gap);
   margin: 0;
   gap: var(--default-gap);
+}
+
+#headerNav nav > section {
+  gap: var(--default-padding);
 }
 
 #headerNav nav > section a {
@@ -49,11 +54,16 @@
 }
 
 #headerNav figure figcaption ul {
-  padding-left: 1em;
+  padding-left: .25rem;
 }
 
 #headerNav figure figcaption ul li {
   margin: 0;
+}
+
+#headerNav figure figcaption ul li::marker {
+  content: "»  ";
+  color: var(--background-color2);
 }
 
 #headerNav nav > section {
@@ -78,7 +88,26 @@
 }
 
 #headerNav nav > section > section {
-  background-color: var(--accent-color1);
+  background-color: var(--accent-color3);
+}
+
+#headerNav nav > section > section > figure {
+  position: relative;
+  z-index: 1;
+}
+
+#headerNav nav > section > section > figure:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: var(--accent-color2);
+  opacity: .5;
+  mix-blend-mode: overlay;
 }
 
 #headerNav nav > section > section > figure > h1 a {
@@ -91,8 +120,13 @@
 }
 
 #headerNav nav > section > section > section {
-  background-color: var(--accent-color2);
+  background-color: var(--accent-color1);
   color: var(--text-color-negative);
+}
+
+#headerNav nav > section > section > section > figure > h1 a {
+  font-family: var(--main-font-family);
+  font-size: 1.2em;
 }
 
 #headerNav nav > section > section > section > section {
@@ -106,5 +140,9 @@
 
 #headerNav nav > section > section > section > section figure a {
   color: var(--text-color);
+}
+
+#headerNav nav > section > section > section > section li::marker {
+  color: var(--accent-color2);
 }
 /*# sourceMappingURL=navigation.css.map */

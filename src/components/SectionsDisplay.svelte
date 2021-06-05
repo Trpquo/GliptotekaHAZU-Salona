@@ -1,19 +1,25 @@
 <script>
-    import { thumbnailCollector } from '../utils/articleFormatter'
+    import { thumbnailCollector, pickRandom } from '../utils/articleFormatter'
     import { fade } from "svelte/transition"
 
-    export let section, openSubmenu
+    export let section
 
-    const closeSubmenu =()=> {
-        for ( let key of Object.keys( openSubmenu ) ) {
-            openSubmenu[ key ] = false
-        }
-        console.log( openSubmenu )
-    }
+    
 
     let thumbnail
     $: {
         thumbnail = thumbnailCollector( section )
+    }
+
+    const pickRandomN =(arr, n)=> {
+        let pick = [], temp = [ ...arr ]
+        if ( n > arr.length ) return arr
+        for ( let i = 0; i < n; i++ ) {
+            let random = pickRandom( arr )
+            if ( !pick.includes( random ) ) pick.push(random)
+            else i--
+        }
+        return pick
     }
 
 </script>
@@ -21,13 +27,14 @@
 
 <section style={ `--thumbnail: url("${ thumbnail }")` } transition:fade>
     <figure>
-        <h1><a href={ section.url } on:click={ ()=>{  } }>{ section.title }</a></h1>
+        <h1><a href={ section.url }>{ section.title }</a></h1>
         {#if !!section.exhibits}
         <figcaption>
             <ul>
-                {#each section.exhibits as pic}
+                {#each pickRandomN( section.exhibits, 3 ) as pic}
                     <li>{ pic.name }</li>
                 {/each}
+                . . .
             </ul>
         </figcaption>
         {/if}
@@ -40,9 +47,7 @@
     {/if}
 </section>
 
-<svelte:head>
-    <link href="navigation.css" rel="stylesheet">
-</svelte:head>
+
 
 <style>
 
@@ -63,7 +68,7 @@
         left: 0;
         z-index: -1;
         background-image: var(--thumbnail);
-        background-size: contain;
+        background-size: max(50%, contain);
         background-repeat: no-repeat;
         opacity: .5;
         mix-blend-mode: multiply;
