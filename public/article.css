@@ -10,6 +10,15 @@ article {
   gap: 1rem;
 }
 
+@media (max-width: 1024px) {
+  article {
+    display: block;
+  }
+  article * {
+    margin: 1em 0;
+  }
+}
+
 article + article {
   border-top: 3px solid var(--background-color2);
   padding-top: var(--default-padding);

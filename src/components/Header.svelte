@@ -23,6 +23,8 @@
         position: -webkit-sticky;
         position: sticky;
         top: 0;
+        left: 0;
+        right: 0;
         z-index: 9;
         display: flex;
     }
@@ -38,6 +40,14 @@
     h1 a:hover {
         filter: brightness(150%);
         text-decoration: none;
+    }
+    @media (max-width: 1024px) {
+        h1 {
+            display: none;
+        }
+        header nav {
+            margin: 0 auto;
+        } 
     }
 
     nav { 

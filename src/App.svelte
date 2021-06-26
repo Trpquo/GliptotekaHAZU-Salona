@@ -115,17 +115,7 @@
 	{/await}
 
 <style>
-	:global(body) {
-		width: 90%;
-		max-width: var(--max-screen);
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: auto var(--header-height) 1fr var(--footer-height);
-		grid-gap: var(--default-gap);
-	}
-	@media (max-width: 1200px) {
-		:global(body) {
-			width: 100%;
-		}
+	:global(html) {
+		width: auto;
 	}
 </style>

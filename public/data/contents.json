@@ -528,17 +528,7 @@
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
-                                },
-                                {
-                                    "name": "Telamon s glavom Aleksandra Velikog",
-                                    "type": "image",
-                                    "file": "1.jpg",
-                                    "description": "Telamon s glavom Aleksandra Velikog",
-                                    "background": false,
-                                    "location": null,
-                                    "pixelLocation": null
-                                }
-                                
+                                }                                
                             ],
                             "sections": [
                                 {
@@ -656,25 +646,6 @@
                                             "type": "image",
                                             "file": "5a.jpg",
                                             "description": "Portret carice Plautile (?)",
-                                            "background": true,
-                                            "location": null,
-                                            "pixelLocation": null
-                                        }
-                                    ]
-                                },
-                                {
-                                    "tag": "Telamon s glavom Aleksandra Velikog",
-                                    "title": "Telamon s glavom Aleksandra Velikog",
-                                    "url": "/aleksandar",
-                                    "chapterNo": 4,
-                                    "directory": "aleksandar",
-                                    "document": "index.html",
-                                    "exhibits": [
-                                        {
-                                            "name": "Telamon s glavom Aleksandra Velikog",
-                                            "type": "image",
-                                            "file": "1.jpg",
-                                            "description": "Aleksandar Veliki",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null

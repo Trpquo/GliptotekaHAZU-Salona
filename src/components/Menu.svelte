@@ -122,6 +122,7 @@
         padding: var(--default-padding);
         width: 100%;
         height: 0;
+        min-height: 0;
         opacity: 0;
         background-color: var(--accent-color3);
         z-index: 8;
@@ -129,10 +130,11 @@
         transition: height .5s linear, opacity .25s linear .25s;
     }
     .massive-sub-menu.open {
-        height: calc( 100vh - var(--header-height) );
+        min-height: calc( 100vh - var(--header-height) );
+        height: auto;
         overflow: auto;
         opacity: 1;
-        transition: height 1s linear .25s, opacity .5s linear .35s;
+        transition: height 1s linear .25s, min-height 1s linear .25s, opacity .5s linear .35s;
     }
 
 </style>
