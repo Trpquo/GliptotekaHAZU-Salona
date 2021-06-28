@@ -161,6 +161,15 @@ article > *:last-child {
   padding-bottom: var(--default-padding);
 }
 
+article canvas {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid var(--background-light);
+  max-width: 100%;
+  height: auto !important;
+}
+
 article #impressuum dd, article #impressuum dt, article #impressuum ul, article #impressuum li {
   margin: 0;
 }

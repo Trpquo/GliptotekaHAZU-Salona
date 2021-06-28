@@ -1,5 +1,6 @@
 import { heroImage, random } from "../utils/config"
 import { root } from "./config"
+import importModel from './importModel'
 
 export default (component, article, root)=>{
     if( !!document.querySelector("#hero") ) {
@@ -13,6 +14,14 @@ export default (component, article, root)=>{
         } 
         // console.log( heroUrl )
         heroImage.set( heroUrl )
+    }
+
+    if ( !!article.models && !!component ) {
+        for ( const model of article.models ) {
+            importModel( `${ root }models/${model.file}`, component )
+        }
+    } else if (!!article.models) {
+        console.error("No component mounted to append 3D model.")
     }
 }
 

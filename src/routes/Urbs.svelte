@@ -46,7 +46,7 @@
 		let hasExhibits = !!currentContent.exhibits
 		let reasonableGrids = potentialGrids[ hasExhibits ? "Urbs" : "noExhibits" ]
 		grid = pickRandom( reasonableGrids )
-		console.log("grid:", hasExhibits ? "Urbs[" : 'noExhibits[', reasonableGrids.indexOf(grid), ']' )
+		// console.log("grid:", hasExhibits ? "Urbs[" : 'noExhibits[', reasonableGrids.indexOf(grid), ']' )
 
 		// find markers for mapbox
 		if ( hasExhibits ) {
@@ -72,7 +72,7 @@
 			bearing: -13.5,
 		}
 		if ( !!mapMarkers ) if ( !mapMarkers.length ) mapMarkers = pixelMarkers.map(px=> ({ ...px2LoLa({ label: px.name, ...px }) }) )
-		console.log( "Markers", mapMarkers )
+		// console.log( "Markers", mapMarkers )
 	}
 	
 

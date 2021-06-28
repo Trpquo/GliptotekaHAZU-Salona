@@ -5,10 +5,11 @@
     import { language, root } from '../utils/config'
 
     export let article
-    let component, articleLoaded = false, contentRoot
+    let component, articleLoaded = false, noModel = true, contentRoot
 
     $: {
         contentRoot = `${ root }/${ $language }${ article.path }/`
+        noModel = true
     }
     
    
@@ -31,16 +32,29 @@
         }
     }
     
-    onMount(()=>{
-        const checkArticle = setInterval(()=>{
-            if ( !!component && articleLoaded ) {
-                clearInterval( checkArticle )
-                formatter( component, article, contentRoot )
-            }
-        }, 100)
-    })
+    // onMount(()=>{
+    //     const checkArticle = setInterval(()=>{
+    //         if ( !!component && articleLoaded ) {
+    //             clearInterval( checkArticle )
+    //             formatter( component, article, contentRoot )
+    //         }
+    //     }, 100)
+
+    //     return ()=>{ article = null }
+    // })
+
+    $: {
+        if ( !!component && articleLoaded && noModel ) {
+            const canvases = component.querySelectorAll('canvas')
+            canvases.forEach(el=>{ el.remove() })
+            formatter( component, article, contentRoot )
+            noModel = false
+        }
+    }
 
     let article_layout = articleLayout[ Math.floor( Math.random() * articleLayout.length ) ]
+
+
 
 </script>
 

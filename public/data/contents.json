@@ -910,6 +910,13 @@
                                             "location": null,
                                             "pixelLocation": null
                                         }
+                                    ],
+                                    "models": [
+                                        {
+                                            "name": "Grupa satira u borbi s golemom zmijom, mramor",
+                                            "type": "obj",
+                                            "file": "SatyrgruppeWeb.obj"
+                                        }
                                     ]
                                 }
                             ]
@@ -1230,6 +1237,13 @@
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
+                                        }
+                                    ],
+                                    "models": [
+                                        {
+                                            "name": "Dječak sa svojim ljubimcem",
+                                            "type": "obj",
+                                            "file": "DjecakWeb.obj"
                                         }
                                     ]
                                 }

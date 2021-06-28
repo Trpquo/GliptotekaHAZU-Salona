@@ -21,8 +21,8 @@
 
 	let contents
 
+	
 	const storedContents = window.sessionStorage.getItem('salona-contents')
-
 	$: {
 		if ( !storedContents || !isProduction ) {
 			contents = contnetsFromServer()

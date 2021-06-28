@@ -4,7 +4,7 @@
     export let tabs
 
     let openSubmenu = tabs.reduce( ( ref, tab )=> ({ ...ref, [ tab.url ]: false }), {} ) 
-    console.log( openSubmenu )
+    // console.log( openSubmenu )
     
     const scrollToContent =()=> { 
         scroll({ top: document.querySelector('main').offsetTop - 100, behavior: "smooth"})
