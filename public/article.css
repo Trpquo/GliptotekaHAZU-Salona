@@ -162,10 +162,9 @@ article > *:last-child {
 }
 
 article canvas {
+  display: block;
   background-color: transparent;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid var(--background-light);
+  background-color: var(--background-light);
   max-width: 100%;
   height: auto !important;
 }
