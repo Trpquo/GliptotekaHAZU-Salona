@@ -52,7 +52,13 @@
         }
     }
 
-    let article_layout = articleLayout[ Math.floor( Math.random() * articleLayout.length ) ]
+    $: {
+        console.log( article.directory.indexOf( "uvod" ) >= 0 ? "withFootnotes" : "noFootnotes" )
+    }
+
+    const layouts = article.directory.indexOf( "uvod" ) >= 0 ? articleLayout.withFootnotes : articleLayout.noFootnotes
+
+    let article_layout = layouts[ Math.floor( Math.random() * layouts.length ) ]
 
 
 
