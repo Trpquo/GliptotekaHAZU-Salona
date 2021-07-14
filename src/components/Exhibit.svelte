@@ -3,7 +3,7 @@
     import { onMount } from 'svelte'
     import { slide } from 'svelte/transition'
 
-    export let exhibit, path
+    export let exhibit, path, carousel, index
     
     
     let component
@@ -73,6 +73,10 @@
                     component.style.cssText = `grid-area: span ${ span.rows } / span ${ span.cols }; `
                     component.classList.remove("resizing")
                 }
+            })
+
+            component.addEventListener('dblclick', ()=>{
+                carousel = index
             })
         }
     })

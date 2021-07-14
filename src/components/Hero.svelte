@@ -1,6 +1,6 @@
 <script>
     import { fade } from 'svelte/transition'
-    import { heroImage } from "../utils/config"
+    import { heroImage, language } from "../utils/config"
 
      const scrollToContent =()=> { 
         scroll({ top: document.querySelector('main').offsetTop - 100, behavior: "smooth"}); 
@@ -32,8 +32,13 @@
     <figure id="hero" style={ `--background-image: url("${ $heroImage }");` } transition:fade >
         
         <hgroup on:click={ scrollToContent }>
+            {#if $language === "hr"}
             <h4>Izložba skulpture</h4>
             <h1><strong>Antičke Salone</strong> iz fundusa Gliptoteke HAZU</h1>
+            {:else}
+            <h4>The sculpture of</h4>
+            <h1><strong>Antique Salona</strong> from the holdings of the Glyptotheque CASA</h1>
+            {/if}
             <img src="/content/visuals/HAZU.svg" alt="logo HAZU" style="color: white;" />
         </hgroup>
     </figure>

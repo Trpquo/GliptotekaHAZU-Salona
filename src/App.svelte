@@ -44,13 +44,17 @@
 		route = Home 
 		params = ctx.params
 	})
+	page('/intro/:1?/:2?', (ctx)=>{ 
+		route = Home 
+		params = ctx.params
+	})
 	page('/Gliptoteka/:1?/:2?', (ctx)=>{ 
 		route = Gliptoteka
 		params = { 0: "Gliptoteka", ...ctx.params }
 	})
-	page('/Gliptotheque/:1?/:2?/:3?', (ctx)=>{ 
+	page('/Glyptotheque/:1?/:2?/:3?', (ctx)=>{ 
 		route = Gliptoteka
-		params = { 0: "Gliptoteka", ...ctx.params }
+		params = { 0: "Glyptotheque", ...ctx.params }
 	})
 	page('/Salona/:1?/:2?/:3?/:4?', (ctx)=>{ 
 		route = Urbs
@@ -81,7 +85,7 @@
 		}
 		}, 100)
 
-		// console.log(params)
+		// language.set("en")
 	}
 	
 

@@ -1,7 +1,7 @@
 <script>
     import { language } from '../utils/config'
 
-    const setLanguage=lang=>()=>{ language.set(lang) }
+    const setLanguage=lang=>()=>{ language.set( lang ) }
 </script>
 
 <footer>
