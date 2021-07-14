@@ -18,7 +18,7 @@ export default (component, article, root)=>{
 
     if ( !!article.models && !!component ) {
         for ( const model of article.models ) {
-            importModel( `${ root }models/${model.file}`, component )
+            importModel( `${ root.replace('/en/', '/hr/') }models/${ model.file }`, component )
         }
     } else if (!!article.models) {
         console.error("No component mounted to append 3D model.")
