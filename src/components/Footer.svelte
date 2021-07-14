@@ -1,7 +1,10 @@
 <script>
     import { language } from '../utils/config'
 
-    const setLanguage=lang=>()=>{ language.set( lang ) }
+    const setLanguage=lang=>()=>{ 
+        language.set( lang ) 
+        window.sessionStorage.setItem( 'lang', lang )
+    }
 </script>
 
 <footer>

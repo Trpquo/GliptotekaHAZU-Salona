@@ -85,7 +85,10 @@
 		}
 		}, 100)
 
-		// language.set("en")
+		const storedLang = window.sessionStorage.getItem('lang')
+		if ( !!storedLang && storedLang !== $language  ) {
+			language.set( storedLang )
+		}
 	}
 	
 

@@ -14,7 +14,7 @@
     
    
     const fetchSection =( articleUrl )=> { 
-        const storedArticle = isProduction ? window.localStorage.getItem( `salona-article-${ article.tag.replace(" ", "_") }` ) : null
+        const storedArticle = isProduction && $language !== 'en' ? window.localStorage.getItem( `salona-article-${ article.tag.replace(" ", "_") }` ) : null
         if ( !storedArticle ) {
             
             return axios.get( articleUrl )
