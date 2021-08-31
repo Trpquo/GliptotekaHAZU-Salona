@@ -690,10 +690,10 @@
                                     "pixelLocation":{ "x": 1069, "y": 236 }
                                 },
                                 {
-                                    "name": "Rekonstrukcija Porta Caesarea",
+                                    "name": "Reconstruction of Porta Caesarea",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Rekonstrukcija Porta Caesarea (H. Kähler)",
+                                    "description": "Reconstruction of Porta Caesarea (H. Kähler)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -2254,7 +2254,7 @@
                             "name": "",
                             "type": "image",
                             "file": "F-189.jpg",
-                            "description": "Depo s odljevima iz antičke zbirke oko 1940-ih",
+                            "description": "Depot with castings from an Antique Collection around the 1940s",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
@@ -2263,52 +2263,52 @@
                             "name": "",
                             "type": "image",
                             "file": "F-282.jpg",
-                            "description": "Postav antičke zbirke u Gipsoteci, 1942.",
+                            "description": "Displays of the Antique Collection in the Gipsotheca, 1942",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Solinjanka u Gipsoteci",
+                            "name": "Solinjanka in the Gipsotheca",
                             "type": "image",
                             "file": "F-286.jpg",
-                            "description": "Postav antičke zbirke u Gipsoteci, Solinjanka, 1942.",
+                            "description": "Displays of the Antique Collection in the Gipsotheca, 1942 ",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Antička zbirka u Gipsoteci",
+                            "name": "Antique Collection in the Gipsotheca",
                             "type": "image",
                             "file": "G-D-62.jpg",
-                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "description": "Displays of the Antique Collection in the Gipsotheca, 1947",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Antička zbirka u Gipsoteci",
+                            "name": "Antique Collection in the Gipsotheca",
                             "type": "image",
                             "file": "G-D-67.jpg",
-                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "description": "Displays of the Antique Collection in the Gipsotheca, 1947",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Antička zbirka u Gipsoteci",
+                            "name": "Antique Collection in the Gipsotheca",
                             "type": "image",
                             "file": "G-D-68.jpg",
-                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "description": "Displays of the Antique Collection in the Gipsotheca, 1947",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Antička zbirka u Gipsoteci",
+                            "name": "Antique Collection in the Gipsotheca",
                             "type": "image",
                             "file": "G-D-69.jpg",
-                            "description": "Postav antičke zbirke u Gipsoteci 1947.",
+                            "description": "Displays of the Antique Collection in the Gipsotheca, 1947",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
@@ -2324,28 +2324,28 @@
                     "document": "index.html",
                     "exhibits": [
                         {
-                            "name": "Torzo cara",
+                            "name": "Torso of the Roman emperor from Salona",
                             "type": "image",
                             "file": "1.png",
-                            "description": "Torzo cara",
+                            "description": "Torso of the Roman emperor from Salona",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Crtež zbirke Ivana Luke Garagnina 1805.",
+                            "name": "Drawing of the Collection of Luka Garagnin 1805 (Trogir City Museum)",
                             "type": "image",
                             "file": "2.jpg",
-                            "description": "Crtež zbirke Ivana Luke Garagnina 1805. godine (Muzej grada Trogira)",
+                            "description": "Drawing of the Collection of Luka Garagnin 1805 (Trogir City Museum)",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Trajanovo poprsje",
+                            "name": "Trajan’s bust",
                             "type": "image",
                             "file": "3.jpg",
-                            "description": "Trajanovo poprsje iz zbirke F. Lanze, Kunsthistorisches Museum, Beč (foto A. Torlak)",
+                            "description": "Trajan’s bust from the Collection of F. Lanza, Kunsthistorisches Museum, Beč (foto A. Torlak)",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
@@ -2353,9 +2353,9 @@
                     ]
                 },
                 {
-                    "tag": "Hommage Bogdanu Žižiću ",
-                    "title": "Hommage velikom redatelju i ljubitelju salonitanske baštine Bogdanu Žižiću prikazivanjem njegovih filmova posvećenih Saloni",
-                    "url": "/uvod/bogdan",
+                    "tag": "Tribute to Bogdan Žižić ",
+                    "title": "Tribute to a great director and a lover of the heritage of Salona, Bogdan Žižić, with the screening of his films devoted to Salona.",
+                    "url": "/intro/bogdan",
                     "chapterNo": 0,
                     "directory": "bogdan",
                     "document": "index.html",
@@ -2364,7 +2364,7 @@
                             "name": "Bogdan Žižić",
                             "type": "image",
                             "file": "zizic.jpg",
-                            "description": "Bogdan Žižić, hrvatski filmski i televizijski redatelj i scenarist (Solin, 8. XI. 1934 – Zagreb, 29. IV. 2021).",
+                            "description": "Croatian film and television director, screenwriter (Solin, November 8, 1934 – Zagreb, 29 Mrch, 2021)",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
@@ -2391,46 +2391,46 @@
             "document": "index.html",
             "exhibits": [
                 {
-                    "name": "Panoramski pogled",
+                    "name": "Panoramic view of the Salona",
                     "type": "image",
                     "file": "0.jpg",
-                    "description": "Panoramski pogled na Salonu",
+                    "description": "Panoramic view of the Salona",
                     "background": true,
                     "location": null,
                     "pixelLocation": null
                 },
                 {
-                    "name": "Topografska karta (F. Lanza, 1826.)",
+                    "name": "Topographic Map of Salona (F. Lanza, 1826)",
                     "type": "image",
                     "file": "1.jpg",
-                    "description": "Topografska karta Salone (F. Lanza, 1826.)",
+                    "description": "Topographic Map of Salona (F. Lanza, 1826)",
                     "background": true,
                     "location": null,
                     "pixelLocation": null
                 },
                 {
-                    "name": "Tlocrt (F. Carrara, 1848.)",
+                    "name": "Map of Salona (F. Carrara, 1848)",
                     "type": "image",
                     "file": "2.jpg",
-                    "description": "Tlocrt Salone (F. Carrara, 1848.)",
+                    "description": "Map of Salona (F. Carrara, 1848)",
                     "background": true,
                     "location": null,
                     "pixelLocation": null
                 },
                 {
-                    "name": "Tlocrt Salone (E. Dyggve)",
+                    "name": "Map of Salona (E. Dyggve)",
                     "type": "image",
                     "file": "3.jpg",
-                    "description": "Tlocrt Salone (E. Dyggve)",
+                    "description": "Map of Salona (E. Dyggve)",
                     "background": false,
                     "location": null,
                     "pixelLocation": null
                 },
                 {
-                    "name": "Plan razvoja grada (E. Dyggve, 1951.)",
+                    "name": "Ejnar Dyggve’s plan of the development of the city of Salona, 1951",
                     "type": "image",
                     "file": "4.jpg",
-                    "description": "Plan razvoja grada Salone (E. Dyggve, 1951.)",
+                    "description": "Ejnar Dyggve’s plan of the development of the city of Salona, 1951",
                     "background": false,
                     "location": null,
                     "pixelLocation": null
@@ -2554,46 +2554,46 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Glava Druza Cezara",
+                                    "name": "Portrait of Drusus Caesar",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Glava Druza Cezara",
+                                    "description": "Portrait of Drusus Caesar",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Glava carice Livije (?)",
+                                    "name": "Portrait of Empress (Livia?)",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Glava carice Livije (?)",
+                                    "description": "Portrait of Empress (Livia?)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Kip cara",
+                                    "name": "Portrait of imperial prince",
                                     "type": "image",
                                     "file": "6.jpg",
-                                    "description": "Kip princa cara",
+                                    "description": "Portrait of emperor prince",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Glava carice Plautile",
+                                    "name": "Portrait of Empress (Plautilla?)",
                                     "type": "image",
                                     "file": "5a.jpg",
-                                    "description": "Glava carice Plautile",
+                                    "description": "Portrait of Empress (Plautilla?)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Glava carice Plautile",
+                                    "name": "Portrait of Empress (Plautilla?)",
                                     "type": "image",
                                     "file": "4AA.jpg",
-                                    "description": "Glava carice Plautile",
+                                    "description": "Portrait of Empress (Plautilla?)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
@@ -2601,8 +2601,8 @@
                             ],
                             "sections": [
                                 {
-                                    "tag": "Apollo u narodnom muzeju",
-                                    "title": "I. Kršnjavi: Apollo u zagrebačkom narodnom muzeju",
+                                    "tag": "The Apollo in the National Museum",
+                                    "title": "I. Kršnjavi: The Apollo in the Zagreb National Museum",
                                     "url": "/apollo",
                                     "chapterNo": 1,
                                     "directory": "apollo",
@@ -2613,16 +2613,16 @@
                                             "name": "Apollo",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Postav kipa Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "description": "The placing of the statue in the Archaeological Museum in Zagreb in the Croatian Academy of Sciences and Arts building (photographic collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Postav zagrebačkog narodnog muzeja",
+                                            "name": "The set up of the Archaeological Museum in Zagreb",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Postav Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "description": "The set up of the Archaeological Museum in Zagreb in the Croatian Academy of Sciences and Arts building (photographic collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -2631,7 +2631,7 @@
                                             "name": "Apollo",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Postav kipa Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "description": "The placing of the statue in the Archaeological Museum in Zagreb in the Croatian Academy of Sciences and Arts building (photographic collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
@@ -2640,16 +2640,16 @@
                                             "name": "Apollo",
                                             "type": "image",
                                             "file": "4.jpg",
-                                            "description": "Postav kipa Arheološkog muzeja u palači HAZU (Fototeka Gliptoteke HAZU)",
+                                            "description": "The placing of the statue in the Archaeological Museum in Zagreb in the Croatian Academy of Sciences and Arts building (photographic collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Apollo nakon potresa",
+                                            "name": "Apollo after the earthquake",
                                             "type": "image",
                                             "file": "5.jpg",
-                                            "description": "Kip Apolla nakon potresa. Izvor fotografije: <a href=\"https://www.jutarnji.hr/vijesti/zagreb/prvi-smo-usli-u-arheoloski-muzej-u-kojem-se-spasavaju-vrijedni-artefakti-sve-skupa-uistinu-je-sokantno-vraca-nasmjesecima-unatrag-10172431\" target=\"_blank\">www.jutarnji.hr</a>",
+                                            "description": "The statue of Apollo after the earthquake. Source: <a href=\"https://www.jutarnji.hr/vijesti/zagreb/prvi-smo-usli-u-arheoloski-muzej-u-kojem-se-spasavaju-vrijedni-artefakti-sve-skupa-uistinu-je-sokantno-vraca-nasmjesecima-unatrag-10172431\" target=\"_blank\">www.jutarnji.hr</a>",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
@@ -2657,18 +2657,18 @@
                                     ]
                                 },
                                 {
-                                    "tag": "Portret dječaka Druza Cezara",
-                                    "title": "Portret dječaka Druza Cezara",
-                                    "url": "/druz-cezar",
+                                    "tag": "Portrait of Drusus Caesar",
+                                    "title": "Portrait of Drusus Caesar as a boy",
+                                    "url": "/drusus-caesar",
                                     "chapterNo": 2,
                                     "directory": "druz",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Glava Druza Cezara",
+                                            "name": "Head of Drusus Caesar",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Glava Druza Cezara",
+                                            "description": "Head of Drusus Caesar as a boy",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -2676,45 +2676,45 @@
                                     ]
                                 },
                                 {
-                                    "tag": "Portret carice (Livija?)",
-                                    "title": "Portret carice Livije (?)",
-                                    "url": "/carica-livija",
+                                    "tag": "Head of Empress Livia (?)",
+                                    "title": "Head of Empress Livia (?)",
+                                    "url": "/livia",
                                     "chapterNo": 3,
                                     "directory": "livija",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Portret carice Livije (?)",
+                                            "name": "Head of Empress Livia (?)",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Portret carice Livije (?)",
+                                            "description": "Head of Empress Livia (?)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         }
                                     ]
                                 },                                {
-                                    "tag": "Portret carice (Plautila?)",
-                                    "title": "Portret carice Plautile (?)",
-                                    "url": "/plautila",
+                                    "tag": "Head of Empress Plautilla (?)",
+                                    "title": "Head of Empress Plautilla (?)",
+                                    "url": "/plautilla",
                                     "chapterNo": 4,
                                     "directory": "plautila",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Portret carice Plautile (?)",
+                                            "name": "Head of Empress Plautilla (?)",
                                             "type": "image",
                                             "file": "4AA.jpg",
-                                            "description": "Portret carice Plautile (?)",
+                                            "description": "Head of Empress Plautilla (?)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Portret carice Plautile (?)",
+                                            "name": "Head of Empress Plautilla (?)",
                                             "type": "image",
                                             "file": "5a.jpg",
-                                            "description": "Portret carice Plautile (?)",
+                                            "description": "Head of Empress Plautilla (?)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -2744,7 +2744,7 @@
                                     "name": "Porta Caesarea",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Porta Caesarea (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "Porta Caesarea (Photographic Collection of the Glyptotheque, 1930)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -2753,16 +2753,16 @@
                                     "name": "Porta Caesarea",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Porta Caesarea (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "Porta Caesarea (Photographic Collection of the Glyptotheque, 1930)",
                                     "background": true,
                                     "location": { "lon": 16.4824, "lat": 43.5384 },
                                     "pixelLocation":{ "x": 1069, "y": 236 }
                                 },
                                 {
-                                    "name": "Rekonstrukcija Porta Caesarea",
+                                    "name": "Reconstruction of Porta Caesarea",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Rekonstrukcija Porta Caesarea (H. Kähler)",
+                                    "description": "Reconstruction of Porta Caesarea (H. Kähler)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -2796,10 +2796,10 @@
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Istočni bedemi Urbs Vetus",
+                                    "name": "East defensive walls <em>Urbs Vetus</em>",
                                     "type": "image",
                                     "file": "8.jpg",
-                                    "description": "Istočni bedemi <em>Urbs Vetus</em>",
+                                    "description": "East defensive walls of <em>Urbs Vetus</em>",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
@@ -2815,147 +2815,147 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Rekonstrukcija forumskog kompleksa i teatra",
+                                    "name": "Reconstruction of the forum complex and theatre",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Rekonstrukcija forumskog kompleksa i teatra s hramovima (Arhiv E. Dyggve/ Ministarstvo kulture, Konzervatorski odjel u Splitu)",
+                                    "description": "Reconstruction of the forum complex and theatre with temples (E. Dyggve Archive)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Salona na Trajanovoom stupu",
+                                    "name": "Salona on Trajan’s Column",
                                     "type": "image",
                                     "file": "1A.jpg",
-                                    "description": "Detalj Trajanovog stupa s prikazom Salone  / Car Trajan",
+                                    "description": "Depiction of Salona on Trajan’s Column in Rome / Emperor Trajan",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Kompleks foruma s teatrom",
+                                    "name": "Complex of forum including the theatre",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Kompleks foruma s teatrom",
+                                    "description": "Complex of forum including the theatre",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Forum s hramovima i teatar",
-                                    "label": "Teatar na forumu (Urbs vetus)",
+                                    "name": "Theatre with temple",
+                                    "label": "Theatre on forum (Urbs vetus)",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Pogled na forum s hramovima i teatar s Liberovim (?) hramom (Surveying d.o.o. Solin)",
+                                    "description": "View of theatre with temple (Surveying d.o.o. Solin)",
                                     "background": true,
                                     "location": { "lon": 16.4807, "lat": 43.5359 },
                                     "pixelLocation": { "x": 990, "y": 404 }
                                 },
                                 {
-                                    "name": "Torzo cara Augusta u oklopu",
+                                    "name": "Torso of Emperor Augustus",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Torzo cara Augusta u oklopu, mramor",
+                                    "description": "Torso of Emperor Augustus in armour, marble",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Skulpture članova carske obitelji",
+                                    "name": "Sculptures of members of the imperial family",
                                     "type": "image",
                                     "file": "5.jpg",
-                                    "description": "Skulpture članova carske obitelji: Portret Nerona Cezara (Arheološki muzej u Splitu), Druza Cezara (Arheološki muzej u Zagrebu), cara Domicijana  (Pomorski muzej u Kotoru), carice Livije (?),(Arheološki muzej u Zagrebu), cara Trajana (Kunsthistorisches Museum u Beču)",
+                                    "description": "Sculptures of members of the imperial family: Portrait of Neron Caesar (Archaeological Museum Split), Drusus Caesar (Archaeological Museum Zagreb), Emperor Domician (Maritime museum of Montenegro, Kotor), Empress Livia (?), (Archeological Museum Zagreb), Emperor Trajan (Kunsthistorisches Museum, Wienna)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Portret carice Plautille",
+                                    "name": "Head of Empress Plautilla",
                                     "type": "image",
                                     "file": "5A.jpg",
-                                    "description": "Portret carice Plautille (?), mramor, (Arheološki muzej u Zagrebu)",
+                                    "description": "Head of Empress Plautilla (?), (Archaeological Museum Zagreb)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Portret carice Plautille",
+                                    "name": "Head of Empress Plautilla",
                                     "type": "image",
                                     "file": "5B.jpg",
-                                    "description": "Portret carice Plautille (?), mramor, (Arheološki muzej u Zagrebu)",
+                                    "description": "Head of Empress Plautilla (?), marble, (Archaeological Museum Zagreb)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Kip princa",
+                                    "name": "Statue of imperial price",
                                     "type": "image",
                                     "file": "6.jpg",
-                                    "description": "Kip princa (?), mramor, (Arheološki muzej u Zagrebu)",
+                                    "description": "Statue of imperial price (?), (Archaeological Museum Zagreb)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Arhitravna greda s natpisom Augustu i Tiberiju",
+                                    "name": "Architrave with a dedicatory epigraph to Augustus and Tiberius",
                                     "type": "image",
                                     "file": "7.jpg",
-                                    "description": "Arhitravna greda s posvetnim natpisom Augustu i Tiberiju / Razvojne faze hramova na forumu (E. Dyggve, 1933.)",
+                                    "description": "Architrave with a dedicatory epigraph to Augustus and Tiberius / Phases of Development of Temples on the Forum (E. Dyggve, 1933)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Ulomak natpisa s forumskih termi",
+                                    "name": "Fragment of an epigraph from the Forum baths",
                                     "type": "image",
                                     "file": "8.jpg",
-                                    "description": "Ulomak natpisa s forumskih termi (balneum) u pločniku karda / Arhivski crtež termi sa sjeverne strane foruma (V. Andrić, F. Lanza)",
+                                    "description": "Fragment of an epigraph from the Forum baths (balneum) in the paving of the cardo / Archival drawing of the baths on the northern side of the Forum (V. Andrić, F. Lanza)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Lukovi supstrukcije s južne strane foruma",
+                                    "name": "View onto the arches of the substructure of the southern side of the Forum",
                                     "type": "image",
                                     "file": "9.jpg",
-                                    "description": "Pogled na lukove supstrukcije s južne strane foruma i tlocrt građevine pored lučnih otvora (F. Carrara)",
+                                    "description": "View onto the arches of the substructure of the southern side of the Forum and ground plan of a building by the arched apertures (F. Carrara)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Kardo uz zapadnu stranu foruma",
+                                    "name": "The cardo by the western side of the forum",
                                     "type": "image",
                                     "file": "10.jpg",
-                                    "description": "Pogled na kardo uz zapadnu stranu foruma",
+                                    "description": "View onto the cardo by the western side of the forum",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Rekonstrukcija teatra s Liberovim (?) hramom",
+                                    "name": "Theatre with the temple of Liber",
                                     "type": "image",
                                     "file": "11.jpg",
-                                    "description": "Pogled na teatar s Liberovim (?) hramom / Rekonstrukcija teatra (E. Dyggve)",
+                                    "description": "View onto the theatre with the temple of Liber (?) / Theatre reconstruction (E. Dyggve)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Rekonstrukcija Liberova (?) hrama",
+                                    "name": "Reconstruction of the temple of Liber",
                                     "type": "image",
                                     "file": "13.jpg",
-                                    "description": "Rekonstrukcija Liberova (?) hrama pored teatra (E. Dyggve) / Razvojne faze hrama (Fr. Weilbach)",
+                                    "description": "Reconstruction of the temple of Liber by the theatre (E. Dyggve) / Phases of development of the temple (F. Weilbach)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Grupa satira s golemom zmijom",
+                                    "name": "Group of satyrs with a huge serpent",
                                     "label": "Liberov (?) hram",
                                     "type": "image",
                                     "file": "14.jpg",
-                                    "description": "Grupa satira u borbi s golemom zmijom, mramor ",
+                                    "description": "Group of satyrs doing battle with a huge serpent, marble ",
                                     "background": true,
                                     "location": { "lon": 16.481146875, "lat": 43.53578278688525 },
                                     "pixelLocation": { "x": 1010, "y": 410}
@@ -2963,18 +2963,18 @@
                             ],
                             "sections": [
                                 {
-                                    "tag": "Grupa satira s golemom zmijom",
-                                    "title": "Grupa satira s golemom zmijom",
-                                    "url": "/satiri",
+                                    "tag": "Group of satyrs with a huge serpent",
+                                    "title": "Group of satyrs in battle with a huge serpent",
+                                    "url": "/satyrs",
                                     "chapterNo": 4,
                                     "directory": "satiri",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Grupa satira u borbi s golemom zmijom, mramor ",
+                                            "name": "Group of satyrs in battle with a huge serpent, marble",
                                             "type": "image",
                                             "file": "14.jpg",
-                                            "description": "Grupa satira u borbi s golemom zmijom, mramor ",
+                                            "description": "Group of satyrs in battle with a huge serpent, marble",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -2982,7 +2982,7 @@
                                     ],
                                     "models": [
                                         {
-                                            "name": "Grupa satira u borbi s golemom zmijom, mramor",
+                                            "name": "Group of satyrs in battle with a huge serpent, marble",
                                             "type": "obj",
                                             "file": "SatyrgruppeWeb.obj"
                                         }
@@ -3001,47 +3001,47 @@
                     "document": "index.html",
                     "exhibits": [
                         {
-                            "name": "Tlocrt zapadnog dijela Salone",
+                            "name": "Western part of the city",
                             "type": "image",
                             "file": "1.jpg",
-                            "description": "Tlocrt zapadnog dijela Salone - <em>Urbs occidentalis</em> (E. Dyggve)",
+                            "description": "Western part of the city (E. Dyggve)",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Pogled na amfiteatar",
+                            "name": "View of the amphitheatre",
                             "type": "image",
                             "file": "1A.jpg",
-                            "description": "Pogled na <em>Urbs occidentalis</em> i amfiteatar (Surveying d.o.o. Solin)",
+                            "description": "View of the <em>Urbs occidentalis</em> with amphitheatre (Surveying d.o.o. Solin)",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Zapadni dio amfiteatra i zapadni bedemi",
+                            "name": "The western part of the amphitheatre and defensive walls",
                             "type": "image",
                             "file": "5.jpg",
-                            "description": "Pogled na zapadni dio amfiteatra i zapadne bedeme Salone za vrijeme istraživanja 2006. godine  ",
+                            "description": "View onto the western part of the amphitheatre and western defensive walls of Salona as seen during the research of 2006",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Zračni snimak",
+                            "name": "Aerial photograph",
                             "type": "image",
                             "file": "9.jpg",
-                            "description": "Zračni snimak s pogledom na <em>Urbs occidentalis</em>",
+                            "description": "Aerial photograph with a view of <em>Urbs occidentalis</em>",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Arheološka istraživanja zapadnog dijela amfiteatra",
+                            "name": "Archaeological excavations of the western part of the amphitheatre",
                             "type": "video",
                             "thumb": "10.jpg",
                             "file": "10.mp4",
-                            "description": "Arheološka istraživanja zapadnog dijela amfiteatra splitskog Konzervatorskog odjela Ministarstva kulture RH pod vodstvom J. Jeličić Radonić uz sudjelovanje studenata Odsjeka povijesti Filozofskog fakulteta iz Splita",
+                            "description": "Archaeological excavations of the western part of the amphitheatre by the Split Conservation Department of the Ministry of Culture of the Republic of Croatia, led by J. Jeličić Radonić, with the participation of students of the history section of the Faculty of Humanities and Social Sciences in Split, video.",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
@@ -3057,84 +3057,84 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Rekonstrukcija amfiteatra",
+                                    "name": "Reconstruction of amphitheatre",
                                     "label": "Amfiteatar",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Crtež rekonstrukcije amfiteatra (E. Dyggve)",
+                                    "description": "Drawing of the reconstruction of amphitheatre (E. Dyggve)",
                                     "background": false,
                                     "location": { "lon": 16.4743, "lat": 43.5386 },
                                     "pixelLocation": { "x": 684, "y": 226 }
                                 },
                                 {
-                                    "name": "Tlocrt amfiteatra",
+                                    "name": "Ground plan of amphitheatre",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Tlocrt amfiteatra s označenim zatvaranjem sjevernih (F. Buliću) i zapadnih bedema (J. Jeličić Radonić)",
+                                    "description": "Ground plan of amphitheatre (F. Buliću) and northern defense walls (J. Jeličić Radonić)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "type": "image",
                                     "file": "4-(1).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "type": "image",
                                     "file": "4-(2).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "type": "image",
                                     "file": "4-(3).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "type": "image",
                                     "file": "4-(4).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "label": "Amfiteatar",
                                     "type": "image",
                                     "file": "4-(5).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": true,
                                     "location": { "lon": 16.4743, "lat": 43.5386 },
                                     "pixelLocation": { "x": 684, "y": 226 }
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "type": "image",
                                     "file": "4-(6).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Pogled na amfiteatar 1930.",
+                                    "name": "View of the amphitheatre 1930",
                                     "type": "image",
                                     "file": "4-(7).jpg",
-                                    "description": "Pogled na amfiteatar (Fototeka Gliptoteke HAZU, 1930.)",
+                                    "description": "View of the amphitheatre (Fototheke of Glyptotheke CASA, 1930)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -3160,74 +3160,74 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Tlocrt namjesnikova palače",
+                                    "name": "Ground plan of the governor’s palace",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Tlocrt namjesnikova palače (J. Jeličić- Radonić)",
+                                    "description": "Ground plan of the governor’s palace, (L. Crema – J. Jeličić Radonić)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Reljef salonitanske Tihe",
+                                    "name": "Relief of Tyche",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Reljef salonitanske Tihe",
+                                    "description": "Relief of Tyche",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Zaglavni kamen s prikazom Rome",
+                                    "name": "Keystone with representation of Rome",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Zaglavni kamen s prikazom Rome",
+                                    "description": "Keystone with representation of Rome",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Rekonstrukcija luka s reljefima Rome i Tihe",
+                                    "name": "Reconstruction of the relief of Roma and Tyche",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Rekonstrukcija luka s reljefima Rome i Tihe nad ulaznim vratima namjesnikove palače ( J. Jeličić- Radonić)",
+                                    "description": "Reconstruction of the relief of Roma and Tyche over the door of the governor’s palace (J. Jeličić Radonić)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Mozaik s prikazom Orfeja",
+                                    "name": "Mosaic with depiction of Orpheus",
                                     "type": "image",
                                     "file": "5.jpg",
-                                    "description": "Mozaik s prikazom Orfeja, 2. st.",
+                                    "description": "Mosaic with depiction of Orpheus, 2<sup>nd</sup> century",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Mozaik s prikazom Tritona",
-                                    "label": "Namjesnikova palača",
+                                    "name": "Mosaic with depiction of Triton",
+                                    "label": "Governor’s palace",
                                     "type": "image",
                                     "file": "6.jpg",
-                                    "description": "Mozaik s prikazom Tritona, kraj 3. st.",
+                                    "description": "Mosaic with depiction of Triton, end of 3<sup>rd</sup> century",
                                     "background": true,
                                     "location": { "lon": 16.4839734375, "lat": 43.537678278688524 },
                                     "pixelLocation": { "x": 1145, "y": 285 }
                                 },
                                 {
-                                    "name": "Mozaik s prikazom Apolona",
+                                    "name": "Mosaic with depiction of Apolon",
                                     "type": "image",
                                     "file": "7.jpg",
-                                    "description": "Mozaik s prikazom Apolona, kraj 3. st.",
+                                    "description": "Mosaic with depiction of Apolon, end of 3<sup>rd</sup> century",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Mozaik u velikoj dvorani",
+                                    "name": "Mosaic in the grand hall",
                                     "type": "image",
                                     "file": "8.jpg",
-                                    "description": "Mozaik u velikoj dvorani sa središnjim i ugaonim pilonima u vrijeme istraživanja 1942. g.",
+                                    "description": "Mosaic in the grand hall with central and corner pylons during the excavations of 1942",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -3243,47 +3243,47 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Uzidane spolije Jupiterova hrama",
+                                    "name": "Part of the covered sewer with spolia from the temple of Jupiter incorporated",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Dio natkrivenog drenažnog kanala s uzidanim spolijama Jupiterova hrama",
+                                    "description": "Part of the covered sewer with spolia from the temple of Jupiter incorporated",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Dijelovi Jupiterova hrama",
+                                    "name": "Part of the coffered ceiling, altar and capital of the Temple of Jupiter",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Dio kasetiranog stropa, žrtvenik i kapitel Jupiterova hrama",
+                                    "description": "Part of the coffered ceiling, altar and capital of the Temple of Jupiter",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Skulptura dječaka s psom",
+                                    "name": "Sculpture of boy with dog",
                                     "label": "Forum ( Urbs orientalis )",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Skulptura dječaka s psom, mramor, votivni dar u Jupiterovom hramu, 2. stoljeće ",
+                                    "description": "Sculpture of boy with dog, marble, votive gift in the Temple of Jupiter, 2<sup>nd</sup> century",
                                     "background": true,
                                     "location": { "lon": 16.4881, "lat": 43.5381 },
                                     "pixelLocation": { "x": 1342, "y": 259 }
                                 },
                                 {
-                                    "name": "Riječni rukavac gdje su pronađene spolije Jupiterova hrama",
+                                    "name": "The channel of the river in which spolia from the Temple of Jupiter were found",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Detalj bankine riječnog rukavca gdje su pronađene spolije Jupiterova hrama: nadvratnik, kapitel, postament skulpture carice Priske",
+                                    "description": "Detail of the bank of the channel of the river in which spolia from the Temple of Jupiter were found: lintel, capital, plinth of the sculpture of Empress Prisca",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Natpis carice Priske",
+                                    "name": "Epigraph of Empress Prisca",
                                     "type": "image",
                                     "file": "5.jpg",
-                                    "description": "Postamnet s natpisom carice Priske, Dioklecijanove žene: Aureliae / Priscae / nobilissimae / feminae",
+                                    "description": "Plinth with epigraph of Empress Prisca, Diocletian’s wife: Aureliae / Priscae / nobilissimae / feminae",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -3291,18 +3291,18 @@
                             ],
                             "sections": [
                                 {
-                                    "tag": "Dječak sa svojim ljubimcem",
-                                    "title": "Dječak se igra sa svojim ljubimcem",
-                                    "url": "/djecak",
+                                    "tag": "A boy at play with his pet",
+                                    "title": "A boy at play with his pet",
+                                    "url": "/boy-with-pet",
                                     "chapterNo": 4,
                                     "directory": "djecak",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Dječak sa svojim ljubimcem",
+                                            "name": "A boy at play with his pet",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Dječak sa svojim ljubimcem",
+                                            "description": "A boy at play with his pet",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -3310,7 +3310,7 @@
                                     ],
                                     "models": [
                                         {
-                                            "name": "Dječak sa svojim ljubimcem",
+                                            "name": "A boy at play with his pet",
                                             "type": "obj",
                                             "file": "DjecakWeb.obj"
                                         }
@@ -3319,46 +3319,46 @@
                             ]
                         },
                         {
-                            "tag": "Venera Victrix",
-                            "title": "Venera Victrix",
-                            "url": "/venera-victrix",
+                            "tag": "Venus Victrix",
+                            "title": "Venus Victrix",
+                            "url": "/venus-victrix",
                             "chapterNo": 2,
                             "directory": "venera-victrix",
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Venera Victrix",
-                                    "label": "Hram Venere victrix",
+                                    "name": "Sculpture of Venus Victrix",
+                                    "label": "Temple of Venus victrix",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Skulptura Venere Victrix, sadreni odljev,(Gliptoteka HAZU)",
+                                    "description": "Sculpture of Venus Victrix, 3<sup>rd</sup> century, (Photographic Collection of the Glyptotheque)",
                                     "background": true,
                                     "location": { "lon": 16.49, "lat": 43.54 },
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Skulptura Venere Victrix, mramor",
+                                    "name": "Sculpture of Venus Victrix, marble",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Skulptura Venere Victrix, mramor, 3. st., Dioklecijanovo doba, (Arheološki muzej u Splitu)",
+                                    "description": "Sculpture of Venus Victrix, 3<sup>rd</sup> century, (Archaeological Museum Split)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Ulomci arhitektonske skulpture hrama",
+                                    "name": "Fragments of architectural sculpture",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Ulomci arhitektonske skulpture hrama kraj Porta Andetria za vrijeme istraživanja (Arhiv E. Dyggve)",
+                                    "description": "Fragments of architectural sculpture during research (E. Dyggve Archive)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Ulomci arhitektonske skulpture hrama",
+                                    "name": "Fragments of architectural sculpture",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Ulomci arhitektonske skulpture za vrijeme istraživanja (Arhiv E. Dyggve)",
+                                    "description": "Fragments of architectural sculpture during research (E. Dyggve Archive)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
@@ -3374,37 +3374,37 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Gradske terme",
+                                    "name": "Roman thermae in Salona",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Ruševine rimskih termi u Saloni",
+                                    "description": "Roman thermae in Salona",
                                     "background": true,
                                     "location": { "lon": 16.4839, "lat": 43.5397 },
                                     "pixelLocation": { "x": 1141, "y": 152 }
                                 },
                                 {
-                                    "name": "Crtež mozaika pjesnikinje Sapfo",
+                                    "name": "Drawing of the mosaic of the poetess Sappho",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Crtež mozaika pjesnikinje Sapfo s Muzama",
+                                    "description": "Drawing of the mosaic of the poetess Sappho with the Muses",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Tlocrt rimskih termi",
+                                    "name": "Ground plan of Roman thermae",
                                     "type": "image",
                                     "file": "3.jpg",
-                                    "description": "Tlocrt rimskih termi (W. Gerber)",
+                                    "description": "Ground plan of Roman thermae (W. Gerber)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Ruševine rimskih termi",
+                                    "name": "Ruins of Roman thermae",
                                     "type": "image",
                                     "file": "4.jpg",
-                                    "description": "Ruševine rimskih termi (Fototeka Gliptoteke HAZU)",
+                                    "description": "Ruins of Roman thermae, (Photographic Collection of the Glyptotheque)",
                                     "background": false,
                                     "location": null,
                                     "pixelLocation": null
@@ -3428,75 +3428,75 @@
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Bedemi prije zaštitnih radova",
+                                            "name": "Northern defensive walls before the rescue works",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> prije zaštitnih radova splitskog Konzervatorskog odjela ",
+                                            "description": "Northern defensive walls of <em>Urbs orientalis</em> in the state they were before the rescue works of the Split Conservation Department",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "name": "Northern defensive walls during the rescue works in 1997 to 1998",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
+                                            "description": "Northern defensive walls of <em>Urbs orientalis</em> during the rescue works of the Split Conservation Department in 1997 to 1998",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "name": "Northern defensive walls during the rescue works in 1997 to 1998",
                                             "type": "image",
                                             "file": "2A.jpg",
-                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom zaštitnih radova splitskog Konzervatorskog odjela 1997.-1998. godine",
+                                            "description": "Northern defensive walls of <em>Urbs orientalis</em> during the rescue works of the Split Conservation Department in 1997 to 1998",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "name": "Northern defensive walls during the rescue works in 1997 to 1998",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Sjeverni bedemi <em>Urbs orientalis</em> tijekom konzervatorskih radova 1997.-1998. splitskog Konzervatorskog odjela",
+                                            "description": "Northern defensive walls of <em>Urbs orientalis</em> during the rescue works of the Split Conservation Department in 1997 to 1998",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Bedemi tijekom zaštitnih radova 1997.-1998.",
+                                            "name": "GPR of Northern defensive walls during the rescue works in 1997 to 1998",
                                             "type": "image",
                                             "file": "3A.jpg",
-                                            "description": "Georadarski snimak dijela sjevernih gradskih zidina Urbs orientalis tijekom konzervatorskih radova 1997.-1998. godine",
+                                            "description": "GPR image of part of the northern defensive walls of Urbs orientalis during the 1997 to 1998 conservation works",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
-                                            "label": "Sjeverni gradski bedemi",
+                                            "name": "Northern city walls with incorporated epigraph",
+                                            "label": "Northern city walls",
                                             "type": "image",
                                             "file": "4.jpg",
-                                            "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema u vrijeme cara Marka Aurelija 170. godine (Druga kohorta Delmata podigla osam stotina stopa zidina / 236,80 m)",
+                                            "description": "Northern city walls with incorporated epigraph referring to the building of the walls at the time of Emperor Marcus Aurelius in 170 (the 2<sup>nd</sup> Delmati Cohort built 800 feet of wall (or 235.8 m)",
                                             "background": true,
                                             "location": { "lon": 16.4904, "lat": 43.5417 },
                                             "pixelLocation": { "x": 1455, "y": 20 }
                                         },
                                         {
-                                            "name": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema",
+                                            "name": "Northern city walls with incorporated epigraph",
                                             "type": "image",
                                             "file": "5.jpg",
-                                            "description": "Sjeverne gradske zidine s uzidanim natpisom o gradnji bedema (vexillationes legija druge Pije i treće Konkordije podigle dvije stotine stopa / 59,20 m)",
+                                            "description": "Northern city walls with incorporated epigraph referring to the building of the walls (vexillationes of Legio II Pius and Legio III Concordia put up two hundred feet (59.2 m)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Zaštitni radovi splitskog Konzervatorskog odjela",
+                                            "name": "Rescue operations of the Split Conservation Department",
                                             "type": "video",
                                             "thumb": "6.jpg",
                                             "file": "6.mp4",
-                                            "description": "Zaštitni radovi splitskog Konzervatorskog odjela na dijelu sjevernih bedema na Bilankuši 1997. godine, video",
+                                            "description": "Rescue operations of the Split Conservation Department on part of the northern defensive walls at Bilankuša, 1997, video",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -3512,47 +3512,47 @@
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001.",
+                                            "name": "Porta Andetria during archaeological works in 2001",
                                             "type": "image",
                                             "file": "8.jpg",
-                                            "description": "Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela ",
+                                            "description": "Porta Andetria during archaeological works of the Split Conservation Department in 2001",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Rekonstrukcija sjeveroistočnog kuta grada",
+                                            "name": "Reconstruction of the NE city corner",
                                             "type": "image",
                                             "file": "9.jpg",
-                                            "description": "Crtež rekonstrukcije sjeveroistočnog kuta perimetra grada s <em>Porta Andetria</em> (J. Jeličić Radonić)",
+                                            "description": "Drawing of the reconstruction of the NE corner of the perimeter of the city with Porta Andetria (J. Jeličić Radonić)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Zaštitni radovi na sjevernom dijelu zidina",
+                                            "name": "Conservation operations on part of the northern defensive walls",
                                             "type": "video",
                                             "thumb": "10.jpg",
                                             "file": "10.mp4",
-                                            "description": "Zaštitni radovi na konzervaciji sjevernog dijela zidina <em>Urbs orientalis</em>, video",
+                                            "description": "Conservation operations on part of the northern defensive walls at Bilankuša, 1997, led by Jasna Jeličić Radonić, video",
                                             "background": true,
                                             "location": { "lon": 16.4914, "lat": 43.5412 },
                                             "pixelLocation": { "x": 1502, "y": 53 }
                                         },
                                         {
-                                            "name": "Ara Tita Flavija Lucilija uzidana u prvu kulu",
+                                            "name": "The ara of Titus Flavius Lucilius",
                                             "type": "image",
                                             "file": "11.jpg",
-                                            "description": "Ara Tita Flavija Lucilija uzidana u prvu kulu s južne strane Porta Andetria tijekom zaštitnih arheoloških istraživanja 2001. godine splitskog Konzervatorskog odjela kulture RH",
+                                            "description": "The ara of Titus Flavius Lucilius inside of Porta Andetria during archaeological works of the Split Conservation Department in 2001",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Natpis na pročelju are Tita Flavija Lucilija",
+                                            "name": "Epigraph on the ara of Titus Flavius Lucilius",
                                             "type": "image",
                                             "file": "11.jpg",
-                                            "description": "Natpis na pročelju are Tita Flavija Lucilija",
+                                            "description": "Epigraph on the ara of Titus Flavius Lucilius",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
@@ -3574,28 +3574,28 @@
                     "document": "index.html",
                     "exhibits": [
                         {
-                            "name": "Pan sa siringom",
+                            "name": "Pan with Syrinx",
                             "type": "image",
                             "file": "1.jpg",
-                            "description": "Pan sa siringom",
+                            "description": "Pan with Syrinx",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Reljef Silvana",
+                            "name": "Relief of Silvanus",
                             "type": "image",
                             "file": "2.jpg",
-                            "description": "Reljef Silvana",
+                            "description": "Relief of Silvanus",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
                         },
                         {
-                            "name": "Crtež reljefa Silvana",
+                            "name": "Drawing of the relief of Silvanus",
                             "type": "image",
                             "file": "3.jpg",
-                            "description": "Crtež reljefa Silvana, F. A. Zaccaria ",
+                            "description": "Drawing of the relief of Silvanus, F.A. Zaccaria",
                             "background": true,
                             "location": null,
                             "pixelLocation": null
@@ -3610,10 +3610,10 @@
                             "pixelLocation": null
                         },
                         {
-                            "name": "Reljef Nimfi",
+                            "name": "Relief of Nymphs",
                             "type": "image",
                             "file": "5.jpg",
-                            "description": "Reljef Nimfi",
+                            "description": "Relief of Nymphs",
                             "background": false,
                             "location": null,
                             "pixelLocation": null
@@ -3637,10 +3637,10 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Stela s likovima bračnog para",
+                                    "name": "Stele with a married couple",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Stela s likovima bračnog para, 2.-3. desetljeće 1. stoljeća, (Gliptoteka HAZU)",
+                                    "description": "Stele with the figures of a married couple, (Photographic Collection of the Glyptotheque)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -3656,19 +3656,19 @@
                             "document": "index.html",
                             "exhibits": [
                                 {
-                                    "name": "Ara Pomponije Vere",
+                                    "name": "Ara of Pomponia Vera",
                                     "type": "image",
                                     "file": "1.jpg",
-                                    "description": "Ara Pomponije Vere u dvorištu Arheološkog muzeja u Splitu (Fototeka Gliptoteke HAZU)",
+                                    "description": "Ara of Pomponia Vera in Arcahaeological Museum Split, (Photographic Collection of the Glyptotheque)",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
                                 },
                                 {
-                                    "name": "Ara Pomponije Vere",
+                                    "name": "Drawing of the Ara of Pomponia Vera",
                                     "type": "image",
                                     "file": "2.jpg",
-                                    "description": "Crtež nadgrobnog spomenika Pomponije Vere",
+                                    "description": "Drawing of the Ara of Pomponia Vera",
                                     "background": true,
                                     "location": null,
                                     "pixelLocation": null
@@ -3684,7 +3684,7 @@
                             "document": "index.html",
                             "sections": [
                                 {
-                                    "tag": "Homoneja Zosima",
+                                    "tag": "Homoneia Zosima",
                                     "title": "Sarcophagus of Homoneia Zosima",
                                     "url": "/homoneia",
                                     "chapterNo": 1,
@@ -3692,19 +3692,19 @@
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Fragment sarkofaga Homoneje Zosime",
+                                            "name": "Fragment of the sarcophagus of Homonea Zosima",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Fragment prednje strane sarkofaga Homoneje Zosime s prikazom erota godišnjih doba, 2. ili 3. četvrtina 3. stoljeća, (Arheološki muzej u Splitu)",
+                                            "description": "Fragment of the sarcophagus of Homonea Zosima with depictions of the four seasons cupids, 3<sup>rd</sup> Century, Archaeological Museum Split",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Crtež sarkofaga Homonoeje Zosime",
+                                            "name": "Drawing of the sarcophagus of Homonea Zosima",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Crtež sarkofaga Homonoeje Zosime sa prikazima erota četiri godišnja doba (F. Lanza)",
+                                            "description": "Drawing of the sarcophagus of Homonea Zosima with depictions of the four seasons cupids (F. Lanza)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -3712,18 +3712,18 @@
                                     ]
                                 },
                                 {
-                                    "tag": "Eroti u lovu",
-                                    "title": "Sarkofag s prikazom erota u lovu",
-                                    "url": "/eroti",
+                                    "tag": "Cupids hunting",
+                                    "title": "Sarcophagus with depiction of cupids hunting",
+                                    "url": "/cupids",
                                     "chapterNo": 2,
                                     "directory": "eroti",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Atički sarkofag",
+                                            "name": "Sarcophagus with depiction of cupids hunting",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Atički sarkofag s prikazom erota u lovu, 1/2, 3. stoljeća, Salona, Manastirine, (Arheološki muzej u Splitu)",
+                                            "description": "Sarcophagus with depiction of cupids hunting, 3rd century, Salona, Manastirine, (Archaeological Museum Split)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -3739,28 +3739,28 @@
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Sarkofag s prikazom lova na kalidonskog vepra",
+                                            "name": "Sarcophagus with the Hunt for the Calydonian Boar",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra, 2. četvrtina 3. stoljeća, (Fototeka Gliptoteke HAZU)",
+                                            "description": "Sarcophagus with the myth of the Hunt for the Calydonian Boar, 3rd century, (Photographic Collection of the Glyptotheque)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Putopisac Cirijak Ankonitanac ispred sarkofaga 1436.",
+                                            "name": "Travel writer Cirijak Ankonitanac in front of the sarcophagus 1436",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra ispred Malog hrama u Splitu, gdje ga je zapazio putopisac Cirijak Ankonitanac 1436. godine, a od 1886. godine čuva se u Arheološkom muzeju u Splitu",
+                                            "description": "Sarcophagus with the myth of the Hunt for the Calydonian Boar in front of Prostyle Temple in Split, (Archaeological Museum Split)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Sarkofag u Arheološkom muzeju u Splitu",
+                                            "name": "Sarcophagus in Archaeological Museum Split",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Sarkofag s prikazom mita o lovu na kalidonskog vepra, 2. četvrtina 3. stoljeća, (Arheološki  muzej u Splitu)",
+                                            "description": "Sarcophagus with the myth of the Hunt for the Calydonian Boar, 3rd century, (Archaeological Museum Split)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
@@ -3769,26 +3769,26 @@
                                 },
                                 {
                                     "tag": "Centauromachy",
-                                    "title": "Sarcophagus with a depiction of the centauromachy",
+                                    "title": "Sarcophagus with a depiction of the Centauromachy",
                                     "url": "/centauromachy",
                                     "chapterNo": 4,
                                     "directory": "kentauromahija",
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Sarkofag s prikazom kentauromahije",
+                                            "name": "Sarcophagus with depiction of the Centauromachy",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Stranica sarkofaga s prikazom kentauromahije, kraj 2. i početak 3. stoljeća, sadreni odljev, (Gliptoteka HAZU)",
+                                            "description": "Sarcophagus with depiction of the Centauromachy, 3<sup>rd</sup> century, today incorporated into the staircase of the Renaissance-Baroque De Caris (later Geremia Zlendić) Palace in Split (Photographic Collection of the Glyptotheque)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Sarkofag s prikazom kentauromahije",
+                                            "name": "Sarcophagus with depiction of the Centauromachy",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Stranica sarkofaga s prikazom kentauromahije, kraj 2. i početak 3. stoljeća, ugrađena u stubištu renesansno-barokne palače De Caris (kasnije Geremia, Zlendić) u Splitu",
+                                            "description": "Sarcophagus with depiction of the Centauromachy, 3<sup>rd</sup> century, plaster cast",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
@@ -3814,111 +3814,111 @@
                                     "document": "index.html",
                                     "exhibits": [
                                         {
-                                            "name": "Episkopalni kompleks",
+                                            "name": "Episcopal complex",
                                             "type": "image",
                                             "file": "1.jpg",
-                                            "description": "Pogled na episkopalni kompleks (Surveying d.o.o. Solin)",
+                                            "description": "View of the episcopal complex, (Surveying d.o.o. Solin)",
                                             "background": true,
                                             "location": { "lon": 16.4830, "lat": 43.5399 },
                                             "pixelLocation": { "x": 1100, "y": 137 }
                                         },
                                         {
-                                            "name": "Tlocrt kompleksa",
+                                            "name": "Ground plan of the complex",
                                             "type": "image",
                                             "file": "2.jpg",
-                                            "description": "Tlocrt episkopalnog kompleksa (W. Gerber)",
+                                            "description": "Ground plan of the episcopal complex (W. Gerber)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Rekonstrukcija episkopalnog kompleksa",
+                                            "name": "Reconstruction of the episcopal complex",
                                             "type": "image",
                                             "file": "3.jpg",
-                                            "description": "Rekonstrukcija episkopalnog kompleksa, pogled s istočne strane, 1954., (E. Dyggve)",
+                                            "description": "Reconstruction of the episcopal complex, view from the east side, 1954 (E. Dyggve)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Sjeverna bazilika episkopalnog kompleksa prije konzervacije",
+                                            "name": "View onto the northern basilica of the episcopal complex before conservation",
                                             "type": "image",
                                             "file": "4.jpg",
-                                            "description": "Pogled na sjevernu baziliku episkopalnog kompleksa prije konzervacije (Fototeka Gliptoteke HAZU)",
+                                            "description": "View onto the northern basilica of the episcopal complex before conservation (photo collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Crtež mozaika u ambulatoriju katedrale",
+                                            "name": "Drawing of mosaic with epigraph",
                                             "type": "image",
                                             "file": "5.jpg",
-                                            "description": "Crtež mozaika u ambulatoriju katedrale s posvetnim natpisom biskupa Simferija i Hezihija (F. Bulić, 1904.)",
+                                            "description": "Drawing of mosaic with epigraph of bishops responsible for the building of the cathedral, Sympherius and Hesychius, (F. Bulić, 1904)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Pogled na baptisterij",
+                                            "name": "View onto the baptistry",
                                             "type": "image",
                                             "file": "6.jpg",
-                                            "description": "Pogled na baptisterij (Fototeka Gliptoteke HAZU)",
+                                            "description": "View onto the baptistry (photo collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Pogled na oratorij „A“",
+                                            "name": "View onto oratory A",
                                             "type": "image",
                                             "file": "6A.jpg",
-                                            "description": "Pogled na oratorij „A“ ",
+                                            "description": "View onto oratory A",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Razno",
+                                            "name": "Miscellaneous ",
                                             "type": "image",
                                             "file": "7.jpg",
-                                            "description": "Prijedlog odvijanja obreda krštenja (E. Dyggveu, J. Jeličić- Radonić) / Crtež mozaika s ilustracijom Ps 41 u konsignatoriju, jeleni pored kantarosa, (W. Gerber 1917.)",
+                                            "description": "Suggestion for the way the baptismal ritual took place (E. Dyggve, J. Jeličić-Radonić) / Drawing of mosaic with illustration of Psalm 41 in the consignatorium of the episcopal complex (W. Gerber 1917)",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Replika mozaika iz konsignatorija",
+                                            "name": "Replica of a mosaic from the Consignatorium",
                                             "type": "video",
                                             "thumb": "10.jpg",
                                             "file": "10.mp4",
-                                            "description": "Replika mozaika iz salonitanskog konsignatorija izrađena u Arheološkoj radionici Konzervatorskog odjela iz Splita pod vodstvom mentora prof. dr. sc. J. Jeličić Radonić i Marijana Erštea koju su izradili studenti Umjetničke akademije u Splitu za diplomski rad tijekom akademske godine 1997./98.: Nataša Vrcan, Snježana Rašković, Vlasta Tomić, Ana Macanović i Helena Lušić. Mozaik je poklonjen Gradu Solinu.",
+                                            "description": "Replica of a mosaic from the Consignatorium of Salona made in the Archaeological Workshop of the Conservation Department in Split, led by mentor Professor J. Jeličić Radonić, PhD, and Marijan Eršte, made by students of the Art Academy in Split for their dissertation pieces during academic year 1997-1998: Nataša Vrcan, Snježana Rašković, Vlasta Tomić, Ana Macanović and Helena Lušić. The mosaic was presented to the city of Solin.",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Crtež mozaika iz konsignatorija",
+                                            "name": "Drawing of mosaic from the Consignatorium",
                                             "type": "image",
                                             "file": "8.jpg",
-                                            "description": "Crtež mozaika iz konsignatorija (Forschungen in Salona, l, tab, ll-llI)",
+                                            "description": "Drawing of mosaic from the Consignatorium (Forschungen in Salona, l, pl. ll-llI)",
                                             "background": true,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Replika mozaika s dva jelena",
+                                            "name": "Replica of a mosaic with two deer",
                                             "type": "image",
                                             "file": "9.jpg",
-                                            "description": "Replika mozaika s ilustracijom dva jelena pored kantarosa, (Ps 41) u zgradi Poglavarstva grada Solina",
+                                            "description": "Replica of a mosaic with a picture of two deer by a cantharus (Psalm 42: As the deer pants for streams of water, so my soul pants for you, O God.) in the building of the city authority of Solin",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
                                         },
                                         {
-                                            "name": "Arheološka radionica i izložba",
+                                            "name": "Archaeological workshop and exhibition",
                                             "type": "video",
                                             "thumb": "13.jpg",
                                             "file": "13.mp4",
-                                            "description": "Arheološka radionica, Ministarstvo kulture Konzervatorski odjel, Split, Centar za kulturu „Zvonimir“, Solin, video i prigodna „Izložba o arheološkoj radionici i konzervatorskim radovima na zidinama Salone u galeriji „Zvonimir“ u Solinu, 7.1. 1999.,  gdje je svečano poklonjena replika mozaika Gradu Solinu.",
+                                            "description": "Archaeological workshop of the Ministry of Culture, Conservation Department in Split, Zvonimir Culture Centre, Solin, video and the Exhibition on the archaeological workshop and conservation operations on the walls of Salona in Zvonimir Gallery put on for the occasion in Solin, July 1, 1999, marking the presentation of the replica of the mosaic to the city of Solin.",
                                             "background": false,
                                             "location": null,
                                             "pixelLocation": null
@@ -3942,73 +3942,73 @@
                                             "document": "index.html",
                                             "exhibits": [
                                                 {
-                                                    "name": "Pogled na baziliku Pet mučenika",
+                                                    "name": "View of the cemeterial Basilica of the Five Martyrs",
                                                     "type": "image",
                                                     "file": "1.jpg",
-                                                    "description": "Pogled na cemeterijalnu baziliku Pet mučenika na Kapljuču (Surveying d.o.o. Solin)",
+                                                    "description": "View of the cemeterial Basilica of the Five Martyrs at Kapljuč (Surveying d.o.o. Solin)",
                                                     "background": true,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Crtež mozaika u ranokršćanskoj bazilici",
+                                                    "name": "Drawing of a mosaic from the Early Christian basilica",
                                                     "type": "image",
                                                     "file": "2.jpg",
-                                                    "description": "Crtež mozaika u ranokršćanskoj bazilici na Kapljuču (J. Brønsted)",
+                                                    "description": "Drawing of a mosaic from the Early Christian basilica at Kapljuč (J. Bronsted)",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Votivni mozaik",
+                                                    "name": "Votive mosaic",
                                                     "type": "image",
                                                     "file": "3.jpg",
-                                                    "description": "Votivni mozaik iz svetišta cemeterijalne bazilike na Kapljuču (J. Brønsted)",
+                                                    "description": "Votive mosaic from the chancel of the cemeterial basilica at Kapljuč (J. Bronsted)",
                                                     "background": true,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Rekonstrukcija cemeterijalne bazilike",
+                                                    "name": "Reconstruction of the cemeterial basilica",
                                                     "type": "image",
                                                     "file": "4.jpg",
-                                                    "description": "Rekonstrukcija i tlocrti razvoja cemeterijalne bazilike na Kapljuču (E. Dyggve)",
+                                                    "description": "Reconstruction and plans of the development of the cemeterial basilica at Kapljuč (E. Dyggve)",
                                                     "background": true,
                                                     "location": { "lon": 16.4775, "lat": 43.5395 },
                                                     "pixelLocation": { "x": 835, "y": 168 }
                                                 },
                                                 {
-                                                    "name": "Rekonstrukcija svetišta",
+                                                    "name": "Reconstruction of the sanctuary",
                                                     "type": "image",
                                                     "file": "5.jpg",
-                                                    "description": "Rekonstrukcija svetišta s oltarnom pregradom i ambonom",
+                                                    "description": "Reconstruction of the sanctuary with altar screen and ambo or pulpit",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Rekonstrukcija ambona",
+                                                    "name": "Reconstruction of the ambo",
                                                     "type": "image",
                                                     "file": "6.jpg",
-                                                    "description": "Rekonstrukcija ambona",
+                                                    "description": "Reconstruction of the ambo",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Nadgrobna ploča četvorice martira",
+                                                    "name": "Funerary slab of four martyrs",
                                                     "type": "image",
                                                     "file": "7.jpg",
-                                                    "description": "Nadgrobna ploča četvorice martira vojnika Dioklecijanove straže",
+                                                    "description": "Funerary slab of four martyred soldiers from Diocletian’s Guard",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Votivni mozaik martira Asterija",
+                                                    "name": "Votive mosaic of the martyr Asterius",
                                                     "type": "image",
                                                     "file": "9.jpg",
-                                                    "description": "Votivni mozaik martira Asterija",
+                                                    "description": "Votive mosaic of the martyr Asterius",
                                                     "background": true,
                                                     "location": { "lon": 16.4775, "lat": 43.5395 },
                                                     "pixelLocation": { "x": 835, "y": 168 }
@@ -4027,43 +4027,43 @@
                                                     "name": "Manastirine",
                                                     "type": "image",
                                                     "file": "1.jpg",
-                                                    "description": "Pogled na Manastirine iz zraka (Surveying d.o.o. Solin)",
+                                                    "description": "Aerial photo of Manistirine (Surveying d.o.o., Solin)",
                                                     "background": true,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Cemeterijalni kompleks",
+                                                    "name": "Cemeterial complex",
                                                     "type": "image",
                                                     "file": "2.jpg",
-                                                    "description": "Cemeterijalni kompleks na Manastirinama",
+                                                    "description": "Cemeterial complex at Manistirine",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Ulomak nadgrobnog natpisa",
+                                                    "name": "Fragment of an epitaph",
                                                     "type": "image",
                                                     "file": "3.jpg",
-                                                    "description": "Ulomak nadgrobnog natpisa iz konfesije cemeterijalne bazilike s imenom mučenika Dujma, (Arheološki muzej u Splitu)",
+                                                    "description": "Fragment of an epitaph from the confessio of the cemeterial basilica with the name of the martyr Doimus/Domnius (Archaeological Museum, Split)",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Oltarna pregrada iz bazilike",
+                                                    "name": "Altar screen from the basilica",
                                                     "type": "image",
                                                     "file": "4.jpg",
-                                                    "description": "Oltarna pregrada iz cemeterijalne bazilike (Arheološki muzej u Splitu)",
+                                                    "description": "Altar screen from the cemeterial basilica (Archaeological Museum Split)",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Sarkofag dobrog pastira",
+                                                    "name": "Good Shepherd sarcophagus",
                                                     "type": "image",
                                                     "file": "5.jpg",
-                                                    "description": "Sarkofag dobrog pastira, (Arheološki muzej u Splitu)",
+                                                    "description": "Good Shepherd sarcophagus (Archaeological Museum, Split, Photo collection of the Croatian Academy of Sciences and Arts Glyptotheque)",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
@@ -4092,34 +4092,34 @@
                                                     "name": "Marusinac",
                                                     "type": "image",
                                                     "file": "1.jpg",
-                                                    "description": "Pogled na Marusinac iz zraka (Surveying d.o.o. Solin)",
+                                                    "description": "Aerial photo of Marusinac (Surveying d.o.o., Solin)",
                                                     "background": true,
                                                     "location": { "lon": 16.4752, "lat": 43.54375 },
                                                     "pixelLocation": { "x": 727.8806, "y": 122.6594 }
                                                 },
                                                 {
-                                                    "name": "Tlocrti cemeterijalnog kompleksa",
+                                                    "name": "Ground plans of the cemeterial complex",
                                                     "type": "image",
                                                     "file": "2.jpg",
-                                                    "description": "Tlocrti cemeterijalnog kompleksa na Marusincu s Anastazijevim mauzolejom i basilicom discopertom (E. Dyggve)",
+                                                    "description": "Ground plans of the cemeterial complex at Marusinac with the Amastasius Mausoleum and the basilica discoperta (E. Dyggve)",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Rekonstrukcija basilice discoperte",
+                                                    "name": "Reconstruction of the basilica discoperta",
                                                     "type": "image",
                                                     "file": "3.jpg",
-                                                    "description": "Rekonstrukcija basilice discoperte",
+                                                    "description": "Reconstruction of the basilica discoperta, in which the central nave was never roofed",
                                                     "background": true,
                                                     "location": null,
                                                     "pixelLocation": null
                                                 },
                                                 {
-                                                    "name": "Rekonstrukcija basilice discoperte",
+                                                    "name": "Reconstruction of the cemeterial complex",
                                                     "type": "image",
                                                     "file": "4.jpg",
-                                                    "description": "Rekonstrukcija cemeterijalnog kompleksa na Marusincu, 1936. (E. Dyggve)",
+                                                    "description": "Reconstruction of the cemeterial complex at Marusinac, 1936 (E. Dyggve)",
                                                     "background": false,
                                                     "location": null,
                                                     "pixelLocation": null
